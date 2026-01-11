@@ -8,7 +8,7 @@ Fetches course availability data from Georgia Tech's Banner 9 system (OSCAR).
 
 ### Automated Scraping
 
-The GitHub Actions workflow runs automatically every 30 minutes during registration hours (6am-11pm UTC) and commits data to the `data/` folder.
+The GitHub Actions workflow runs automatically every 30 minutes and commits data to the `data/` folder.
 
 To trigger manually:
 1. Go to Actions > "Crawl OSCAR Data"
