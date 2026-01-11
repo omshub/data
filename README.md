@@ -2,16 +2,16 @@
 
 Repository that scrapes and stores OMSCS related data.
 
-## OSCAR Crawler
+## Course Availability Crawler
 
-Fetches course availability data from Georgia Tech's Banner 9 system (OSCAR).
+Fetches real-time course registration and seat availability data from Georgia Tech's Banner 9 system (OSCAR).
 
 ### Automated Scraping
 
-The GitHub Actions workflow runs automatically every 30 minutes and commits data to the `data/` folder.
+The GitHub Actions workflow runs automatically every 30 minutes and commits data directly to the `data/` folder.
 
 To trigger manually:
-1. Go to Actions > "Crawl OSCAR Data"
+1. Go to Actions > "Crawl Course Availability"
 2. Click "Run workflow"
 3. Select mode:
    - `current` - Current + upcoming terms (default)
@@ -43,7 +43,7 @@ npx tsx oscar/crawler.ts --output /path/to/output
 ### Output
 
 The crawler generates JSON files in `data/`:
-- `{termCode}.json` - Course data for each term (e.g., `202502.json`)
+- `{termCode}.json` - Course availability data for each term (e.g., `202502.json`)
 - `catalog.json` - Aggregated course catalog across all terms
 
 ### Term Codes
@@ -57,13 +57,13 @@ Example: `202502` = Spring 2025
 
 ---
 
-## Catalog Crawler
+## OMSCS Catalog Crawler
 
-Fetches course and specialization data from the official OMSCS website (omscs.gatech.edu).
+Fetches course offerings and specialization data from the official OMSCS website (omscs.gatech.edu).
 
 ### Automated Scraping
 
-The GitHub Actions workflow runs weekly on Mondays at 9am UTC and commits data to the `data/` folder.
+The GitHub Actions workflow runs weekly on Mondays at 9am UTC. When changes are detected, it creates a Pull Request for review (instead of committing directly) so new course offerings can be verified before merging.
 
 To trigger manually:
 1. Go to Actions > "Crawl OMSCS Catalog"

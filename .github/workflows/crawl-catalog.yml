@@ -11,6 +11,9 @@ on:
 jobs:
   crawl:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout
@@ -24,10 +27,59 @@ jobs:
       - name: Install tsx
         run: npm install -g tsx
 
+      - name: Save current catalog state
+        run: |
+          if [ -f static/courses.json ]; then
+            cp static/courses.json /tmp/courses-before.json
+          else
+            echo '[]' > /tmp/courses-before.json
+          fi
+
       - name: Run catalog crawler
         run: npx tsx catalog/crawler.ts
 
-      - name: Commit and push if changed
+      - name: Detect new courses
+        id: detect-changes
+        run: |
+          NEW_COURSES=$(node -e "
+            const fs = require('fs');
+
+            let before = [];
+            let after = [];
+
+            try {
+              before = JSON.parse(fs.readFileSync('/tmp/courses-before.json', 'utf8'));
+            } catch (e) {
+              before = [];
+            }
+
+            try {
+              after = JSON.parse(fs.readFileSync('static/courses.json', 'utf8'));
+            } catch (e) {
+              after = [];
+            }
+
+            const beforeIds = new Set(before.map(c => c.id || c.courseId));
+            const newCourses = after
+              .filter(c => !beforeIds.has(c.id || c.courseId))
+              .map(c => '- **' + (c.id || c.courseId) + '** ' + c.name);
+
+            if (newCourses.length > 0) {
+              console.log(newCourses.join('\n'));
+            }
+          ")
+
+          echo "$NEW_COURSES" > /tmp/new-courses.txt
+
+          if [ -n "$NEW_COURSES" ]; then
+            echo "has_new_courses=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_new_courses=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create PR if changed
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name 'Christian Tran'
           git config user.email 'ctran4347@gmail.com'
@@ -37,6 +89,44 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update catalog data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-            git push
+            BRANCH_NAME="catalog-update-$(date -u +%Y%m%d-%H%M%S)"
+            TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+
+            git checkout -b "$BRANCH_NAME"
+            git commit -m "Update OMSCS catalog $TIMESTAMP"
+            git push -u origin "$BRANCH_NAME"
+
+            NEW_COURSES=$(cat /tmp/new-courses.txt)
+
+            if [ -n "$NEW_COURSES" ]; then
+              {
+                echo "Automated update of OMSCS catalog data."
+                echo ""
+                echo "## New Courses"
+                echo "$NEW_COURSES"
+                echo ""
+                echo "## Changes"
+                echo "- Updated course and specialization data from omscs.gatech.edu"
+                echo ""
+                echo "## Auto-generated"
+                echo "This PR was automatically created by the OMSCS Catalog crawler GitHub Action."
+              } > /tmp/pr-body.md
+            else
+              {
+                echo "Automated update of OMSCS catalog data."
+                echo ""
+                echo "## Changes"
+                echo "- Updated course and specialization data from omscs.gatech.edu"
+                echo "- No new courses detected (metadata updates only)"
+                echo ""
+                echo "## Auto-generated"
+                echo "This PR was automatically created by the OMSCS Catalog crawler GitHub Action."
+              } > /tmp/pr-body.md
+            fi
+
+            gh pr create \
+              --title "Update OMSCS catalog $TIMESTAMP" \
+              --body-file /tmp/pr-body.md \
+              --base main \
+              --head "$BRANCH_NAME"
           fi

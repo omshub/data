@@ -1,0 +1,93 @@
+name: Crawl Course Availability
+
+on:
+  # Run every 30 minutes
+  schedule:
+    - cron: '*/30 * * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Which terms to fetch'
+        required: true
+        type: choice
+        default: 'current'
+        options:
+          - current
+          - all
+          - specific
+      term:
+        description: 'Term code (only used when mode is "specific", e.g., 202502 for Spring 2025)'
+        required: false
+        default: ''
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install tsx
+        run: npm install -g tsx
+
+      - name: Ensure data directory exists
+        run: mkdir -p data
+
+      - name: Run crawler
+        run: |
+          MODE="${{ github.event.inputs.mode }}"
+          TERM="${{ github.event.inputs.term }}"
+
+          if [ "$MODE" = "all" ]; then
+            echo "Fetching all terms..."
+            npx tsx oscar/crawler.ts --all --output data || true
+          elif [ "$MODE" = "specific" ] && [ -n "$TERM" ]; then
+            echo "Fetching term: $TERM"
+            npx tsx oscar/crawler.ts --term $TERM --output data || true
+          else
+            # Default: current + upcoming terms
+            TERMS=$(node -e "
+              const now = new Date();
+              const year = now.getFullYear();
+              const month = now.getMonth() + 1;
+
+              let current, upcoming;
+              if (month >= 1 && month <= 4) {
+                current = year + '02';
+                upcoming = year + '05';
+              } else if (month >= 5 && month <= 7) {
+                current = year + '05';
+                upcoming = year + '08';
+              } else {
+                current = year + '08';
+                upcoming = (year + 1) + '02';
+              }
+              console.log(current + ' ' + upcoming);
+            ")
+            for TERM in $TERMS; do
+              echo "Fetching term: $TERM"
+              npx tsx oscar/crawler.ts --term $TERM --output data || true
+            done
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name 'Christian Tran'
+          git config user.email 'ctran4347@gmail.com'
+
+          git add data/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update course availability $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
