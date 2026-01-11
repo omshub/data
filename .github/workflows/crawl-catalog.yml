@@ -1,0 +1,42 @@
+name: Crawl OMSCS Catalog
+
+on:
+  # Run weekly on Mondays at 9am UTC
+  schedule:
+    - cron: '0 9 * * 1'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install tsx
+        run: npm install -g tsx
+
+      - name: Run catalog crawler
+        run: npx tsx catalog/crawler.ts
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name 'Christian Tran'
+          git config user.email 'ctran4347@gmail.com'
+
+          git add static/
+
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update catalog data $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi

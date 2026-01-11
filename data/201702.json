@@ -1,0 +1,852 @@
+{
+  "term": "201702",
+  "termName": "Spring 2017",
+  "lastUpdated": "2026-01-11T11:13:18.267Z",
+  "courses": {
+    "CSE-6220": {
+      "courseId": "CSE-6220",
+      "subject": "CSE",
+      "courseNumber": "6220",
+      "name": "High Perform Computing",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "29251",
+          "sectionNumber": "O01",
+          "instructor": "Vuduc, Richard",
+          "enrolled": 63,
+          "capacity": 100,
+          "seatsAvailable": 37,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 100,
+      "totalEnrolled": 63,
+      "totalAvailable": 37,
+      "totalWaitlisted": 0
+    },
+    "CSE-6242": {
+      "courseId": "CSE-6242",
+      "subject": "CSE",
+      "courseNumber": "6242",
+      "name": "Data &amp; Visual Analytics",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "30854",
+          "sectionNumber": "O01",
+          "instructor": "Chakraborty, Arpan",
+          "enrolled": 493,
+          "capacity": 500,
+          "seatsAvailable": 7,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 500,
+      "totalEnrolled": 493,
+      "totalAvailable": 7,
+      "totalWaitlisted": 0
+    },
+    "CSE-6250": {
+      "courseId": "CSE-6250",
+      "subject": "CSE",
+      "courseNumber": "6250",
+      "name": "Big Data Health",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "31252",
+          "sectionNumber": "O01",
+          "instructor": "Sun, Jimeng",
+          "enrolled": 86,
+          "capacity": 150,
+          "seatsAvailable": 64,
+          "waitCount": 0,
+          "waitCapacity": 0
+        }
+      ],
+      "totalSeats": 150,
+      "totalEnrolled": 86,
+      "totalAvailable": 64,
+      "totalWaitlisted": 0
+    },
+    "CS-6035": {
+      "courseId": "CS-6035",
+      "subject": "CS",
+      "courseNumber": "6035",
+      "name": "Intro To Info Security",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "29223",
+          "sectionNumber": "O01",
+          "instructor": "Lee, Wenke",
+          "enrolled": 435,
+          "capacity": 460,
+          "seatsAvailable": 25,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 460,
+      "totalEnrolled": 435,
+      "totalAvailable": 25,
+      "totalWaitlisted": 0
+    },
+    "CS-6210": {
+      "courseId": "CS-6210",
+      "subject": "CS",
+      "courseNumber": "6210",
+      "name": "Adv Operating Systems",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "27097",
+          "sectionNumber": "O01",
+          "instructor": "Ramachandran, Umakishore",
+          "enrolled": 80,
+          "capacity": 128,
+          "seatsAvailable": 48,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 128,
+      "totalEnrolled": 80,
+      "totalAvailable": 48,
+      "totalWaitlisted": 0
+    },
+    "CS-6250": {
+      "courseId": "CS-6250",
+      "subject": "CS",
+      "courseNumber": "6250",
+      "name": "Computer Networks",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "27098",
+          "sectionNumber": "O01",
+          "instructor": "Konte, Maria",
+          "enrolled": 425,
+          "capacity": 500,
+          "seatsAvailable": 75,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 500,
+      "totalEnrolled": 425,
+      "totalAvailable": 75,
+      "totalWaitlisted": 0
+    },
+    "CS-6262": {
+      "courseId": "CS-6262",
+      "subject": "CS",
+      "courseNumber": "6262",
+      "name": "Network Security",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "30855",
+          "sectionNumber": "O01",
+          "instructor": "Lee, Wenke",
+          "enrolled": 298,
+          "capacity": 300,
+          "seatsAvailable": 2,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 300,
+      "totalEnrolled": 298,
+      "totalAvailable": 2,
+      "totalWaitlisted": 0
+    },
+    "CS-6290": {
+      "courseId": "CS-6290",
+      "subject": "CS",
+      "courseNumber": "6290",
+      "name": "High Perform Comput Arch",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "27837",
+          "sectionNumber": "O01",
+          "instructor": "Prvulovic, Milos",
+          "enrolled": 49,
+          "capacity": 100,
+          "seatsAvailable": 51,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 100,
+      "totalEnrolled": 49,
+      "totalAvailable": 51,
+      "totalWaitlisted": 0
+    },
+    "CS-6300": {
+      "courseId": "CS-6300",
+      "subject": "CS",
+      "courseNumber": "6300",
+      "name": "Software Dev Process",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "27099",
+          "sectionNumber": "O01",
+          "instructor": "Orso, Alessandro",
+          "enrolled": 390,
+          "capacity": 400,
+          "seatsAvailable": 10,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 400,
+      "totalEnrolled": 390,
+      "totalAvailable": 10,
+      "totalWaitlisted": 0
+    },
+    "CS-6310": {
+      "courseId": "CS-6310",
+      "subject": "CS",
+      "courseNumber": "6310",
+      "name": "Software Arch &amp; Design",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "27838",
+          "sectionNumber": "O01",
+          "instructor": "Moss, Mark",
+          "enrolled": 200,
+          "capacity": 300,
+          "seatsAvailable": 100,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 300,
+      "totalEnrolled": 200,
+      "totalAvailable": 100,
+      "totalWaitlisted": 0
+    },
+    "CS-6340": {
+      "courseId": "CS-6340",
+      "subject": "CS",
+      "courseNumber": "6340",
+      "name": "Software Analysis &amp; Test",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "29225",
+          "sectionNumber": "O01",
+          "instructor": "Naik, Mayur",
+          "enrolled": 208,
+          "capacity": 300,
+          "seatsAvailable": 92,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 300,
+      "totalEnrolled": 208,
+      "totalAvailable": 92,
+      "totalWaitlisted": 0
+    },
+    "CS-6400": {
+      "courseId": "CS-6400",
+      "subject": "CS",
+      "courseNumber": "6400",
+      "name": "DB Sys Concepts&amp; Design",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "29224",
+          "sectionNumber": "O01",
+          "instructor": "Summet, Jay",
+          "enrolled": 433,
+          "capacity": 460,
+          "seatsAvailable": 27,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 460,
+      "totalEnrolled": 433,
+      "totalAvailable": 27,
+      "totalWaitlisted": 0
+    },
+    "CS-6460": {
+      "courseId": "CS-6460",
+      "subject": "CS",
+      "courseNumber": "6460",
+      "name": "Educ Tech-Foundations",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "29222",
+          "sectionNumber": "O01",
+          "instructor": "Joyner, David",
+          "enrolled": 150,
+          "capacity": 150,
+          "seatsAvailable": 0,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 150,
+      "totalEnrolled": 150,
+      "totalAvailable": 0,
+      "totalWaitlisted": 0
+    },
+    "CS-6475": {
+      "courseId": "CS-6475",
+      "subject": "CS",
+      "courseNumber": "6475",
+      "name": "Comp. Photography",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "27843",
+          "sectionNumber": "O01",
+          "instructor": "Essa, Irfan",
+          "enrolled": 243,
+          "capacity": 300,
+          "seatsAvailable": 57,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 300,
+      "totalEnrolled": 243,
+      "totalAvailable": 57,
+      "totalWaitlisted": 0
+    },
+    "CS-6476": {
+      "courseId": "CS-6476",
+      "subject": "CS",
+      "courseNumber": "6476",
+      "name": "Computer Vision",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "29219",
+          "sectionNumber": "O01",
+          "instructor": "Essa, Irfan",
+          "enrolled": 199,
+          "capacity": 250,
+          "seatsAvailable": 51,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 250,
+      "totalEnrolled": 199,
+      "totalAvailable": 51,
+      "totalWaitlisted": 0
+    },
+    "CS-6505": {
+      "courseId": "CS-6505",
+      "subject": "CS",
+      "courseNumber": "6505",
+      "name": "Computability&amp;Algorithms",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "27840",
+          "sectionNumber": "O01",
+          "instructor": "Pryby, Christopher",
+          "enrolled": 269,
+          "capacity": 273,
+          "seatsAvailable": 4,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 273,
+      "totalEnrolled": 269,
+      "totalAvailable": 4,
+      "totalWaitlisted": 0
+    },
+    "CS-6601": {
+      "courseId": "CS-6601",
+      "subject": "CS",
+      "courseNumber": "6601",
+      "name": "Artificial Intelligence",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "29227",
+          "sectionNumber": "O01",
+          "instructor": "Starner, Thad",
+          "enrolled": 382,
+          "capacity": 450,
+          "seatsAvailable": 68,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 450,
+      "totalEnrolled": 382,
+      "totalAvailable": 68,
+      "totalWaitlisted": 0
+    },
+    "CS-6750": {
+      "courseId": "CS-6750",
+      "subject": "CS",
+      "courseNumber": "6750",
+      "name": "Human-Computer Interact",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "30857",
+          "sectionNumber": "O01",
+          "instructor": "Joyner, David",
+          "enrolled": 252,
+          "capacity": 300,
+          "seatsAvailable": 48,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 300,
+      "totalEnrolled": 252,
+      "totalAvailable": 48,
+      "totalWaitlisted": 0
+    },
+    "CS-6999": {
+      "courseId": "CS-6999",
+      "subject": "CS",
+      "courseNumber": "6999",
+      "name": "Master&#39;s Project",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "25290",
+          "sectionNumber": "O02",
+          "instructor": "Orso, Alessandro",
+          "enrolled": 1,
+          "capacity": 5,
+          "seatsAvailable": 4,
+          "waitCount": 0,
+          "waitCapacity": 0
+        }
+      ],
+      "totalSeats": 5,
+      "totalEnrolled": 1,
+      "totalAvailable": 4,
+      "totalWaitlisted": 0
+    },
+    "CS-7637": {
+      "courseId": "CS-7637",
+      "subject": "CS",
+      "courseNumber": "7637",
+      "name": "Knowledge-Based AI",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "27841",
+          "sectionNumber": "O01",
+          "instructor": "Goel, Ashok",
+          "enrolled": 197,
+          "capacity": 300,
+          "seatsAvailable": 103,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 300,
+      "totalEnrolled": 197,
+      "totalAvailable": 103,
+      "totalWaitlisted": 0
+    },
+    "CS-7641": {
+      "courseId": "CS-7641",
+      "subject": "CS",
+      "courseNumber": "7641",
+      "name": "Machine Learning",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "27100",
+          "sectionNumber": "O01",
+          "instructor": "Isbell, Charles",
+          "enrolled": 476,
+          "capacity": 600,
+          "seatsAvailable": 124,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 600,
+      "totalEnrolled": 476,
+      "totalAvailable": 124,
+      "totalWaitlisted": 0
+    },
+    "CS-7646": {
+      "courseId": "CS-7646",
+      "subject": "CS",
+      "courseNumber": "7646",
+      "name": "Mach Learn For Trading",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "29217",
+          "sectionNumber": "O01",
+          "instructor": "Balch, Tucker",
+          "enrolled": 538,
+          "capacity": 550,
+          "seatsAvailable": 12,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 550,
+      "totalEnrolled": 538,
+      "totalAvailable": 12,
+      "totalWaitlisted": 0
+    },
+    "CS-8803-O01": {
+      "courseId": "CS-8803-O01",
+      "subject": "CS",
+      "courseNumber": "8803-O01",
+      "name": "Special Topics",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "27842",
+          "sectionNumber": "O01",
+          "instructor": "Thrun, Sebastian",
+          "enrolled": 188,
+          "capacity": 245,
+          "seatsAvailable": 57,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 245,
+      "totalEnrolled": 188,
+      "totalAvailable": 57,
+      "totalWaitlisted": 0
+    },
+    "CS-8803-O02": {
+      "courseId": "CS-8803-O02",
+      "subject": "CS",
+      "courseNumber": "8803-O02",
+      "name": "Special Topics",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "27844",
+          "sectionNumber": "O02",
+          "instructor": "Gavrilovska, Ada",
+          "enrolled": 186,
+          "capacity": 200,
+          "seatsAvailable": 14,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 200,
+      "totalEnrolled": 186,
+      "totalAvailable": 14,
+      "totalWaitlisted": 0
+    },
+    "CS-8803-O03": {
+      "courseId": "CS-8803-O03",
+      "subject": "CS",
+      "courseNumber": "8803-O03",
+      "name": "Special Topics",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "29220",
+          "sectionNumber": "O03",
+          "instructor": "Isbell, Charles",
+          "enrolled": 128,
+          "capacity": 186,
+          "seatsAvailable": 58,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 186,
+      "totalEnrolled": 128,
+      "totalAvailable": 58,
+      "totalWaitlisted": 0
+    },
+    "CS-8803-O04": {
+      "courseId": "CS-8803-O04",
+      "subject": "CS",
+      "courseNumber": "8803-O04",
+      "name": "Special Topics",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "29226",
+          "sectionNumber": "O04",
+          "instructor": "Pande, Santosh",
+          "enrolled": 13,
+          "capacity": 100,
+          "seatsAvailable": 87,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 100,
+      "totalEnrolled": 13,
+      "totalAvailable": 87,
+      "totalWaitlisted": 0
+    },
+    "CS-8803-O07": {
+      "courseId": "CS-8803-O07",
+      "subject": "CS",
+      "courseNumber": "8803-O07",
+      "name": "Special Topics",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "30856",
+          "sectionNumber": "O07",
+          "instructor": "Beyah, Raheem",
+          "enrolled": 94,
+          "capacity": 110,
+          "seatsAvailable": 16,
+          "waitCount": 0,
+          "waitCapacity": 500
+        }
+      ],
+      "totalSeats": 110,
+      "totalEnrolled": 94,
+      "totalAvailable": 16,
+      "totalWaitlisted": 0
+    },
+    "CS-8803-O08": {
+      "courseId": "CS-8803-O08",
+      "subject": "CS",
+      "courseNumber": "8803-O08",
+      "name": "Special Topics",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "31132",
+          "sectionNumber": "O08",
+          "instructor": "Pande, Santosh",
+          "enrolled": 34,
+          "capacity": 200,
+          "seatsAvailable": 166,
+          "waitCount": 0,
+          "waitCapacity": 0
+        }
+      ],
+      "totalSeats": 200,
+      "totalEnrolled": 34,
+      "totalAvailable": 166,
+      "totalWaitlisted": 0
+    },
+    "CS-8902": {
+      "courseId": "CS-8902",
+      "subject": "CS",
+      "courseNumber": "8902",
+      "name": "Special Problems",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "21631",
+          "sectionNumber": "O02",
+          "instructor": "Orso, Alessandro",
+          "enrolled": 0,
+          "capacity": 15,
+          "seatsAvailable": 15,
+          "waitCount": 0,
+          "waitCapacity": 0
+        }
+      ],
+      "totalSeats": 15,
+      "totalEnrolled": 0,
+      "totalAvailable": 15,
+      "totalWaitlisted": 0
+    },
+    "CS-8903": {
+      "courseId": "CS-8903",
+      "subject": "CS",
+      "courseNumber": "8903",
+      "name": "Special Problems",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "21446",
+          "sectionNumber": "O02",
+          "instructor": "Orso, Alessandro",
+          "enrolled": 0,
+          "capacity": 15,
+          "seatsAvailable": 15,
+          "waitCount": 0,
+          "waitCapacity": 0
+        },
+        {
+          "crn": "22015",
+          "sectionNumber": "O03",
+          "instructor": "Owen, Henry",
+          "enrolled": 0,
+          "capacity": 15,
+          "seatsAvailable": 15,
+          "waitCount": 0,
+          "waitCapacity": 0
+        }
+      ],
+      "totalSeats": 30,
+      "totalEnrolled": 0,
+      "totalAvailable": 30,
+      "totalWaitlisted": 0
+    },
+    "CS-8999": {
+      "courseId": "CS-8999",
+      "subject": "CS",
+      "courseNumber": "8999",
+      "name": "Doctoral Thesis Prep",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "24370",
+          "sectionNumber": "O02",
+          "instructor": "Orso, Alessandro",
+          "enrolled": 4,
+          "capacity": 10,
+          "seatsAvailable": 6,
+          "waitCount": 0,
+          "waitCapacity": 0
+        }
+      ],
+      "totalSeats": 10,
+      "totalEnrolled": 4,
+      "totalAvailable": 6,
+      "totalWaitlisted": 0
+    },
+    "CS-9000": {
+      "courseId": "CS-9000",
+      "subject": "CS",
+      "courseNumber": "9000",
+      "name": "Doctoral Thesis",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "21451",
+          "sectionNumber": "O02",
+          "instructor": "Orso, Alessandro",
+          "enrolled": 2,
+          "capacity": 15,
+          "seatsAvailable": 13,
+          "waitCount": 0,
+          "waitCapacity": 0
+        }
+      ],
+      "totalSeats": 15,
+      "totalEnrolled": 2,
+      "totalAvailable": 13,
+      "totalWaitlisted": 0
+    },
+    "ECE-8900": {
+      "courseId": "ECE-8900",
+      "subject": "ECE",
+      "courseNumber": "8900",
+      "name": "Special Problems",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "22401",
+          "sectionNumber": "O01",
+          "instructor": "Owen, Henry",
+          "enrolled": 0,
+          "capacity": 25,
+          "seatsAvailable": 25,
+          "waitCount": 0,
+          "waitCapacity": 0
+        },
+        {
+          "crn": "22402",
+          "sectionNumber": "O02",
+          "instructor": "Ougazzaden, Abdallah",
+          "enrolled": 0,
+          "capacity": 10,
+          "seatsAvailable": 10,
+          "waitCount": 0,
+          "waitCapacity": 0
+        }
+      ],
+      "totalSeats": 35,
+      "totalEnrolled": 0,
+      "totalAvailable": 35,
+      "totalWaitlisted": 0
+    },
+    "ECE-8903": {
+      "courseId": "ECE-8903",
+      "subject": "ECE",
+      "courseNumber": "8903",
+      "name": "Special Problems",
+      "creditHours": 3,
+      "sections": [
+        {
+          "crn": "20631",
+          "sectionNumber": "O01",
+          "instructor": "Owen, Henry",
+          "enrolled": 0,
+          "capacity": 15,
+          "seatsAvailable": 15,
+          "waitCount": 0,
+          "waitCapacity": 0
+        },
+        {
+          "crn": "24651",
+          "sectionNumber": "O02",
+          "instructor": "Ougazzaden, Abdallah",
+          "enrolled": 0,
+          "capacity": 25,
+          "seatsAvailable": 25,
+          "waitCount": 0,
+          "waitCapacity": 0
+        }
+      ],
+      "totalSeats": 40,
+      "totalEnrolled": 0,
+      "totalAvailable": 40,
+      "totalWaitlisted": 0
+    },
+    "ECE-9000": {
+      "courseId": "ECE-9000",
+      "subject": "ECE",
+      "courseNumber": "9000",
+      "name": "Doctoral Thesis",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "20543",
+          "sectionNumber": "O01",
+          "instructor": "Owen, Henry",
+          "enrolled": 2,
+          "capacity": 25,
+          "seatsAvailable": 23,
+          "waitCount": 0,
+          "waitCapacity": 0
+        },
+        {
+          "crn": "23298",
+          "sectionNumber": "O02",
+          "instructor": "Ougazzaden, Abdallah",
+          "enrolled": 0,
+          "capacity": 25,
+          "seatsAvailable": 25,
+          "waitCount": 0,
+          "waitCapacity": 0
+        }
+      ],
+      "totalSeats": 50,
+      "totalEnrolled": 2,
+      "totalAvailable": 48,
+      "totalWaitlisted": 0
+    }
+  }
+}

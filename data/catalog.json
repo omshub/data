@@ -1,0 +1,637 @@
+{
+  "lastUpdated": "2026-01-11T14:37:34.580Z",
+  "courses": {
+    "CSE-6220": {
+      "courseId": "CSE-6220",
+      "subject": "CSE",
+      "courseNumber": "6220",
+      "name": "High Perform Computing",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CSE-6242": {
+      "courseId": "CSE-6242",
+      "subject": "CSE",
+      "courseNumber": "6242",
+      "name": "Data &amp; Visual Analytics",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CSE-6250": {
+      "courseId": "CSE-6250",
+      "subject": "CSE",
+      "courseNumber": "6250",
+      "name": "Big Data Health",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CSE-6742": {
+      "courseId": "CSE-6742",
+      "subject": "CSE",
+      "courseNumber": "6742",
+      "name": "Mod, Sim&amp;Military Gaming",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-6035": {
+      "courseId": "CS-6035",
+      "subject": "CS",
+      "courseNumber": "6035",
+      "name": "Intro To Info Security",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6150": {
+      "courseId": "CS-6150",
+      "subject": "CS",
+      "courseNumber": "6150",
+      "name": "Computing For Good",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6200": {
+      "courseId": "CS-6200",
+      "subject": "CS",
+      "courseNumber": "6200",
+      "name": "Graduate Intro to OS",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-6210": {
+      "courseId": "CS-6210",
+      "subject": "CS",
+      "courseNumber": "6210",
+      "name": "Adv Operating Systems",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6211": {
+      "courseId": "CS-6211",
+      "subject": "CS",
+      "courseNumber": "6211",
+      "name": "Sys Design Cloud Comput",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-6238": {
+      "courseId": "CS-6238",
+      "subject": "CS",
+      "courseNumber": "6238",
+      "name": "Secure Computer Systems",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6250": {
+      "courseId": "CS-6250",
+      "subject": "CS",
+      "courseNumber": "6250",
+      "name": "Computer Networks",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6260": {
+      "courseId": "CS-6260",
+      "subject": "CS",
+      "courseNumber": "6260",
+      "name": "Applied Cryptography",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6261": {
+      "courseId": "CS-6261",
+      "subject": "CS",
+      "courseNumber": "6261",
+      "name": "Cyber Incident Response",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6262": {
+      "courseId": "CS-6262",
+      "subject": "CS",
+      "courseNumber": "6262",
+      "name": "Network Security",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6263": {
+      "courseId": "CS-6263",
+      "subject": "CS",
+      "courseNumber": "6263",
+      "name": "Intro Cyber Phys Sys Sec",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6265": {
+      "courseId": "CS-6265",
+      "subject": "CS",
+      "courseNumber": "6265",
+      "name": "Info Sec Lab Binexp",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-6290": {
+      "courseId": "CS-6290",
+      "subject": "CS",
+      "courseNumber": "6290",
+      "name": "High Perform Comput Arch",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-6291": {
+      "courseId": "CS-6291",
+      "subject": "CS",
+      "courseNumber": "6291",
+      "name": "Embedded Software Opt.",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-6300": {
+      "courseId": "CS-6300",
+      "subject": "CS",
+      "courseNumber": "6300",
+      "name": "Software Dev Process",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6310": {
+      "courseId": "CS-6310",
+      "subject": "CS",
+      "courseNumber": "6310",
+      "name": "Software Arch &amp; Design",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6340": {
+      "courseId": "CS-6340",
+      "subject": "CS",
+      "courseNumber": "6340",
+      "name": "Software Analysis &amp; Test",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6400": {
+      "courseId": "CS-6400",
+      "subject": "CS",
+      "courseNumber": "6400",
+      "name": "DB Sys Concepts&amp; Design",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6422": {
+      "courseId": "CS-6422",
+      "subject": "CS",
+      "courseNumber": "6422",
+      "name": "Database System Implemnt",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6435": {
+      "courseId": "CS-6435",
+      "subject": "CS",
+      "courseNumber": "6435",
+      "name": "Digital Health Equity",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-6440": {
+      "courseId": "CS-6440",
+      "subject": "CS",
+      "courseNumber": "6440",
+      "name": "Intro Health Informatics",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6457": {
+      "courseId": "CS-6457",
+      "subject": "CS",
+      "courseNumber": "6457",
+      "name": "Video Game Design",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-6460": {
+      "courseId": "CS-6460",
+      "subject": "CS",
+      "courseNumber": "6460",
+      "name": "Educ Tech-Foundations",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6475": {
+      "courseId": "CS-6475",
+      "subject": "CS",
+      "courseNumber": "6475",
+      "name": "Comp. Photography",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6476": {
+      "courseId": "CS-6476",
+      "subject": "CS",
+      "courseNumber": "6476",
+      "name": "Computer Vision",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6491": {
+      "courseId": "CS-6491",
+      "subject": "CS",
+      "courseNumber": "6491",
+      "name": "Computer Graphics",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6515": {
+      "courseId": "CS-6515",
+      "subject": "CS",
+      "courseNumber": "6515",
+      "name": "Intro to Grad Algorithms",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-6601": {
+      "courseId": "CS-6601",
+      "subject": "CS",
+      "courseNumber": "6601",
+      "name": "Artificial Intelligence",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6603": {
+      "courseId": "CS-6603",
+      "subject": "CS",
+      "courseNumber": "6603",
+      "name": "AI Ethics Society",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6675": {
+      "courseId": "CS-6675",
+      "subject": "CS",
+      "courseNumber": "6675",
+      "name": "Advance Internet Comput",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6747": {
+      "courseId": "CS-6747",
+      "subject": "CS",
+      "courseNumber": "6747",
+      "name": "ADV Malware Analysis",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-6750": {
+      "courseId": "CS-6750",
+      "subject": "CS",
+      "courseNumber": "6750",
+      "name": "Human-Computer Interact",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6795": {
+      "courseId": "CS-6795",
+      "subject": "CS",
+      "courseNumber": "6795",
+      "name": "Intro-Cognitive Science",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-6999": {
+      "courseId": "CS-6999",
+      "subject": "CS",
+      "courseNumber": "6999",
+      "name": "Master&#39;s Project",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-7210": {
+      "courseId": "CS-7210",
+      "subject": "CS",
+      "courseNumber": "7210",
+      "name": "Distributed Computing",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-7280": {
+      "courseId": "CS-7280",
+      "subject": "CS",
+      "courseNumber": "7280",
+      "name": "Network Science",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-7295": {
+      "courseId": "CS-7295",
+      "subject": "CS",
+      "courseNumber": "7295",
+      "name": "GPU HW and SW",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-7400": {
+      "courseId": "CS-7400",
+      "subject": "CS",
+      "courseNumber": "7400",
+      "name": "Intro Quantum Computing",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-7470": {
+      "courseId": "CS-7470",
+      "subject": "CS",
+      "courseNumber": "7470",
+      "name": "Ubiquitous Computing",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-7496": {
+      "courseId": "CS-7496",
+      "subject": "CS",
+      "courseNumber": "7496",
+      "name": "Computer Animation",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-7632": {
+      "courseId": "CS-7632",
+      "subject": "CS",
+      "courseNumber": "7632",
+      "name": "Game AI",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-7637": {
+      "courseId": "CS-7637",
+      "subject": "CS",
+      "courseNumber": "7637",
+      "name": "Knowledge-Based AI",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-7638": {
+      "courseId": "CS-7638",
+      "subject": "CS",
+      "courseNumber": "7638",
+      "name": "Robotics: AI Techniques",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-7639": {
+      "courseId": "CS-7639",
+      "subject": "CS",
+      "courseNumber": "7639",
+      "name": "Cyber Physical Design",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-7641": {
+      "courseId": "CS-7641",
+      "subject": "CS",
+      "courseNumber": "7641",
+      "name": "Machine Learning",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-7642": {
+      "courseId": "CS-7642",
+      "subject": "CS",
+      "courseNumber": "7642",
+      "name": "Reinforcement Learning",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-7643": {
+      "courseId": "CS-7643",
+      "subject": "CS",
+      "courseNumber": "7643",
+      "name": "Deep Learning",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-7646": {
+      "courseId": "CS-7646",
+      "subject": "CS",
+      "courseNumber": "7646",
+      "name": "Mach Learn For Trading",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-7650": {
+      "courseId": "CS-7650",
+      "subject": "CS",
+      "courseNumber": "7650",
+      "name": "Natural Language",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-8803-O08": {
+      "courseId": "CS-8803-O08",
+      "subject": "CS",
+      "courseNumber": "8803-O08",
+      "name": "Compilers - Theory &amp; Practice",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-8803-O15": {
+      "courseId": "CS-8803-O15",
+      "subject": "CS",
+      "courseNumber": "8803-O15",
+      "name": "Introduction to Computer Law",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-8803-O17": {
+      "courseId": "CS-8803-O17",
+      "subject": "CS",
+      "courseNumber": "8803-O17",
+      "name": "Global Entrepreneurship",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "CS-8803-O20": {
+      "courseId": "CS-8803-O20",
+      "subject": "CS",
+      "courseNumber": "8803-O20",
+      "name": "Quantum Hardware",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-8803-O23": {
+      "courseId": "CS-8803-O23",
+      "subject": "CS",
+      "courseNumber": "8803-O23",
+      "name": "Modern Internet Research Metho",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-8803-O24": {
+      "courseId": "CS-8803-O24",
+      "subject": "CS",
+      "courseNumber": "8803-O24",
+      "name": "Intro to Research",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-8803-O27": {
+      "courseId": "CS-8803-O27",
+      "subject": "CS",
+      "courseNumber": "8803-O27",
+      "name": "Computer Graphics the AI Era",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-8803-O29": {
+      "courseId": "CS-8803-O29",
+      "subject": "CS",
+      "courseNumber": "8803-O29",
+      "name": "Health Sensing",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-8903": {
+      "courseId": "CS-8903",
+      "subject": "CS",
+      "courseNumber": "8903",
+      "name": "Special Problems",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-8999": {
+      "courseId": "CS-8999",
+      "subject": "CS",
+      "courseNumber": "8999",
+      "name": "Doctoral Thesis Prep",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "CS-9000": {
+      "courseId": "CS-9000",
+      "subject": "CS",
+      "courseNumber": "9000",
+      "name": "Doctoral Thesis",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "ECE-7000": {
+      "courseId": "ECE-7000",
+      "subject": "ECE",
+      "courseNumber": "7000",
+      "name": "Master&#39;s Thesis",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "ECE-8900": {
+      "courseId": "ECE-8900",
+      "subject": "ECE",
+      "courseNumber": "8900",
+      "name": "Special Problems",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "ECE-8903": {
+      "courseId": "ECE-8903",
+      "subject": "ECE",
+      "courseNumber": "8903",
+      "name": "Special Problems",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "ECE-9000": {
+      "courseId": "ECE-9000",
+      "subject": "ECE",
+      "courseNumber": "9000",
+      "name": "Doctoral Thesis",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "ISYE-6402": {
+      "courseId": "ISYE-6402",
+      "subject": "ISYE",
+      "courseNumber": "6402",
+      "name": "Time Series Analysis",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "ISYE-6420": {
+      "courseId": "ISYE-6420",
+      "subject": "ISYE",
+      "courseNumber": "6420",
+      "name": "Bayesian Statistics",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "ISYE-6501": {
+      "courseId": "ISYE-6501",
+      "subject": "ISYE",
+      "courseNumber": "6501",
+      "name": "Intro Analytics Modeling",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "ISYE-6525": {
+      "courseId": "ISYE-6525",
+      "subject": "ISYE",
+      "courseNumber": "6525",
+      "name": "High Dimension Data Anlt",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "ISYE-6644": {
+      "courseId": "ISYE-6644",
+      "subject": "ISYE",
+      "courseNumber": "6644",
+      "name": "Simulation",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "ISYE-6669": {
+      "courseId": "ISYE-6669",
+      "subject": "ISYE",
+      "courseNumber": "6669",
+      "name": "Deterministic Optimiz",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "INTA-6450": {
+      "courseId": "INTA-6450",
+      "subject": "INTA",
+      "courseNumber": "6450",
+      "name": "Data Analytics and Security",
+      "creditHours": null,
+      "lastSeen": "202602"
+    },
+    "MGT-6311": {
+      "courseId": "MGT-6311",
+      "subject": "MGT",
+      "courseNumber": "6311",
+      "name": "Digital Marketing",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "MGT-8813-O01": {
+      "courseId": "MGT-8813-O01",
+      "subject": "MGT",
+      "courseNumber": "8813-O01",
+      "name": "Financial Modeling",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "PUBP-6725": {
+      "courseId": "PUBP-6725",
+      "subject": "PUBP",
+      "courseNumber": "6725",
+      "name": "Info Security Policies",
+      "creditHours": 3,
+      "lastSeen": "202602"
+    },
+    "PUBP-8823-O01": {
+      "courseId": "PUBP-8823-O01",
+      "subject": "PUBP",
+      "courseNumber": "8823-O01",
+      "name": "Special Topics",
+      "creditHours": null,
+      "lastSeen": "202602"
+    }
+  }
+}
