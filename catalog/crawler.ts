@@ -191,6 +191,109 @@ function extractCourseId(text: string): string | null {
 }
 
 /**
+ * Extract section content between two headers
+ */
+function extractSectionContent(html: string, sectionName: string, nextSectionNames: string[]): string | null {
+  // Build regex to find section header - looking for h3 or h4 containing the section name
+  const sectionHeaderRegex = new RegExp(
+    `<h[34][^>]*>\\s*${sectionName}\\s*\\([^)]*\\)\\s*<\\/h[34]>`,
+    'i'
+  );
+
+  const headerMatch = sectionHeaderRegex.exec(html);
+  if (!headerMatch) return null;
+
+  const startIndex = headerMatch.index + headerMatch[0].length;
+
+  // Find the next section header (h3 or h4)
+  let endIndex = html.length;
+  for (const nextSection of nextSectionNames) {
+    const nextRegex = new RegExp(
+      `<h[34][^>]*>\\s*${nextSection}\\s*(?:\\([^)]*\\))?\\s*<\\/h[34]>`,
+      'i'
+    );
+    const nextMatch = nextRegex.exec(html.substring(startIndex));
+    if (nextMatch && startIndex + nextMatch.index < endIndex) {
+      endIndex = startIndex + nextMatch.index;
+    }
+  }
+
+  // Also look for any h3/h4 that might end the section
+  const anyHeaderRegex = /<h[34][^>]*>/gi;
+  let anyHeaderMatch;
+  const tempHtml = html.substring(startIndex, endIndex);
+  while ((anyHeaderMatch = anyHeaderRegex.exec(tempHtml)) !== null) {
+    // Found another header - this ends our section
+    if (startIndex + anyHeaderMatch.index < endIndex) {
+      endIndex = startIndex + anyHeaderMatch.index;
+      break;
+    }
+  }
+
+  return html.substring(startIndex, endIndex);
+}
+
+/**
+ * Parse courses from HTML content, extracting "pick X" groups
+ */
+function parseCoursesFromSection(sectionHtml: string): { groups: SpecializationCourseGroup[]; courseIds: string[] } {
+  const groups: SpecializationCourseGroup[] = [];
+  const allCourseIds: string[] = [];
+
+  // Pattern 1: Look for "pick X" or "Pick X (N)" patterns followed by lists
+  const pickPatternRegex = /(?:pick|take|select)\s+(?:one|two|three|four|five|(\d+))(?:\s*\((\d+)\))?[^<]*(?:from|of)?:?\s*<\/(?:li|p|strong|b)>\s*(?:<(?:ul|ol)[^>]*>([\s\S]*?)<\/(?:ul|ol)>)?/gi;
+
+  let match;
+  while ((match = pickPatternRegex.exec(sectionHtml)) !== null) {
+    const wordToNum: Record<string, number> = { one: 1, two: 2, three: 3, four: 4, five: 5 };
+    const pickText = match[0].toLowerCase();
+    let pickCount = 1;
+
+    // Extract pick count from word or number
+    for (const [word, num] of Object.entries(wordToNum)) {
+      if (pickText.includes(word)) {
+        pickCount = num;
+        break;
+      }
+    }
+    if (match[1]) pickCount = parseInt(match[1], 10);
+    if (match[2]) pickCount = parseInt(match[2], 10);
+
+    // Extract courses from the list if present
+    if (match[3]) {
+      const courseIds: string[] = [];
+      const listItemRegex = /<li[^>]*>([\s\S]*?)<\/li>/gi;
+      let itemMatch;
+
+      while ((itemMatch = listItemRegex.exec(match[3])) !== null) {
+        const itemText = decodeHtmlEntities(itemMatch[1].replace(/<[^>]+>/g, ''));
+        const courseId = extractCourseId(itemText);
+        if (courseId && !courseIds.includes(courseId)) {
+          courseIds.push(courseId);
+        }
+      }
+
+      if (courseIds.length > 0) {
+        groups.push({ name: `Pick ${pickCount}`, pickCount, courseIds });
+      }
+    }
+  }
+
+  // Pattern 2: Also look for standalone lists with course items (for simpler formats)
+  // Extract all course IDs from the section for flat lists
+  const allListItemRegex = /<li[^>]*>([\s\S]*?)<\/li>/gi;
+  while ((match = allListItemRegex.exec(sectionHtml)) !== null) {
+    const itemText = decodeHtmlEntities(match[1].replace(/<[^>]+>/g, ''));
+    const courseId = extractCourseId(itemText);
+    if (courseId && !allCourseIds.includes(courseId)) {
+      allCourseIds.push(courseId);
+    }
+  }
+
+  return { groups, courseIds: allCourseIds };
+}
+
+/**
  * Parse a specialization page to extract core courses and electives
  */
 async function crawlSpecialization(
@@ -203,78 +306,196 @@ async function crawlSpecialization(
   const coreCourses: SpecializationCourseGroup[] = [];
   const electiveCourseIds: string[] = [];
 
-  // First, try to find a "Core Courses" section header followed directly by a list
-  const directCoreRegex =
-    /<h4[^>]*>Core Courses\s*\(\d+\s*hours?\)<\/h4>\s*<(?:ul|ol)[^>]*>([\s\S]*?)<\/(?:ul|ol)>/i;
+  // Extract Core Courses section (between "Core Courses" and "Electives" headers)
+  const coreSection = extractSectionContent(html, 'Core Courses', ['Electives', 'Free Electives']);
 
-  const directCoreMatch = directCoreRegex.exec(html);
-  if (directCoreMatch) {
-    const listHtml = directCoreMatch[1];
-    const courseIds: string[] = [];
-    const listItemRegex = /<li[^>]*>([\s\S]*?)<\/li>/gi;
-    let itemMatch;
+  if (coreSection) {
+    // Parse the core courses section structure
+    // The structure can be:
+    // - List + "or" + List = Pick 1 group (alternatives)
+    // - "And, pick X of:" + List = Pick X group
 
-    while ((itemMatch = listItemRegex.exec(listHtml)) !== null) {
-      const itemText = decodeHtmlEntities(itemMatch[1].replace(/<[^>]+>/g, ''));
-      const courseMatches = itemText.match(/([A-Z]{2,4})\s*(\d{4})(?:\s*([A-Z]\d{2}))?/g);
-      if (courseMatches) {
-        for (const courseMatch of courseMatches) {
-          const id = extractCourseId(courseMatch);
-          if (id) courseIds.push(id);
+    // Split by "And," or "pick X" instructions to identify groups
+    // First, identify segments: list before "And," is pick 1, list after "And, pick X" is pick X
+
+    // Find all lists with their positions
+    const listsWithPos: Array<{ html: string; startPos: number; endPos: number }> = [];
+    const listsRegex = /<(?:ul|ol)[^>]*>([\s\S]*?)<\/(?:ul|ol)>/gi;
+    let listMatch;
+
+    while ((listMatch = listsRegex.exec(coreSection)) !== null) {
+      listsWithPos.push({
+        html: listMatch[1],
+        startPos: listMatch.index,
+        endPos: listMatch.index + listMatch[0].length
+      });
+    }
+
+    // Find "And, pick X" instructions with positions
+    const andPickRegex = /and,?\s*pick\s+(?:one|two|three|four|five|(\d+))(?:\s*\((\d+)\))?/gi;
+    const andPickPositions: Array<{ pickCount: number; pos: number }> = [];
+
+    let andMatch;
+    while ((andMatch = andPickRegex.exec(coreSection)) !== null) {
+      const wordToNum: Record<string, number> = { one: 1, two: 2, three: 3, four: 4, five: 5 };
+      let pickCount = 2; // default for "and pick"
+
+      const text = andMatch[0].toLowerCase();
+      for (const [word, num] of Object.entries(wordToNum)) {
+        if (text.includes(word)) {
+          pickCount = num;
+          break;
         }
       }
+      if (andMatch[1]) pickCount = parseInt(andMatch[1], 10);
+      if (andMatch[2]) pickCount = parseInt(andMatch[2], 10);
+
+      andPickPositions.push({ pickCount, pos: andMatch.index });
     }
 
-    if (courseIds.length > 0) {
-      coreCourses.push({ name: 'Core', pickCount: courseIds.length, courseIds });
-    }
-  }
+    // Check for "or" between lists (indicates pick 1 alternatives)
+    const hasOrBetweenLists = /<\/(?:ul|ol)>\s*<p[^>]*>\s*or\s*<\/p>\s*<(?:ul|ol)/i.test(coreSection);
 
-  // Find all course groups with headers
-  const groupRegex =
-    /<(?:p|strong|b)[^>]*>(?:<u>)?\s*([^<]*?)(?::\s*)?(?:pick|take|select)?\s*(?:one|two|three|four|five|\d+)?\s*\((\d+)\)\s*(?:courses?\s+)?(?:of|from)?:?\s*(?:<\/u>)?<\/(?:p|strong|b)>\s*<(?:ul|ol)[^>]*>([\s\S]*?)<\/(?:ul|ol)>/gi;
+    if (andPickPositions.length > 0) {
+      // We have "And, pick X" - lists before it are pick 1, lists after are pick X
+      const firstAndPos = andPickPositions[0].pos;
 
-  let groupMatch;
-  while ((groupMatch = groupRegex.exec(html)) !== null) {
-    const groupName = decodeHtmlEntities(groupMatch[1].trim());
-    const pickCount = parseInt(groupMatch[2], 10);
-    const listHtml = groupMatch[3];
+      // Collect courses from lists BEFORE "And, pick X" (these are pick 1 alternatives)
+      const pick1Ids: string[] = [];
+      for (const list of listsWithPos) {
+        if (list.endPos < firstAndPos) {
+          const listItemRegex = /<li[^>]*>([\s\S]*?)<\/li>/gi;
+          let itemMatch;
+          while ((itemMatch = listItemRegex.exec(list.html)) !== null) {
+            const itemText = decodeHtmlEntities(itemMatch[1].replace(/<[^>]+>/g, ''));
+            const courseId = extractCourseId(itemText);
+            if (courseId && !pick1Ids.includes(courseId)) {
+              pick1Ids.push(courseId);
+            }
+          }
+        }
+      }
 
-    if (groupName.toLowerCase().includes('elective') || groupName.toLowerCase().includes('free')) {
-      continue;
-    }
+      if (pick1Ids.length > 0) {
+        coreCourses.push({ name: 'Pick 1', pickCount: 1, courseIds: pick1Ids });
+      }
 
-    const courseIds: string[] = [];
-    const listItemRegex = /<li[^>]*>([\s\S]*?)<\/li>/gi;
-    let itemMatch;
+      // Process each "And, pick X" section
+      for (let i = 0; i < andPickPositions.length; i++) {
+        const andPick = andPickPositions[i];
+        const nextAndPos = i + 1 < andPickPositions.length
+          ? andPickPositions[i + 1].pos
+          : coreSection.length;
 
-    while ((itemMatch = listItemRegex.exec(listHtml)) !== null) {
-      const itemText = decodeHtmlEntities(itemMatch[1].replace(/<[^>]+>/g, ''));
-      const courseId = extractCourseId(itemText);
-      if (courseId) {
-        courseIds.push(courseId);
+        // Find lists after this "And, pick X" and before the next one
+        const pickXIds: string[] = [];
+        for (const list of listsWithPos) {
+          if (list.startPos > andPick.pos && list.startPos < nextAndPos) {
+            const listItemRegex = /<li[^>]*>([\s\S]*?)<\/li>/gi;
+            let itemMatch;
+            while ((itemMatch = listItemRegex.exec(list.html)) !== null) {
+              const itemText = decodeHtmlEntities(itemMatch[1].replace(/<[^>]+>/g, ''));
+              // Skip non-course items like "Any Core Courses in excess..."
+              if (itemText.toLowerCase().includes('any core courses') ||
+                  itemText.toLowerCase().includes('any special topics')) {
+                continue;
+              }
+              const courseId = extractCourseId(itemText);
+              if (courseId && !pickXIds.includes(courseId)) {
+                pickXIds.push(courseId);
+              }
+            }
+          }
+        }
+
+        if (pickXIds.length > 0) {
+          coreCourses.push({
+            name: `Pick ${andPick.pickCount}`,
+            pickCount: andPick.pickCount,
+            courseIds: pickXIds
+          });
+        }
+      }
+    } else if (hasOrBetweenLists) {
+      // No "And, pick X" but has "or" - all lists are pick 1 alternatives
+      const pick1Ids: string[] = [];
+      for (const list of listsWithPos) {
+        const listItemRegex = /<li[^>]*>([\s\S]*?)<\/li>/gi;
+        let itemMatch;
+        while ((itemMatch = listItemRegex.exec(list.html)) !== null) {
+          const itemText = decodeHtmlEntities(itemMatch[1].replace(/<[^>]+>/g, ''));
+          const courseId = extractCourseId(itemText);
+          if (courseId && !pick1Ids.includes(courseId)) {
+            pick1Ids.push(courseId);
+          }
+        }
+      }
+      if (pick1Ids.length > 0) {
+        coreCourses.push({ name: 'Pick 1', pickCount: 1, courseIds: pick1Ids });
+      }
+    } else {
+      // Fallback: look for any "pick X" instructions
+      const pickRegex = /pick\s+(?:one|two|three|four|five|(\d+))(?:\s*\((\d+)\))?/gi;
+      const pickInstructions: number[] = [];
+
+      let pickMatch;
+      while ((pickMatch = pickRegex.exec(coreSection)) !== null) {
+        const wordToNum: Record<string, number> = { one: 1, two: 2, three: 3, four: 4, five: 5 };
+        let pickCount = 1;
+
+        const text = pickMatch[0].toLowerCase();
+        for (const [word, num] of Object.entries(wordToNum)) {
+          if (text.includes(word)) {
+            pickCount = num;
+            break;
+          }
+        }
+        if (pickMatch[1]) pickCount = parseInt(pickMatch[1], 10);
+        if (pickMatch[2]) pickCount = parseInt(pickMatch[2], 10);
+
+        if (!pickInstructions.includes(pickCount)) {
+          pickInstructions.push(pickCount);
+        }
+      }
+
+      // Extract all courses and assign to pick instructions
+      const allCoreIds: string[] = [];
+      const listItemRegex = /<li[^>]*>([\s\S]*?)<\/li>/gi;
+      let itemMatch;
+
+      while ((itemMatch = listItemRegex.exec(coreSection)) !== null) {
+        const itemText = decodeHtmlEntities(itemMatch[1].replace(/<[^>]+>/g, ''));
+        const courseId = extractCourseId(itemText);
+        if (courseId && !allCoreIds.includes(courseId)) {
+          allCoreIds.push(courseId);
+        }
+      }
+
+      if (allCoreIds.length > 0) {
+        const pickCount = pickInstructions.length > 0 ? pickInstructions[0] : allCoreIds.length;
+        coreCourses.push({ name: 'Core', pickCount, courseIds: allCoreIds });
       }
     }
-
-    if (courseIds.length > 0) {
-      coreCourses.push({ name: groupName, pickCount, courseIds });
-    }
   }
 
-  // Try to find electives section
-  const electiveMatch = html.match(
-    /<(?:strong|b|p|h\d)[^>]*>[^<]*Electives?\s*\([^)]*hours?[^)]*\)[^<]*<\/(?:strong|b|p|h\d)>\s*[\s\S]*?<(?:ul|ol)[^>]*>([\s\S]*?)<\/(?:ul|ol)>/i
-  );
+  // Extract Electives section (between "Electives" and "Free Electives" headers)
+  const electiveSection = extractSectionContent(html, 'Electives', ['Free Electives']);
 
-  if (electiveMatch) {
-    const listHtml = electiveMatch[1];
+  if (electiveSection) {
+    // Extract all course IDs from electives section
     const listItemRegex = /<li[^>]*>([\s\S]*?)<\/li>/gi;
     let itemMatch;
 
-    while ((itemMatch = listItemRegex.exec(listHtml)) !== null) {
+    while ((itemMatch = listItemRegex.exec(electiveSection)) !== null) {
       const itemText = decodeHtmlEntities(itemMatch[1].replace(/<[^>]+>/g, ''));
+
+      // Skip instruction lines
+      if (itemText.toLowerCase().includes('pick ') && !extractCourseId(itemText)) {
+        continue;
+      }
+
       const courseId = extractCourseId(itemText);
-      if (courseId) {
+      if (courseId && !electiveCourseIds.includes(courseId)) {
         electiveCourseIds.push(courseId);
       }
     }

@@ -32,7 +32,7 @@ jobs:
           if [ -f static/courses.json ]; then
             cp static/courses.json /tmp/courses-before.json
           else
-            echo '[]' > /tmp/courses-before.json
+            echo '{}' > /tmp/courses-before.json
           fi
 
       - name: Run catalog crawler
@@ -44,25 +44,25 @@ jobs:
           NEW_COURSES=$(node -e "
             const fs = require('fs');
 
-            let before = [];
-            let after = [];
+            let before = {};
+            let after = {};
 
             try {
               before = JSON.parse(fs.readFileSync('/tmp/courses-before.json', 'utf8'));
             } catch (e) {
-              before = [];
+              before = {};
             }
 
             try {
               after = JSON.parse(fs.readFileSync('static/courses.json', 'utf8'));
             } catch (e) {
-              after = [];
+              after = {};
             }
 
-            const beforeIds = new Set(before.map(c => c.id || c.courseId));
-            const newCourses = after
-              .filter(c => !beforeIds.has(c.id || c.courseId))
-              .map(c => '- **' + (c.id || c.courseId) + '** ' + c.name);
+            const beforeIds = new Set(Object.keys(before));
+            const newCourses = Object.keys(after)
+              .filter(id => !beforeIds.has(id))
+              .map(id => '- **' + id + '** ' + after[id].name);
 
             if (newCourses.length > 0) {
               console.log(newCourses.join('\n'));

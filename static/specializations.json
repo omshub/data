@@ -20,20 +20,14 @@
     "programId": "cs",
     "coreCourses": [
       {
-        "name": "Algorithms and Design",
-        "pickCount": 1,
+        "name": "Core",
+        "pickCount": 8,
         "courseIds": [
           "CSE-6140",
           "CS-6300",
           "CS-6301",
           "CS-6505",
-          "CS-6515"
-        ]
-      },
-      {
-        "name": "And,",
-        "pickCount": 2,
-        "courseIds": [
+          "CS-6515",
           "CS-6601",
           "CS-7637",
           "CS-7641"
@@ -46,7 +40,19 @@
       "CS-6465",
       "CS-6471",
       "CS-6603",
-      "CS-6750"
+      "CS-6750",
+      "CS-6476",
+      "CS-7631",
+      "CS-7632",
+      "CS-7633",
+      "CS-7634",
+      "CS-7643",
+      "CS-7647",
+      "CS-7650",
+      "CS-8803",
+      "CS-6795",
+      "CS-7610",
+      "CS-7651"
     ]
   },
   "cs:cg": {
@@ -55,7 +61,7 @@
     "programId": "cs",
     "coreCourses": [
       {
-        "name": "",
+        "name": "Pick 1",
         "pickCount": 1,
         "courseIds": [
           "CS-6491",
@@ -64,25 +70,11 @@
         ]
       },
       {
-        "name": "And",
+        "name": "Pick 1",
         "pickCount": 1,
         "courseIds": [
           "CS-6505",
           "CS-6515"
-        ]
-      },
-      {
-        "name": "",
-        "pickCount": 3,
-        "courseIds": [
-          "CS-6457",
-          "CS-6475",
-          "CS-6476",
-          "CS-6491",
-          "CS-6492",
-          "CS-6730",
-          "CS-7450",
-          "CS-7496"
         ]
       }
     ],
@@ -103,7 +95,7 @@
     "programId": "cs",
     "coreCourses": [
       {
-        "name": "Algorithms:",
+        "name": "Pick 1",
         "pickCount": 1,
         "courseIds": [
           "CS-6505",
@@ -116,7 +108,7 @@
         ]
       },
       {
-        "name": "And,",
+        "name": "Pick 1",
         "pickCount": 1,
         "courseIds": [
           "CS-6601",
@@ -131,7 +123,13 @@
       "CS-7636",
       "CS-7639",
       "CS-7644",
-      "CS-7650"
+      "CS-7650",
+      "CS-7630",
+      "CS-7631",
+      "CS-7633",
+      "CS-7638",
+      "CS-7648",
+      "CS-7649"
     ]
   },
   "cs:cs": {
@@ -140,14 +138,15 @@
     "programId": "cs",
     "coreCourses": [
       {
-        "name": "Core",
+        "name": "Pick 1",
         "pickCount": 1,
         "courseIds": [
-          "CS-6505"
+          "CS-6505",
+          "CS-6515"
         ]
       },
       {
-        "name": "And,",
+        "name": "Pick 2",
         "pickCount": 2,
         "courseIds": [
           "CS-6210",
@@ -157,40 +156,6 @@
           "CS-6300",
           "CS-6390",
           "CS-6400"
-        ]
-      },
-      {
-        "name": "",
-        "pickCount": 3,
-        "courseIds": [
-          "CS-6035",
-          "CS-6200",
-          "CS-6220",
-          "CS-6235",
-          "CS-6238",
-          "CS-6260",
-          "CS-6262",
-          "CS-6263",
-          "CS-6291",
-          "CS-6310",
-          "CS-6340",
-          "CS-6365",
-          "CS-6422",
-          "CS-6550",
-          "CS-6675",
-          "CS-7210",
-          "CS-7260",
-          "CS-7270",
-          "CS-7280",
-          "CS-7290",
-          "CS-7292",
-          "CS-7295",
-          "CS-7560",
-          "CS-8803",
-          "CSE-6220",
-          "CS-6264",
-          "CS-7400",
-          "CS-8803"
         ]
       }
     ],
@@ -221,8 +186,7 @@
       "CS-8803",
       "CSE-6220",
       "CS-6264",
-      "CS-7400",
-      "CS-8803"
+      "CS-7400"
     ]
   },
   "cs:hci": {
@@ -232,10 +196,9 @@
     "coreCourses": [
       {
         "name": "Core",
-        "pickCount": 3,
+        "pickCount": 2,
         "courseIds": [
           "CS-6456",
-          "CS-7470",
           "CS-6750"
         ]
       }
@@ -252,7 +215,16 @@
       "CS-6795",
       "CS-7465",
       "CS-7467",
-      "CS-7790"
+      "CS-7790",
+      "CS-6440",
+      "CS-6730",
+      "CS-6763",
+      "CS-6770",
+      "CS-7450",
+      "CS-7451",
+      "CS-7460",
+      "CS-7470",
+      "CS-7632"
     ]
   },
   "cs:ii": {
@@ -266,7 +238,7 @@
     "programId": "cs",
     "coreCourses": [
       {
-        "name": "Algorithms",
+        "name": "Pick 1",
         "pickCount": 1,
         "courseIds": [
           "CS-6505",
@@ -280,38 +252,11 @@
         ]
       },
       {
-        "name": "And,",
+        "name": "Pick 1",
         "pickCount": 1,
         "courseIds": [
           "CS-7641",
           "CSE-6740"
-        ]
-      },
-      {
-        "name": "",
-        "pickCount": 3,
-        "courseIds": [
-          "CS-6220",
-          "CS-6476",
-          "CS-6603",
-          "CS-7280",
-          "CS-7535",
-          "CS-7540",
-          "CS-7545",
-          "CS-7616",
-          "CS-7626",
-          "CS-7642",
-          "CS-7643",
-          "CS-7644",
-          "CS-7646",
-          "CS-7650",
-          "CS-8803",
-          "CSE-6240",
-          "CSE-6242",
-          "CSE-6250",
-          "ISYE-6416",
-          "ISYE-6420",
-          "ISYE-6664"
         ]
       }
     ],
