@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-01-12T11:17:45.756Z",
+  "lastUpdated": "2026-01-12T11:41:47.894Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -132,14 +132,14 @@
           "enrolled": 45,
           "capacity": 50,
           "seatsAvailable": 5,
-          "waitCount": 149,
+          "waitCount": 150,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 50,
       "totalEnrolled": 45,
       "totalAvailable": 5,
-      "totalWaitlisted": 149
+      "totalWaitlisted": 150
     },
     "CS-6200": {
       "courseId": "CS-6200",
@@ -267,16 +267,16 @@
           "crn": "27614",
           "sectionNumber": "O01",
           "instructor": "Boldyreva, Alexandra",
-          "enrolled": 78,
+          "enrolled": 77,
           "capacity": 150,
-          "seatsAvailable": 72,
+          "seatsAvailable": 73,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 78,
-      "totalAvailable": 72,
+      "totalEnrolled": 77,
+      "totalAvailable": 73,
       "totalWaitlisted": 0
     },
     "CS-6261": {
@@ -523,14 +523,14 @@
           "enrolled": 147,
           "capacity": 150,
           "seatsAvailable": 3,
-          "waitCount": 138,
+          "waitCount": 139,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
       "totalEnrolled": 147,
       "totalAvailable": 3,
-      "totalWaitlisted": 138
+      "totalWaitlisted": 139
     },
     "CS-6435": {
       "courseId": "CS-6435",
@@ -658,16 +658,16 @@
           "crn": "24734",
           "sectionNumber": "O01",
           "instructor": "Essa, Irfan",
-          "enrolled": 408,
+          "enrolled": 409,
           "capacity": 450,
-          "seatsAvailable": 42,
+          "seatsAvailable": 41,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 450,
-      "totalEnrolled": 408,
-      "totalAvailable": 42,
+      "totalEnrolled": 409,
+      "totalAvailable": 41,
       "totalWaitlisted": 0
     },
     "CS-6491": {
@@ -730,14 +730,14 @@
           "enrolled": 1242,
           "capacity": 1250,
           "seatsAvailable": 8,
-          "waitCount": 574,
+          "waitCount": 573,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1250,
       "totalEnrolled": 1242,
       "totalAvailable": 8,
-      "totalWaitlisted": 574
+      "totalWaitlisted": 573
     },
     "CS-6603": {
       "courseId": "CS-6603",
@@ -819,16 +819,16 @@
           "crn": "25135",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 1256,
+          "enrolled": 1257,
           "capacity": 1350,
-          "seatsAvailable": 94,
+          "seatsAvailable": 93,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1350,
-      "totalEnrolled": 1256,
-      "totalAvailable": 94,
+      "totalEnrolled": 1257,
+      "totalAvailable": 93,
       "totalWaitlisted": 0
     },
     "CS-6795": {
@@ -993,14 +993,14 @@
           "enrolled": 294,
           "capacity": 300,
           "seatsAvailable": 6,
-          "waitCount": 57,
+          "waitCount": 58,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
       "totalEnrolled": 294,
       "totalAvailable": 6,
-      "totalWaitlisted": 57
+      "totalWaitlisted": 58
     },
     "CS-7496": {
       "courseId": "CS-7496",
@@ -1059,17 +1059,17 @@
           "crn": "24337",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 1272,
+          "enrolled": 1273,
           "capacity": 1300,
-          "seatsAvailable": 28,
-          "waitCount": 148,
+          "seatsAvailable": 27,
+          "waitCount": 147,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1300,
-      "totalEnrolled": 1272,
-      "totalAvailable": 28,
-      "totalWaitlisted": 148
+      "totalEnrolled": 1273,
+      "totalAvailable": 27,
+      "totalWaitlisted": 147
     },
     "CS-7638": {
       "courseId": "CS-7638",
@@ -1664,14 +1664,14 @@
           "enrolled": 199,
           "capacity": 200,
           "seatsAvailable": 1,
-          "waitCount": 31,
+          "waitCount": 30,
           "waitCapacity": 55
         }
       ],
       "totalSeats": 200,
       "totalEnrolled": 199,
       "totalAvailable": 1,
-      "totalWaitlisted": 31
+      "totalWaitlisted": 30
     },
     "ISYE-6501": {
       "courseId": "ISYE-6501",
