@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-01-13T11:42:09.972Z",
+  "lastUpdated": "2026-01-13T12:36:03.842Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -14,16 +14,16 @@
           "crn": "27638",
           "sectionNumber": "O01",
           "instructor": "Vuduc, Richard",
-          "enrolled": 181,
+          "enrolled": 180,
           "capacity": 250,
-          "seatsAvailable": 69,
+          "seatsAvailable": 70,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
-      "totalEnrolled": 181,
-      "totalAvailable": 69,
+      "totalEnrolled": 180,
+      "totalAvailable": 70,
       "totalWaitlisted": 0
     },
     "CSE-6242": {
@@ -152,16 +152,16 @@
           "crn": "25812",
           "sectionNumber": "O01",
           "instructor": "Gavrilovska, Ada",
-          "enrolled": 1274,
+          "enrolled": 1275,
           "capacity": 1300,
-          "seatsAvailable": 26,
+          "seatsAvailable": 25,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1300,
-      "totalEnrolled": 1274,
-      "totalAvailable": 26,
+      "totalEnrolled": 1275,
+      "totalAvailable": 25,
       "totalWaitlisted": 0
     },
     "CS-6210": {
@@ -175,16 +175,16 @@
           "crn": "24330",
           "sectionNumber": "O01",
           "instructor": "Ramachandran, Umakishore",
-          "enrolled": 433,
+          "enrolled": 434,
           "capacity": 475,
-          "seatsAvailable": 42,
+          "seatsAvailable": 41,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 475,
-      "totalEnrolled": 433,
-      "totalAvailable": 42,
+      "totalEnrolled": 434,
+      "totalAvailable": 41,
       "totalWaitlisted": 0
     },
     "CS-6211": {
@@ -247,14 +247,14 @@
           "enrolled": 1188,
           "capacity": 1200,
           "seatsAvailable": 12,
-          "waitCount": 72,
+          "waitCount": 70,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1200,
       "totalEnrolled": 1188,
       "totalAvailable": 12,
-      "totalWaitlisted": 72
+      "totalWaitlisted": 70
     },
     "CS-6260": {
       "courseId": "CS-6260",
@@ -293,14 +293,14 @@
           "enrolled": 48,
           "capacity": 50,
           "seatsAvailable": 2,
-          "waitCount": 102,
+          "waitCount": 103,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 50,
       "totalEnrolled": 48,
       "totalAvailable": 2,
-      "totalWaitlisted": 102
+      "totalWaitlisted": 103
     },
     "CS-6262": {
       "courseId": "CS-6262",
@@ -313,16 +313,16 @@
           "crn": "25015",
           "sectionNumber": "O01",
           "instructor": "Lee, Wenke",
-          "enrolled": 295,
+          "enrolled": 294,
           "capacity": 325,
-          "seatsAvailable": 30,
+          "seatsAvailable": 31,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 325,
-      "totalEnrolled": 295,
-      "totalAvailable": 30,
+      "totalEnrolled": 294,
+      "totalAvailable": 31,
       "totalWaitlisted": 0
     },
     "CS-6263": {
@@ -428,16 +428,16 @@
           "crn": "24332",
           "sectionNumber": "O01",
           "instructor": "Spoletini, Paola",
-          "enrolled": 1038,
+          "enrolled": 1037,
           "capacity": 1050,
-          "seatsAvailable": 12,
+          "seatsAvailable": 13,
           "waitCount": 952,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1050,
-      "totalEnrolled": 1038,
-      "totalAvailable": 12,
+      "totalEnrolled": 1037,
+      "totalAvailable": 13,
       "totalWaitlisted": 952
     },
     "CS-6310": {
@@ -543,17 +543,17 @@
           "crn": "33621",
           "sectionNumber": "O01",
           "instructor": "Parker, Andrea",
-          "enrolled": 148,
+          "enrolled": 147,
           "capacity": 150,
-          "seatsAvailable": 2,
-          "waitCount": 22,
+          "seatsAvailable": 3,
+          "waitCount": 21,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 148,
-      "totalAvailable": 2,
-      "totalWaitlisted": 22
+      "totalEnrolled": 147,
+      "totalAvailable": 3,
+      "totalWaitlisted": 21
     },
     "CS-6440": {
       "courseId": "CS-6440",
@@ -566,17 +566,17 @@
           "crn": "24336",
           "sectionNumber": "O01",
           "instructor": "Duke, Jon",
-          "enrolled": 433,
+          "enrolled": 434,
           "capacity": 450,
-          "seatsAvailable": 17,
-          "waitCount": 124,
+          "seatsAvailable": 16,
+          "waitCount": 122,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 450,
-      "totalEnrolled": 433,
-      "totalAvailable": 17,
-      "totalWaitlisted": 124
+      "totalEnrolled": 434,
+      "totalAvailable": 16,
+      "totalWaitlisted": 122
     },
     "CS-6457": {
       "courseId": "CS-6457",
@@ -658,16 +658,16 @@
           "crn": "24734",
           "sectionNumber": "O01",
           "instructor": "Essa, Irfan",
-          "enrolled": 391,
+          "enrolled": 390,
           "capacity": 450,
-          "seatsAvailable": 59,
+          "seatsAvailable": 60,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 450,
-      "totalEnrolled": 391,
-      "totalAvailable": 59,
+      "totalEnrolled": 390,
+      "totalAvailable": 60,
       "totalWaitlisted": 0
     },
     "CS-6491": {
@@ -684,14 +684,14 @@
           "enrolled": 197,
           "capacity": 200,
           "seatsAvailable": 3,
-          "waitCount": 40,
+          "waitCount": 41,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
       "totalEnrolled": 197,
       "totalAvailable": 3,
-      "totalWaitlisted": 40
+      "totalWaitlisted": 41
     },
     "CS-6515": {
       "courseId": "CS-6515",
@@ -707,14 +707,14 @@
           "enrolled": 495,
           "capacity": 500,
           "seatsAvailable": 5,
-          "waitCount": 476,
+          "waitCount": 475,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 500,
       "totalEnrolled": 495,
       "totalAvailable": 5,
-      "totalWaitlisted": 476
+      "totalWaitlisted": 475
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -730,14 +730,14 @@
           "enrolled": 1227,
           "capacity": 1250,
           "seatsAvailable": 23,
-          "waitCount": 537,
+          "waitCount": 536,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1250,
       "totalEnrolled": 1227,
       "totalAvailable": 23,
-      "totalWaitlisted": 537
+      "totalWaitlisted": 536
     },
     "CS-6603": {
       "courseId": "CS-6603",
@@ -753,14 +753,14 @@
           "enrolled": 790,
           "capacity": 800,
           "seatsAvailable": 10,
-          "waitCount": 765,
+          "waitCount": 764,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
       "totalEnrolled": 790,
       "totalAvailable": 10,
-      "totalWaitlisted": 765
+      "totalWaitlisted": 764
     },
     "CS-6675": {
       "courseId": "CS-6675",
@@ -845,14 +845,14 @@
           "enrolled": 694,
           "capacity": 700,
           "seatsAvailable": 6,
-          "waitCount": 280,
+          "waitCount": 278,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
       "totalEnrolled": 694,
       "totalAvailable": 6,
-      "totalWaitlisted": 280
+      "totalWaitlisted": 278
     },
     "CS-6999": {
       "courseId": "CS-6999",
@@ -924,14 +924,14 @@
           "enrolled": 243,
           "capacity": 250,
           "seatsAvailable": 7,
-          "waitCount": 70,
+          "waitCount": 69,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
       "totalEnrolled": 243,
       "totalAvailable": 7,
-      "totalWaitlisted": 70
+      "totalWaitlisted": 69
     },
     "CS-7295": {
       "courseId": "CS-7295",
@@ -993,14 +993,14 @@
           "enrolled": 297,
           "capacity": 300,
           "seatsAvailable": 3,
-          "waitCount": 49,
+          "waitCount": 48,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
       "totalEnrolled": 297,
       "totalAvailable": 3,
-      "totalWaitlisted": 49
+      "totalWaitlisted": 48
     },
     "CS-7496": {
       "courseId": "CS-7496",
@@ -1128,17 +1128,17 @@
           "crn": "24333",
           "sectionNumber": "O01",
           "instructor": "LaGrow, TJ",
-          "enrolled": 1420,
+          "enrolled": 1421,
           "capacity": 1450,
-          "seatsAvailable": 30,
-          "waitCount": 317,
+          "seatsAvailable": 29,
+          "waitCount": 316,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1450,
-      "totalEnrolled": 1420,
-      "totalAvailable": 30,
-      "totalWaitlisted": 317
+      "totalEnrolled": 1421,
+      "totalAvailable": 29,
+      "totalWaitlisted": 316
     },
     "CS-7642": {
       "courseId": "CS-7642",
@@ -1197,16 +1197,16 @@
           "crn": "25116",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 1740,
+          "enrolled": 1742,
           "capacity": 1750,
-          "seatsAvailable": 10,
+          "seatsAvailable": 8,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1750,
-      "totalEnrolled": 1740,
-      "totalAvailable": 10,
+      "totalEnrolled": 1742,
+      "totalAvailable": 8,
       "totalWaitlisted": 0
     },
     "CS-7650": {
@@ -1220,17 +1220,17 @@
           "crn": "31883",
           "sectionNumber": "O01",
           "instructor": "Riedl, Mark",
-          "enrolled": 840,
+          "enrolled": 839,
           "capacity": 850,
-          "seatsAvailable": 10,
-          "waitCount": 907,
+          "seatsAvailable": 11,
+          "waitCount": 904,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 850,
-      "totalEnrolled": 840,
-      "totalAvailable": 10,
-      "totalWaitlisted": 907
+      "totalEnrolled": 839,
+      "totalAvailable": 11,
+      "totalWaitlisted": 904
     },
     "CS-8803-O08": {
       "courseId": "CS-8803-O08",
@@ -1269,14 +1269,14 @@
           "enrolled": 150,
           "capacity": 150,
           "seatsAvailable": 0,
-          "waitCount": 297,
+          "waitCount": 298,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
       "totalEnrolled": 150,
       "totalAvailable": 0,
-      "totalWaitlisted": 297
+      "totalWaitlisted": 298
     },
     "CS-8803-O17": {
       "courseId": "CS-8803-O17",
@@ -1384,14 +1384,14 @@
           "enrolled": 100,
           "capacity": 100,
           "seatsAvailable": 0,
-          "waitCount": 78,
+          "waitCount": 79,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
       "totalEnrolled": 100,
       "totalAvailable": 0,
-      "totalWaitlisted": 78
+      "totalWaitlisted": 79
     },
     "CS-8803-O29": {
       "courseId": "CS-8803-O29",
@@ -1664,14 +1664,14 @@
           "enrolled": 198,
           "capacity": 200,
           "seatsAvailable": 2,
-          "waitCount": 34,
+          "waitCount": 35,
           "waitCapacity": 55
         }
       ],
       "totalSeats": 200,
       "totalEnrolled": 198,
       "totalAvailable": 2,
-      "totalWaitlisted": 34
+      "totalWaitlisted": 35
     },
     "ISYE-6501": {
       "courseId": "ISYE-6501",
@@ -1779,14 +1779,14 @@
           "enrolled": 197,
           "capacity": 200,
           "seatsAvailable": 3,
-          "waitCount": 25,
+          "waitCount": 23,
           "waitCapacity": 25
         }
       ],
       "totalSeats": 200,
       "totalEnrolled": 197,
       "totalAvailable": 3,
-      "totalWaitlisted": 25
+      "totalWaitlisted": 23
     },
     "MGT-6311": {
       "courseId": "MGT-6311",
@@ -1802,14 +1802,14 @@
           "enrolled": 124,
           "capacity": 125,
           "seatsAvailable": 1,
-          "waitCount": 24,
+          "waitCount": 25,
           "waitCapacity": 25
         }
       ],
       "totalSeats": 125,
       "totalEnrolled": 124,
       "totalAvailable": 1,
-      "totalWaitlisted": 24
+      "totalWaitlisted": 25
     },
     "MGT-8813-O01": {
       "courseId": "MGT-8813-O01",
