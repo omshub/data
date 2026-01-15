@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-01-15T10:50:00.716Z",
+  "lastUpdated": "2026-01-15T11:16:59.536Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -244,16 +244,16 @@
           "crn": "24331",
           "sectionNumber": "O01",
           "instructor": "Konte, Maria",
-          "enrolled": 1235,
+          "enrolled": 1237,
           "capacity": 1250,
-          "seatsAvailable": 15,
+          "seatsAvailable": 13,
           "waitCount": 5,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1250,
-      "totalEnrolled": 1235,
-      "totalAvailable": 15,
+      "totalEnrolled": 1237,
+      "totalAvailable": 13,
       "totalWaitlisted": 5
     },
     "CS-6260": {
@@ -431,14 +431,14 @@
           "enrolled": 1037,
           "capacity": 1050,
           "seatsAvailable": 13,
-          "waitCount": 866,
+          "waitCount": 865,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1050,
       "totalEnrolled": 1037,
       "totalAvailable": 13,
-      "totalWaitlisted": 866
+      "totalWaitlisted": 865
     },
     "CS-6310": {
       "courseId": "CS-6310",
@@ -819,16 +819,16 @@
           "crn": "25135",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 1234,
+          "enrolled": 1232,
           "capacity": 1350,
-          "seatsAvailable": 116,
+          "seatsAvailable": 118,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1350,
-      "totalEnrolled": 1234,
-      "totalAvailable": 116,
+      "totalEnrolled": 1232,
+      "totalAvailable": 118,
       "totalWaitlisted": 0
     },
     "CS-6795": {
@@ -842,16 +842,16 @@
           "crn": "29653",
           "sectionNumber": "O01",
           "instructor": "McGreggor, Brian",
-          "enrolled": 719,
+          "enrolled": 718,
           "capacity": 750,
-          "seatsAvailable": 31,
+          "seatsAvailable": 32,
           "waitCount": 182,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
-      "totalEnrolled": 719,
-      "totalAvailable": 31,
+      "totalEnrolled": 718,
+      "totalAvailable": 32,
       "totalWaitlisted": 182
     },
     "CS-6999": {
@@ -1707,16 +1707,16 @@
           "crn": "34068",
           "sectionNumber": "O01",
           "instructor": "Paynabar, Kamran",
-          "enrolled": 35,
+          "enrolled": 34,
           "capacity": 200,
-          "seatsAvailable": 165,
+          "seatsAvailable": 166,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 35,
-      "totalAvailable": 165,
+      "totalEnrolled": 34,
+      "totalAvailable": 166,
       "totalWaitlisted": 0
     },
     "ISYE-6644": {
