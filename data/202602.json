@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-01-15T20:20:06.887Z",
+  "lastUpdated": "2026-01-15T20:47:24.316Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -37,16 +37,16 @@
           "crn": "25014",
           "sectionNumber": "O01",
           "instructor": "Chau, Polo",
-          "enrolled": 324,
+          "enrolled": 325,
           "capacity": 500,
-          "seatsAvailable": 176,
+          "seatsAvailable": 175,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 500,
-      "totalEnrolled": 324,
-      "totalAvailable": 176,
+      "totalEnrolled": 325,
+      "totalAvailable": 175,
       "totalWaitlisted": 0
     },
     "CSE-6250": {
@@ -175,16 +175,16 @@
           "crn": "24330",
           "sectionNumber": "O01",
           "instructor": "Ramachandran, Umakishore",
-          "enrolled": 406,
+          "enrolled": 404,
           "capacity": 475,
-          "seatsAvailable": 69,
+          "seatsAvailable": 71,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 475,
-      "totalEnrolled": 406,
-      "totalAvailable": 69,
+      "totalEnrolled": 404,
+      "totalAvailable": 71,
       "totalWaitlisted": 0
     },
     "CS-6211": {
@@ -359,16 +359,16 @@
           "crn": "26625",
           "sectionNumber": "O01",
           "instructor": "Kim, Taesoo",
-          "enrolled": 40,
+          "enrolled": 39,
           "capacity": 50,
-          "seatsAvailable": 10,
+          "seatsAvailable": 11,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 50,
-      "totalEnrolled": 40,
-      "totalAvailable": 10,
+      "totalEnrolled": 39,
+      "totalAvailable": 11,
       "totalWaitlisted": 0
     },
     "CS-6290": {
@@ -382,16 +382,16 @@
           "crn": "24334",
           "sectionNumber": "O01",
           "instructor": "Prvulovic, Milos",
-          "enrolled": 341,
+          "enrolled": 342,
           "capacity": 400,
-          "seatsAvailable": 59,
+          "seatsAvailable": 58,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 400,
-      "totalEnrolled": 341,
-      "totalAvailable": 59,
+      "totalEnrolled": 342,
+      "totalAvailable": 58,
       "totalWaitlisted": 0
     },
     "CS-6291": {
@@ -474,16 +474,16 @@
           "crn": "25011",
           "sectionNumber": "O01",
           "instructor": "Naik, Mayur",
-          "enrolled": 326,
+          "enrolled": 325,
           "capacity": 400,
-          "seatsAvailable": 74,
+          "seatsAvailable": 75,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 400,
-      "totalEnrolled": 326,
-      "totalAvailable": 74,
+      "totalEnrolled": 325,
+      "totalAvailable": 75,
       "totalWaitlisted": 0
     },
     "CS-6400": {
@@ -543,16 +543,16 @@
           "crn": "33621",
           "sectionNumber": "O01",
           "instructor": "Parker, Andrea",
-          "enrolled": 150,
+          "enrolled": 149,
           "capacity": 150,
-          "seatsAvailable": 0,
+          "seatsAvailable": 1,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 150,
-      "totalAvailable": 0,
+      "totalEnrolled": 149,
+      "totalAvailable": 1,
       "totalWaitlisted": 0
     },
     "CS-6440": {
@@ -589,16 +589,16 @@
           "crn": "27897",
           "sectionNumber": "O01",
           "instructor": "Wilson, Jeff",
-          "enrolled": 452,
+          "enrolled": 454,
           "capacity": 500,
-          "seatsAvailable": 48,
+          "seatsAvailable": 46,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 500,
-      "totalEnrolled": 452,
-      "totalAvailable": 48,
+      "totalEnrolled": 454,
+      "totalAvailable": 46,
       "totalWaitlisted": 0
     },
     "CS-6460": {
@@ -681,16 +681,16 @@
           "crn": "33650",
           "sectionNumber": "O01",
           "instructor": "Wilson, Jeff",
-          "enrolled": 219,
+          "enrolled": 220,
           "capacity": 250,
-          "seatsAvailable": 31,
+          "seatsAvailable": 30,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
-      "totalEnrolled": 219,
-      "totalAvailable": 31,
+      "totalEnrolled": 220,
+      "totalAvailable": 30,
       "totalWaitlisted": 0
     },
     "CS-6515": {
@@ -819,16 +819,16 @@
           "crn": "25135",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 1238,
+          "enrolled": 1235,
           "capacity": 1350,
-          "seatsAvailable": 112,
+          "seatsAvailable": 115,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1350,
-      "totalEnrolled": 1238,
-      "totalAvailable": 112,
+      "totalEnrolled": 1235,
+      "totalAvailable": 115,
       "totalWaitlisted": 0
     },
     "CS-6795": {
@@ -944,16 +944,16 @@
           "crn": "35455",
           "sectionNumber": "O01",
           "instructor": "Kim, Hyesoon",
-          "enrolled": 300,
+          "enrolled": 299,
           "capacity": 300,
-          "seatsAvailable": 0,
+          "seatsAvailable": 1,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 300,
-      "totalAvailable": 0,
+      "totalEnrolled": 299,
+      "totalAvailable": 1,
       "totalWaitlisted": 0
     },
     "CS-7400": {
@@ -1013,16 +1013,16 @@
           "crn": "35354",
           "sectionNumber": "O01",
           "instructor": "Ha, Sehoon",
-          "enrolled": 143,
+          "enrolled": 144,
           "capacity": 200,
-          "seatsAvailable": 57,
+          "seatsAvailable": 56,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 143,
-      "totalAvailable": 57,
+      "totalEnrolled": 144,
+      "totalAvailable": 56,
       "totalWaitlisted": 0
     },
     "CS-7632": {
@@ -1335,16 +1335,16 @@
           "crn": "33648",
           "sectionNumber": "O23",
           "instructor": "Konte, Maria",
-          "enrolled": 25,
+          "enrolled": 24,
           "capacity": 50,
-          "seatsAvailable": 25,
+          "seatsAvailable": 26,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 50,
-      "totalEnrolled": 25,
-      "totalAvailable": 25,
+      "totalEnrolled": 24,
+      "totalAvailable": 26,
       "totalWaitlisted": 0
     },
     "CS-8803-O24": {
@@ -1404,16 +1404,16 @@
           "crn": "36168",
           "sectionNumber": "O29",
           "instructor": "Adams, Alexander",
-          "enrolled": 97,
+          "enrolled": 100,
           "capacity": 100,
-          "seatsAvailable": 3,
+          "seatsAvailable": 0,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 97,
-      "totalAvailable": 3,
+      "totalEnrolled": 100,
+      "totalAvailable": 0,
       "totalWaitlisted": 0
     },
     "CS-8903": {
@@ -1684,16 +1684,16 @@
           "crn": "27627",
           "sectionNumber": "O01",
           "instructor": "Sokol, Joel",
-          "enrolled": 187,
+          "enrolled": 188,
           "capacity": 200,
-          "seatsAvailable": 13,
+          "seatsAvailable": 12,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 187,
-      "totalAvailable": 13,
+      "totalEnrolled": 188,
+      "totalAvailable": 12,
       "totalWaitlisted": 0
     },
     "ISYE-6525": {
@@ -1730,16 +1730,16 @@
           "crn": "27628",
           "sectionNumber": "O01",
           "instructor": "Goldsman, David",
-          "enrolled": 48,
+          "enrolled": 47,
           "capacity": 200,
-          "seatsAvailable": 152,
+          "seatsAvailable": 153,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 48,
-      "totalAvailable": 152,
+      "totalEnrolled": 47,
+      "totalAvailable": 153,
       "totalWaitlisted": 0
     },
     "ISYE-6669": {
