@@ -31,6 +31,14 @@
     "avgOverall": 4.12,
     "avgStaffSupport": null
   },
+  "CS-6211": {
+    "courseId": "CS-6211",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
   "CS-6238": {
     "courseId": "CS-6238",
     "numReviews": 29,
@@ -41,90 +49,978 @@
   },
   "CS-6250": {
     "courseId": "CS-6250",
-    "numReviews": 187,
-    "avgWorkload": 9.76,
-    "avgDifficulty": 2.63,
-    "avgOverall": 3.66,
+    "numReviews": 333,
+    "avgWorkload": 9.69,
+    "avgDifficulty": 2.47,
+    "avgOverall": 3.51,
+    "avgStaffSupport": null
+  },
+  "CS-6260": {
+    "courseId": "CS-6260",
+    "numReviews": 40,
+    "avgWorkload": 16.35,
+    "avgDifficulty": 3.65,
+    "avgOverall": 3.58,
+    "avgStaffSupport": null
+  },
+  "CS-6261": {
+    "courseId": "CS-6261",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
     "avgStaffSupport": null
   },
   "CS-6262": {
     "courseId": "CS-6262",
+    "numReviews": 128,
+    "avgWorkload": 12.77,
+    "avgDifficulty": 3.02,
+    "avgOverall": 3.19,
+    "avgStaffSupport": null
+  },
+  "CS-6263": {
+    "courseId": "CS-6263",
+    "numReviews": 74,
+    "avgWorkload": 9.89,
+    "avgDifficulty": 2.59,
+    "avgOverall": 3.42,
+    "avgStaffSupport": null
+  },
+  "CS-6264": {
+    "courseId": "CS-6264",
+    "numReviews": 5,
+    "avgWorkload": 17,
+    "avgDifficulty": 3.8,
+    "avgOverall": 3.2,
+    "avgStaffSupport": null
+  },
+  "CS-6265": {
+    "courseId": "CS-6265",
+    "numReviews": 21,
+    "avgWorkload": 30.1,
+    "avgDifficulty": 4.33,
+    "avgOverall": 4.57,
+    "avgStaffSupport": null
+  },
+  "CS-6266": {
+    "courseId": "CS-6266",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-6290": {
+    "courseId": "CS-6290",
+    "numReviews": 91,
+    "avgWorkload": 15.82,
+    "avgDifficulty": 3.6,
+    "avgOverall": 3.87,
+    "avgStaffSupport": null
+  },
+  "CS-6291": {
+    "courseId": "CS-6291",
+    "numReviews": 35,
+    "avgWorkload": 15.94,
+    "avgDifficulty": 3.6,
+    "avgOverall": 3.6,
+    "avgStaffSupport": null
+  },
+  "CS-6300": {
+    "courseId": "CS-6300",
+    "numReviews": 237,
+    "avgWorkload": 9.21,
+    "avgDifficulty": 2.24,
+    "avgOverall": 3.59,
+    "avgStaffSupport": null
+  },
+  "CS-6310": {
+    "courseId": "CS-6310",
+    "numReviews": 161,
+    "avgWorkload": 10.11,
+    "avgDifficulty": 2.31,
+    "avgOverall": 3.1,
+    "avgStaffSupport": null
+  },
+  "CS-6340": {
+    "courseId": "CS-6340",
+    "numReviews": 139,
+    "avgWorkload": 12.72,
+    "avgDifficulty": 3.19,
+    "avgOverall": 3.53,
+    "avgStaffSupport": null
+  },
+  "CS-6400": {
+    "courseId": "CS-6400",
+    "numReviews": 232,
+    "avgWorkload": 11.24,
+    "avgDifficulty": 2.84,
+    "avgOverall": 2.6,
+    "avgStaffSupport": null
+  },
+  "CS-6422": {
+    "courseId": "CS-6422",
+    "numReviews": 5,
+    "avgWorkload": 5.2,
+    "avgDifficulty": 2,
+    "avgOverall": 3,
+    "avgStaffSupport": null
+  },
+  "CS-6435": {
+    "courseId": "CS-6435",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-6440": {
+    "courseId": "CS-6440",
+    "numReviews": 83,
+    "avgWorkload": 11.01,
+    "avgDifficulty": 2.31,
+    "avgOverall": 2.57,
+    "avgStaffSupport": null
+  },
+  "CS-6457": {
+    "courseId": "CS-6457",
+    "numReviews": 14,
+    "avgWorkload": 12.93,
+    "avgDifficulty": 2.29,
+    "avgOverall": 4.21,
+    "avgStaffSupport": null
+  },
+  "CS-6460": {
+    "courseId": "CS-6460",
+    "numReviews": 92,
+    "avgWorkload": 14.28,
+    "avgDifficulty": 2.79,
+    "avgOverall": 3.98,
+    "avgStaffSupport": null
+  },
+  "CS-6465": {
+    "courseId": "CS-6465",
+    "numReviews": 1,
+    "avgWorkload": 15,
+    "avgDifficulty": 3,
+    "avgOverall": 4,
+    "avgStaffSupport": null
+  },
+  "CS-6475": {
+    "courseId": "CS-6475",
+    "numReviews": 153,
+    "avgWorkload": 17.99,
+    "avgDifficulty": 3.33,
+    "avgOverall": 3.59,
+    "avgStaffSupport": null
+  },
+  "CS-6476": {
+    "courseId": "CS-6476",
+    "numReviews": 162,
+    "avgWorkload": 21.96,
+    "avgDifficulty": 4.05,
+    "avgOverall": 3.77,
+    "avgStaffSupport": null
+  },
+  "CS-6491": {
+    "courseId": "CS-6491",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-6515": {
+    "courseId": "CS-6515",
+    "numReviews": 274,
+    "avgWorkload": 19.47,
+    "avgDifficulty": 4.04,
+    "avgOverall": 3.53,
+    "avgStaffSupport": null
+  },
+  "CS-6601": {
+    "courseId": "CS-6601",
+    "numReviews": 243,
+    "avgWorkload": 22.58,
+    "avgDifficulty": 4.05,
+    "avgOverall": 4.14,
+    "avgStaffSupport": null
+  },
+  "CS-6603": {
+    "courseId": "CS-6603",
+    "numReviews": 57,
+    "avgWorkload": 5.99,
+    "avgDifficulty": 1.63,
+    "avgOverall": 2.63,
+    "avgStaffSupport": null
+  },
+  "CS-6675": {
+    "courseId": "CS-6675",
+    "numReviews": 6,
+    "avgWorkload": 13.5,
+    "avgDifficulty": 3,
+    "avgOverall": 3,
+    "avgStaffSupport": null
+  },
+  "CS-6726": {
+    "courseId": "CS-6726",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-6727": {
+    "courseId": "CS-6727",
+    "numReviews": 1,
+    "avgWorkload": 15,
+    "avgDifficulty": 4,
+    "avgOverall": 1,
+    "avgStaffSupport": null
+  },
+  "CS-6747": {
+    "courseId": "CS-6747",
+    "numReviews": 7,
+    "avgWorkload": 16.14,
+    "avgDifficulty": 3.57,
+    "avgOverall": 4.57,
+    "avgStaffSupport": null
+  },
+  "CS-6750": {
+    "courseId": "CS-6750",
+    "numReviews": 217,
+    "avgWorkload": 12.02,
+    "avgDifficulty": 2.54,
+    "avgOverall": 4.1,
+    "avgStaffSupport": null
+  },
+  "CS-6795": {
+    "courseId": "CS-6795",
+    "numReviews": 5,
+    "avgWorkload": 8.8,
+    "avgDifficulty": 1.8,
+    "avgOverall": 3.6,
+    "avgStaffSupport": null
+  },
+  "CS-7210": {
+    "courseId": "CS-7210",
+    "numReviews": 32,
+    "avgWorkload": 60.72,
+    "avgDifficulty": 4.66,
+    "avgOverall": 3,
+    "avgStaffSupport": null
+  },
+  "CS-7280": {
+    "courseId": "CS-7280",
+    "numReviews": 31,
+    "avgWorkload": 13.03,
+    "avgDifficulty": 2.87,
+    "avgOverall": 3.52,
+    "avgStaffSupport": null
+  },
+  "CS-7295": {
+    "courseId": "CS-7295",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-7400": {
+    "courseId": "CS-7400",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-7450": {
+    "courseId": "CS-7450",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-7470": {
+    "courseId": "CS-7470",
+    "numReviews": 3,
+    "avgWorkload": 6.67,
+    "avgDifficulty": 2.67,
+    "avgOverall": 2.33,
+    "avgStaffSupport": null
+  },
+  "CS-7496": {
+    "courseId": "CS-7496",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-7632": {
+    "courseId": "CS-7632",
+    "numReviews": 21,
+    "avgWorkload": 12.43,
+    "avgDifficulty": 2.62,
+    "avgOverall": 4.62,
+    "avgStaffSupport": null
+  },
+  "CS-7637": {
+    "courseId": "CS-7637",
+    "numReviews": 229,
+    "avgWorkload": 14.39,
+    "avgDifficulty": 2.99,
+    "avgOverall": 3.61,
+    "avgStaffSupport": null
+  },
+  "CS-7638": {
+    "courseId": "CS-7638",
+    "numReviews": 241,
+    "avgWorkload": 13.51,
+    "avgDifficulty": 3.09,
+    "avgOverall": 3.92,
+    "avgStaffSupport": null
+  },
+  "CS-7639": {
+    "courseId": "CS-7639",
+    "numReviews": 33,
+    "avgWorkload": 11.97,
+    "avgDifficulty": 3.12,
+    "avgOverall": 2.94,
+    "avgStaffSupport": null
+  },
+  "CS-7641": {
+    "courseId": "CS-7641",
+    "numReviews": 293,
+    "avgWorkload": 21.9,
+    "avgDifficulty": 4.08,
+    "avgOverall": 3.2,
+    "avgStaffSupport": null
+  },
+  "CS-7642": {
+    "courseId": "CS-7642",
+    "numReviews": 184,
+    "avgWorkload": 22.57,
+    "avgDifficulty": 4.15,
+    "avgOverall": 3.91,
+    "avgStaffSupport": null
+  },
+  "CS-7643": {
+    "courseId": "CS-7643",
+    "numReviews": 75,
+    "avgWorkload": 19.48,
+    "avgDifficulty": 3.91,
+    "avgOverall": 3.96,
+    "avgStaffSupport": null
+  },
+  "CS-7646": {
+    "courseId": "CS-7646",
+    "numReviews": 346,
+    "avgWorkload": 11.36,
+    "avgDifficulty": 2.56,
+    "avgOverall": 4.06,
+    "avgStaffSupport": null
+  },
+  "CS-7650": {
+    "courseId": "CS-7650",
+    "numReviews": 7,
+    "avgWorkload": 7.43,
+    "avgDifficulty": 1.86,
+    "avgOverall": 2.86,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O04": {
+    "courseId": "CS-8803-O04",
+    "numReviews": 10,
+    "avgWorkload": 16.5,
+    "avgDifficulty": 3.5,
+    "avgOverall": 3.7,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O05": {
+    "courseId": "CS-8803-O05",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O06": {
+    "courseId": "CS-8803-O06",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O08": {
+    "courseId": "CS-8803-O08",
+    "numReviews": 18,
+    "avgWorkload": 30.78,
+    "avgDifficulty": 4.67,
+    "avgOverall": 4.06,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O12": {
+    "courseId": "CS-8803-O12",
+    "numReviews": 12,
+    "avgWorkload": 28.75,
+    "avgDifficulty": 4.42,
+    "avgOverall": 4.67,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O13": {
+    "courseId": "CS-8803-O13",
+    "numReviews": 4,
+    "avgWorkload": 10,
+    "avgDifficulty": 2.75,
+    "avgOverall": 4.5,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O15": {
+    "courseId": "CS-8803-O15",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O16": {
+    "courseId": "CS-8803-O16",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O17": {
+    "courseId": "CS-8803-O17",
+    "numReviews": 1,
+    "avgWorkload": 5,
+    "avgDifficulty": 2,
+    "avgOverall": 2,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O20": {
+    "courseId": "CS-8803-O20",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O21": {
+    "courseId": "CS-8803-O21",
+    "numReviews": 3,
+    "avgWorkload": 11.33,
+    "avgDifficulty": 3,
+    "avgOverall": 4,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O22": {
+    "courseId": "CS-8803-O22",
+    "numReviews": 1,
+    "avgWorkload": 10,
+    "avgDifficulty": 1,
+    "avgOverall": 2,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O23": {
+    "courseId": "CS-8803-O23",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O24": {
+    "courseId": "CS-8803-O24",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O27": {
+    "courseId": "CS-8803-O27",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-8803-O29": {
+    "courseId": "CS-8803-O29",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CS-8803-OC1": {
+    "courseId": "CS-8803-OC1",
+    "numReviews": 7,
+    "avgWorkload": 5.43,
+    "avgDifficulty": 2,
+    "avgOverall": 4.14,
+    "avgStaffSupport": null
+  },
+  "CS-8813": {
+    "courseId": "CS-8813",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CSE-6040": {
+    "courseId": "CSE-6040",
+    "numReviews": 115,
+    "avgWorkload": 10.05,
+    "avgDifficulty": 3.17,
+    "avgOverall": 4.28,
+    "avgStaffSupport": null
+  },
+  "CSE-6140": {
+    "courseId": "CSE-6140",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CSE-6220": {
+    "courseId": "CSE-6220",
+    "numReviews": 71,
+    "avgWorkload": 20.21,
+    "avgDifficulty": 4.27,
+    "avgOverall": 4.23,
+    "avgStaffSupport": null
+  },
+  "CSE-6240": {
+    "courseId": "CSE-6240",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "CSE-6242": {
+    "courseId": "CSE-6242",
+    "numReviews": 266,
+    "avgWorkload": 16.05,
+    "avgDifficulty": 3.23,
+    "avgOverall": 2.97,
+    "avgStaffSupport": null
+  },
+  "CSE-6250": {
+    "courseId": "CSE-6250",
+    "numReviews": 62,
+    "avgWorkload": 27.69,
+    "avgDifficulty": 4.13,
+    "avgOverall": 3.74,
+    "avgStaffSupport": null
+  },
+  "CSE-6742": {
+    "courseId": "CSE-6742",
+    "numReviews": 4,
+    "avgWorkload": 6,
+    "avgDifficulty": 1.75,
+    "avgOverall": 3.75,
+    "avgStaffSupport": null
+  },
+  "CSE-8803": {
+    "courseId": "CSE-8803",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-6150": {
+    "courseId": "ECE-6150",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-6266": {
+    "courseId": "ECE-6266",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-6320": {
+    "courseId": "ECE-6320",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-6323": {
+    "courseId": "ECE-6323",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-8803a": {
+    "courseId": "ECE-8803a",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-8803c": {
+    "courseId": "ECE-8803c",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-8803d": {
+    "courseId": "ECE-8803d",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-8803e": {
+    "courseId": "ECE-8803e",
+    "numReviews": 1,
+    "avgWorkload": 15,
+    "avgDifficulty": 4,
+    "avgOverall": 2,
+    "avgStaffSupport": null
+  },
+  "ECE-8803g": {
+    "courseId": "ECE-8803g",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-8803h": {
+    "courseId": "ECE-8803h",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-8813": {
+    "courseId": "ECE-8813",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-8823": {
+    "courseId": "ECE-8823",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-8843": {
+    "courseId": "ECE-8843",
+    "numReviews": 1,
+    "avgWorkload": 10,
+    "avgDifficulty": 3,
+    "avgOverall": 5,
+    "avgStaffSupport": null
+  },
+  "ECE-8853": {
+    "courseId": "ECE-8853",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-8863": {
+    "courseId": "ECE-8863",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ECE-8873": {
+    "courseId": "ECE-8873",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "INTA-6014": {
+    "courseId": "INTA-6014",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "INTA-6103": {
+    "courseId": "INTA-6103",
+    "numReviews": 7,
+    "avgWorkload": 2.86,
+    "avgDifficulty": 2.29,
+    "avgOverall": 3.29,
+    "avgStaffSupport": null
+  },
+  "INTA-6450": {
+    "courseId": "INTA-6450",
+    "numReviews": 21,
+    "avgWorkload": 3.48,
+    "avgDifficulty": 1.43,
+    "avgOverall": 2.9,
+    "avgStaffSupport": null
+  },
+  "INTA-8803G": {
+    "courseId": "INTA-8803G",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ISYE-6402": {
+    "courseId": "ISYE-6402",
+    "numReviews": 32,
+    "avgWorkload": 15.47,
+    "avgDifficulty": 4.28,
+    "avgOverall": 1.84,
+    "avgStaffSupport": null
+  },
+  "ISYE-6404": {
+    "courseId": "ISYE-6404",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ISYE-6413": {
+    "courseId": "ISYE-6413",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ISYE-6414": {
+    "courseId": "ISYE-6414",
+    "numReviews": 95,
+    "avgWorkload": 8.91,
+    "avgDifficulty": 2.86,
+    "avgOverall": 3.21,
+    "avgStaffSupport": null
+  },
+  "ISYE-6416": {
+    "courseId": "ISYE-6416",
+    "numReviews": 1,
+    "avgWorkload": 12,
+    "avgDifficulty": 3,
+    "avgOverall": 3,
+    "avgStaffSupport": null
+  },
+  "ISYE-6420": {
+    "courseId": "ISYE-6420",
+    "numReviews": 63,
+    "avgWorkload": 12.43,
+    "avgDifficulty": 3.27,
+    "avgOverall": 2.76,
+    "avgStaffSupport": null
+  },
+  "ISYE-6501": {
+    "courseId": "ISYE-6501",
+    "numReviews": 156,
+    "avgWorkload": 9.72,
+    "avgDifficulty": 2.79,
+    "avgOverall": 4.13,
+    "avgStaffSupport": null
+  },
+  "ISYE-6525": {
+    "courseId": "ISYE-6525",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
+    "avgStaffSupport": null
+  },
+  "ISYE-6644": {
+    "courseId": "ISYE-6644",
+    "numReviews": 102,
+    "avgWorkload": 11.08,
+    "avgDifficulty": 3.18,
+    "avgOverall": 4.25,
+    "avgStaffSupport": null
+  },
+  "ISYE-6650": {
+    "courseId": "ISYE-6650",
     "numReviews": 1,
     "avgWorkload": 5,
     "avgDifficulty": 2,
     "avgOverall": 4,
     "avgStaffSupport": null
   },
-  "CS-6265": {
-    "courseId": "CS-6265",
-    "numReviews": 2,
-    "avgWorkload": 34,
-    "avgDifficulty": 4.5,
-    "avgOverall": 4.5,
+  "ISYE-6669": {
+    "courseId": "ISYE-6669",
+    "numReviews": 44,
+    "avgWorkload": 12.89,
+    "avgDifficulty": 3.82,
+    "avgOverall": 3.8,
     "avgStaffSupport": null
   },
-  "CS-6300": {
-    "courseId": "CS-6300",
+  "ISYE-6740": {
+    "courseId": "ISYE-6740",
+    "numReviews": 37,
+    "avgWorkload": 14.54,
+    "avgDifficulty": 3.68,
+    "avgOverall": 4.05,
+    "avgStaffSupport": null
+  },
+  "ISYE-7406": {
+    "courseId": "ISYE-7406",
+    "numReviews": 19,
+    "avgWorkload": 14.58,
+    "avgDifficulty": 2.32,
+    "avgOverall": 3.58,
+    "avgStaffSupport": null
+  },
+  "ISYE-8803": {
+    "courseId": "ISYE-8803",
+    "numReviews": 33,
+    "avgWorkload": 18.15,
+    "avgDifficulty": 4.12,
+    "avgOverall": 4.21,
+    "avgStaffSupport": null
+  },
+  "MGT-6203": {
+    "courseId": "MGT-6203",
+    "numReviews": 114,
+    "avgWorkload": 5.57,
+    "avgDifficulty": 1.93,
+    "avgOverall": 2.32,
+    "avgStaffSupport": null
+  },
+  "MGT-6311": {
+    "courseId": "MGT-6311",
+    "numReviews": 29,
+    "avgWorkload": 3.46,
+    "avgDifficulty": 1.31,
+    "avgOverall": 4.34,
+    "avgStaffSupport": null
+  },
+  "MGT-6727": {
+    "courseId": "MGT-6727",
+    "numReviews": 11,
+    "avgWorkload": 3.18,
+    "avgDifficulty": 2.09,
+    "avgOverall": 4.18,
+    "avgStaffSupport": null
+  },
+  "MGT-6748": {
+    "courseId": "MGT-6748",
+    "numReviews": 4,
+    "avgWorkload": 13.5,
+    "avgDifficulty": 2.25,
+    "avgOverall": 4.25,
+    "avgStaffSupport": null
+  },
+  "MGT-8803": {
+    "courseId": "MGT-8803",
+    "numReviews": 87,
+    "avgWorkload": 8.06,
+    "avgDifficulty": 3.01,
+    "avgOverall": 2.45,
+    "avgStaffSupport": null
+  },
+  "MGT-8813": {
+    "courseId": "MGT-8813",
+    "numReviews": 16,
+    "avgWorkload": 4.38,
+    "avgDifficulty": 1.25,
+    "avgOverall": 3.13,
+    "avgStaffSupport": null
+  },
+  "MGT-8823": {
+    "courseId": "MGT-8823",
+    "numReviews": 14,
+    "avgWorkload": 3.86,
+    "avgDifficulty": 1.21,
+    "avgOverall": 3.64,
+    "avgStaffSupport": null
+  },
+  "PUBP-6111": {
+    "courseId": "PUBP-6111",
     "numReviews": 1,
-    "avgWorkload": 20,
-    "avgDifficulty": 4,
+    "avgWorkload": 3,
+    "avgDifficulty": 1,
     "avgOverall": 4,
     "avgStaffSupport": null
   },
-  "CS-6400": {
-    "courseId": "CS-6400",
-    "numReviews": 5,
-    "avgWorkload": 9.2,
-    "avgDifficulty": 2.8,
-    "avgOverall": 3.4,
+  "PUBP-6266": {
+    "courseId": "PUBP-6266",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
     "avgStaffSupport": null
   },
-  "CS-6601": {
-    "courseId": "CS-6601",
+  "PUBP-6501": {
+    "courseId": "PUBP-6501",
+    "numReviews": 8,
+    "avgWorkload": 10.38,
+    "avgDifficulty": 2.5,
+    "avgOverall": 2.75,
+    "avgStaffSupport": null
+  },
+  "PUBP-6502": {
+    "courseId": "PUBP-6502",
+    "numReviews": 3,
+    "avgWorkload": 2.33,
+    "avgDifficulty": 1.33,
+    "avgOverall": 4.33,
+    "avgStaffSupport": null
+  },
+  "PUBP-6725": {
+    "courseId": "PUBP-6725",
+    "numReviews": 18,
+    "avgWorkload": 6.22,
+    "avgDifficulty": 1.83,
+    "avgOverall": 3.39,
+    "avgStaffSupport": null
+  },
+  "PUBP-8823": {
+    "courseId": "PUBP-8823",
     "numReviews": 1,
-    "avgWorkload": 20,
-    "avgDifficulty": 4,
-    "avgOverall": 5,
-    "avgStaffSupport": null
-  },
-  "CS-7637": {
-    "courseId": "CS-7637",
-    "numReviews": 1,
-    "avgWorkload": 16,
-    "avgDifficulty": 4,
-    "avgOverall": 5,
-    "avgStaffSupport": null
-  },
-  "CS-7642": {
-    "courseId": "CS-7642",
-    "numReviews": 1,
-    "avgWorkload": 20,
-    "avgDifficulty": 4,
-    "avgOverall": 4,
-    "avgStaffSupport": null
-  },
-  "CS-7646": {
-    "courseId": "CS-7646",
-    "numReviews": 9,
-    "avgWorkload": 9.67,
-    "avgDifficulty": 2.33,
-    "avgOverall": 4.44,
-    "avgStaffSupport": null
-  },
-  "CSE-6220": {
-    "courseId": "CSE-6220",
-    "numReviews": 1,
-    "avgWorkload": 20,
-    "avgDifficulty": 4,
-    "avgOverall": 5,
-    "avgStaffSupport": null
-  },
-  "CSE-6242": {
-    "courseId": "CSE-6242",
-    "numReviews": 1,
-    "avgWorkload": 10,
+    "avgWorkload": 5,
     "avgDifficulty": 2,
     "avgOverall": 5,
+    "avgStaffSupport": null
+  },
+  "VIP-6600": {
+    "courseId": "VIP-6600",
+    "numReviews": 0,
+    "avgWorkload": null,
+    "avgDifficulty": null,
+    "avgOverall": null,
     "avgStaffSupport": null
   }
 }
