@@ -1,0 +1,13 @@
+{
+  "name": "omshub-data-scripts",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compute-stats": "npx tsx compute-course-stats.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.90.1",
+    "tsx": "^4.7.0"
+  }
+}
