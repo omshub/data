@@ -34,12 +34,18 @@ jobs:
           SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
         run: npx tsx scripts/compute-course-stats.ts
 
+      - name: Compute global stats
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+        run: npx tsx scripts/compute-global-stats.ts
+
       - name: Commit and push if changed
         run: |
           git config user.name 'Christian Tran'
           git config user.email 'ctran4347@gmail.com'
 
-          git add static/course-stats.json
+          git add static/course-stats.json static/global-stats.json
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
