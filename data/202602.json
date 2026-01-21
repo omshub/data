@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-01-21T17:51:16.251Z",
+  "lastUpdated": "2026-01-21T18:36:29.036Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -474,16 +474,16 @@
           "crn": "25011",
           "sectionNumber": "O01",
           "instructor": "Naik, Mayur",
-          "enrolled": 302,
+          "enrolled": 301,
           "capacity": 400,
-          "seatsAvailable": 98,
+          "seatsAvailable": 99,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 400,
-      "totalEnrolled": 302,
-      "totalAvailable": 98,
+      "totalEnrolled": 301,
+      "totalAvailable": 99,
       "totalWaitlisted": 0
     },
     "CS-6400": {
