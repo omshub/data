@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-01-23T18:26:16.248Z",
+  "lastUpdated": "2026-01-23T18:58:08.098Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -1128,16 +1128,16 @@
           "crn": "24333",
           "sectionNumber": "O01",
           "instructor": "LaGrow, TJ",
-          "enrolled": 1400,
+          "enrolled": 1401,
           "capacity": 1450,
-          "seatsAvailable": 50,
+          "seatsAvailable": 49,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 1450,
-      "totalEnrolled": 1400,
-      "totalAvailable": 50,
+      "totalEnrolled": 1401,
+      "totalAvailable": 49,
       "totalWaitlisted": 0
     },
     "CS-7642": {
