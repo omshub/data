@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-01-26T19:01:45.822Z",
+  "lastUpdated": "2026-01-26T19:31:23.870Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -543,16 +543,16 @@
           "crn": "33621",
           "sectionNumber": "O01",
           "instructor": "Parker, Andrea",
-          "enrolled": 145,
+          "enrolled": 146,
           "capacity": 150,
-          "seatsAvailable": 5,
+          "seatsAvailable": 4,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 145,
-      "totalAvailable": 5,
+      "totalEnrolled": 146,
+      "totalAvailable": 4,
       "totalWaitlisted": 0
     },
     "CS-6440": {
@@ -1128,16 +1128,16 @@
           "crn": "24333",
           "sectionNumber": "O01",
           "instructor": "LaGrow, TJ",
-          "enrolled": 1407,
+          "enrolled": 1408,
           "capacity": 1450,
-          "seatsAvailable": 43,
+          "seatsAvailable": 42,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 1450,
-      "totalEnrolled": 1407,
-      "totalAvailable": 43,
+      "totalEnrolled": 1408,
+      "totalAvailable": 42,
       "totalWaitlisted": 0
     },
     "CS-7642": {
