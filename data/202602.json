@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-01-26T20:21:31.996Z",
+  "lastUpdated": "2026-01-26T20:49:13.772Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -704,16 +704,16 @@
           "crn": "26501",
           "sectionNumber": "O01",
           "instructor": "Brito, Gerandy",
-          "enrolled": 590,
+          "enrolled": 591,
           "capacity": 600,
-          "seatsAvailable": 10,
+          "seatsAvailable": 9,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 600,
-      "totalEnrolled": 590,
-      "totalAvailable": 10,
+      "totalEnrolled": 591,
+      "totalAvailable": 9,
       "totalWaitlisted": 0
     },
     "CS-6601": {
