@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-01-26T20:49:13.772Z",
+  "lastUpdated": "2026-01-26T21:19:29.391Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -543,16 +543,16 @@
           "crn": "33621",
           "sectionNumber": "O01",
           "instructor": "Parker, Andrea",
-          "enrolled": 146,
+          "enrolled": 147,
           "capacity": 150,
-          "seatsAvailable": 4,
+          "seatsAvailable": 3,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 146,
-      "totalAvailable": 4,
+      "totalEnrolled": 147,
+      "totalAvailable": 3,
       "totalWaitlisted": 0
     },
     "CS-6440": {
@@ -704,16 +704,16 @@
           "crn": "26501",
           "sectionNumber": "O01",
           "instructor": "Brito, Gerandy",
-          "enrolled": 591,
+          "enrolled": 590,
           "capacity": 600,
-          "seatsAvailable": 9,
+          "seatsAvailable": 10,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 600,
-      "totalEnrolled": 591,
-      "totalAvailable": 9,
+      "totalEnrolled": 590,
+      "totalAvailable": 10,
       "totalWaitlisted": 0
     },
     "CS-6601": {
@@ -750,16 +750,16 @@
           "crn": "28945",
           "sectionNumber": "O01",
           "instructor": "Mandala, Mahender",
-          "enrolled": 790,
+          "enrolled": 791,
           "capacity": 800,
-          "seatsAvailable": 10,
+          "seatsAvailable": 9,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 800,
-      "totalEnrolled": 790,
-      "totalAvailable": 10,
+      "totalEnrolled": 791,
+      "totalAvailable": 9,
       "totalWaitlisted": 0
     },
     "CS-6675": {
