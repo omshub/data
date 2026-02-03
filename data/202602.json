@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-02-03T11:08:22.713Z",
+  "lastUpdated": "2026-02-03T11:57:04.934Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -898,16 +898,16 @@
           "crn": "33647",
           "sectionNumber": "O01",
           "instructor": "Gavrilovska, Ada",
-          "enrolled": 135,
+          "enrolled": 134,
           "capacity": 150,
-          "seatsAvailable": 15,
+          "seatsAvailable": 16,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 135,
-      "totalAvailable": 15,
+      "totalEnrolled": 134,
+      "totalAvailable": 16,
       "totalWaitlisted": 0
     },
     "CS-7280": {
