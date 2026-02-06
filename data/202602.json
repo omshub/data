@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-02-06T16:38:25.709Z",
+  "lastUpdated": "2026-02-06T17:39:16.210Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -750,16 +750,16 @@
           "crn": "28945",
           "sectionNumber": "O01",
           "instructor": "Mandala, Mahender",
-          "enrolled": 791,
+          "enrolled": 792,
           "capacity": 800,
-          "seatsAvailable": 9,
+          "seatsAvailable": 8,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 800,
-      "totalEnrolled": 791,
-      "totalAvailable": 9,
+      "totalEnrolled": 792,
+      "totalAvailable": 8,
       "totalWaitlisted": 0
     },
     "CS-6675": {
@@ -819,16 +819,16 @@
           "crn": "25135",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 1148,
+          "enrolled": 1149,
           "capacity": 1350,
-          "seatsAvailable": 202,
+          "seatsAvailable": 201,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1350,
-      "totalEnrolled": 1148,
-      "totalAvailable": 202,
+      "totalEnrolled": 1149,
+      "totalAvailable": 201,
       "totalWaitlisted": 0
     },
     "CS-6795": {
