@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-02-09T20:50:02.402Z",
+  "lastUpdated": "2026-02-09T21:36:03.006Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -37,16 +37,16 @@
           "crn": "25014",
           "sectionNumber": "O01",
           "instructor": "Chau, Polo",
-          "enrolled": 299,
+          "enrolled": 300,
           "capacity": 500,
-          "seatsAvailable": 201,
+          "seatsAvailable": 200,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 500,
-      "totalEnrolled": 299,
-      "totalAvailable": 201,
+      "totalEnrolled": 300,
+      "totalAvailable": 200,
       "totalWaitlisted": 0
     },
     "CSE-6250": {
@@ -1197,16 +1197,16 @@
           "crn": "25116",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 1598,
+          "enrolled": 1599,
           "capacity": 1750,
-          "seatsAvailable": 152,
+          "seatsAvailable": 151,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1750,
-      "totalEnrolled": 1598,
-      "totalAvailable": 152,
+      "totalEnrolled": 1599,
+      "totalAvailable": 151,
       "totalWaitlisted": 0
     },
     "CS-7650": {
@@ -1220,16 +1220,16 @@
           "crn": "31883",
           "sectionNumber": "O01",
           "instructor": "Riedl, Mark",
-          "enrolled": 837,
+          "enrolled": 838,
           "capacity": 850,
-          "seatsAvailable": 13,
+          "seatsAvailable": 12,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 850,
-      "totalEnrolled": 837,
-      "totalAvailable": 13,
+      "totalEnrolled": 838,
+      "totalAvailable": 12,
       "totalWaitlisted": 0
     },
     "CS-8803-O08": {
