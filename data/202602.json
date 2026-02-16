@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-02-16T21:26:12.835Z",
+  "lastUpdated": "2026-02-16T21:53:22.610Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -382,16 +382,16 @@
           "crn": "24334",
           "sectionNumber": "O01",
           "instructor": "Prvulovic, Milos",
-          "enrolled": 325,
+          "enrolled": 326,
           "capacity": 400,
-          "seatsAvailable": 75,
+          "seatsAvailable": 74,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 400,
-      "totalEnrolled": 325,
-      "totalAvailable": 75,
+      "totalEnrolled": 326,
+      "totalAvailable": 74,
       "totalWaitlisted": 0
     },
     "CS-6291": {
@@ -1197,16 +1197,16 @@
           "crn": "25116",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 1599,
+          "enrolled": 1600,
           "capacity": 1750,
-          "seatsAvailable": 151,
+          "seatsAvailable": 150,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1750,
-      "totalEnrolled": 1599,
-      "totalAvailable": 151,
+      "totalEnrolled": 1600,
+      "totalAvailable": 150,
       "totalWaitlisted": 0
     },
     "CS-7650": {
