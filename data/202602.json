@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-02-23T19:56:54.282Z",
+  "lastUpdated": "2026-02-23T20:39:40.057Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -175,16 +175,16 @@
           "crn": "24330",
           "sectionNumber": "O01",
           "instructor": "Ramachandran, Umakishore",
-          "enrolled": 362,
+          "enrolled": 361,
           "capacity": 475,
-          "seatsAvailable": 113,
+          "seatsAvailable": 114,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 475,
-      "totalEnrolled": 362,
-      "totalAvailable": 113,
+      "totalEnrolled": 361,
+      "totalAvailable": 114,
       "totalWaitlisted": 0
     },
     "CS-6211": {
