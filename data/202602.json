@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-03-11T16:10:08.681Z",
+  "lastUpdated": "2026-03-11T17:26:20.065Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -819,16 +819,16 @@
           "crn": "25135",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 1151,
+          "enrolled": 1150,
           "capacity": 1350,
-          "seatsAvailable": 199,
+          "seatsAvailable": 200,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1350,
-      "totalEnrolled": 1151,
-      "totalAvailable": 199,
+      "totalEnrolled": 1150,
+      "totalAvailable": 200,
       "totalWaitlisted": 0
     },
     "CS-6795": {
