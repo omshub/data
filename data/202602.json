@@ -1,7 +1,7 @@
 {
   "term": "202602",
   "termName": "Spring 2026",
-  "lastUpdated": "2026-03-12T17:45:35.784Z",
+  "lastUpdated": "2026-03-12T18:45:39.505Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -106,16 +106,16 @@
           "crn": "24653",
           "sectionNumber": "O01",
           "instructor": "Lee, Wenke",
-          "enrolled": 633,
+          "enrolled": 632,
           "capacity": 750,
-          "seatsAvailable": 117,
+          "seatsAvailable": 118,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
-      "totalEnrolled": 633,
-      "totalAvailable": 117,
+      "totalEnrolled": 632,
+      "totalAvailable": 118,
       "totalWaitlisted": 0
     },
     "CS-6150": {
@@ -819,16 +819,16 @@
           "crn": "25135",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 1150,
+          "enrolled": 1149,
           "capacity": 1350,
-          "seatsAvailable": 200,
+          "seatsAvailable": 201,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1350,
-      "totalEnrolled": 1150,
-      "totalAvailable": 200,
+      "totalEnrolled": 1149,
+      "totalAvailable": 201,
       "totalWaitlisted": 0
     },
     "CS-6795": {
