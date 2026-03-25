@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25T17:58:33.057Z",
+  "lastUpdated": "2026-03-25T18:55:43.471Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -655,6 +655,14 @@
       "courseNumber": "8902",
       "name": "Special Problems",
       "creditHours": null,
+      "lastSeen": "202605"
+    },
+    "ISYE-6414": {
+      "courseId": "ISYE-6414",
+      "subject": "ISYE",
+      "courseNumber": "6414",
+      "name": "Regression Analysis",
+      "creditHours": 3,
       "lastSeen": "202605"
     }
   }

@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-03-25T17:58:33.056Z",
+  "lastUpdated": "2026-03-25T18:55:43.470Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -1293,6 +1293,29 @@
       "totalSeats": 50,
       "totalEnrolled": 0,
       "totalAvailable": 50,
+      "totalWaitlisted": 0
+    },
+    "ISYE-6414": {
+      "courseId": "ISYE-6414",
+      "subject": "ISYE",
+      "courseNumber": "6414",
+      "name": "Regression Analysis",
+      "creditHours": 3,
+      "sections": [
+        {
+          "crn": "58096",
+          "sectionNumber": "O01",
+          "instructor": "Serban, Nicoleta",
+          "enrolled": 0,
+          "capacity": 200,
+          "seatsAvailable": 200,
+          "waitCount": 0,
+          "waitCapacity": 100
+        }
+      ],
+      "totalSeats": 200,
+      "totalEnrolled": 0,
+      "totalAvailable": 200,
       "totalWaitlisted": 0
     },
     "ISYE-6501": {
