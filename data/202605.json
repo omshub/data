@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-07T21:40:39.091Z",
+  "lastUpdated": "2026-04-07T22:34:49.007Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -1072,6 +1072,29 @@
           "crn": "58154",
           "sectionNumber": "O27",
           "instructor": "Zhu, Bo",
+          "enrolled": 0,
+          "capacity": 100,
+          "seatsAvailable": 100,
+          "waitCount": 0,
+          "waitCapacity": 999
+        }
+      ],
+      "totalSeats": 100,
+      "totalEnrolled": 0,
+      "totalAvailable": 100,
+      "totalWaitlisted": 0
+    },
+    "CS-8803-O29": {
+      "courseId": "CS-8803-O29",
+      "subject": "CS",
+      "courseNumber": "8803-O29",
+      "name": "Health Sensing and Interventions",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "58155",
+          "sectionNumber": "O29",
+          "instructor": "Adams, Alexander",
           "enrolled": 0,
           "capacity": 100,
           "seatsAvailable": 100,
