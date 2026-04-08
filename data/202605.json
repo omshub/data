@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-08T21:10:29.679Z",
+  "lastUpdated": "2026-04-08T22:06:34.112Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -369,29 +369,6 @@
       "totalSeats": 150,
       "totalEnrolled": 0,
       "totalAvailable": 150,
-      "totalWaitlisted": 0
-    },
-    "CS-6435": {
-      "courseId": "CS-6435",
-      "subject": "CS",
-      "courseNumber": "6435",
-      "name": "Digital Health Equity",
-      "creditHours": null,
-      "sections": [
-        {
-          "crn": "57319",
-          "sectionNumber": "O01",
-          "instructor": "Parker, Andrea",
-          "enrolled": 0,
-          "capacity": 100,
-          "seatsAvailable": 100,
-          "waitCount": 0,
-          "waitCapacity": 999
-        }
-      ],
-      "totalSeats": 100,
-      "totalEnrolled": 0,
-      "totalAvailable": 100,
       "totalWaitlisted": 0
     },
     "CS-6457": {
@@ -1507,7 +1484,7 @@
       "subject": "PUBP",
       "courseNumber": "6725",
       "name": "Info Security Policies",
-      "creditHours": null,
+      "creditHours": 3,
       "sections": [
         {
           "crn": "55093",
