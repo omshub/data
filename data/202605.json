@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-13T19:07:42.203Z",
+  "lastUpdated": "2026-04-13T20:32:02.212Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -14,16 +14,16 @@
           "crn": "55312",
           "sectionNumber": "O01",
           "instructor": "Vuduc, Richard",
-          "enrolled": 0,
+          "enrolled": 1,
           "capacity": 300,
-          "seatsAvailable": 300,
+          "seatsAvailable": 299,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 0,
-      "totalAvailable": 300,
+      "totalEnrolled": 1,
+      "totalAvailable": 299,
       "totalWaitlisted": 0
     },
     "CS-6035": {
@@ -382,16 +382,16 @@
           "crn": "55308",
           "sectionNumber": "O01",
           "instructor": "Wilson, Jeff",
-          "enrolled": 1,
+          "enrolled": 2,
           "capacity": 300,
-          "seatsAvailable": 299,
+          "seatsAvailable": 298,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 1,
-      "totalAvailable": 299,
+      "totalEnrolled": 2,
+      "totalAvailable": 298,
       "totalWaitlisted": 0
     },
     "CS-6460": {
@@ -451,16 +451,16 @@
           "crn": "54415",
           "sectionNumber": "O01",
           "instructor": "Brito, Gerandy",
-          "enrolled": 101,
+          "enrolled": 103,
           "capacity": 250,
-          "seatsAvailable": 149,
+          "seatsAvailable": 147,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
-      "totalEnrolled": 101,
-      "totalAvailable": 149,
+      "totalEnrolled": 103,
+      "totalAvailable": 147,
       "totalWaitlisted": 0
     },
     "CS-6601": {
@@ -497,16 +497,16 @@
           "crn": "55309",
           "sectionNumber": "O01",
           "instructor": "Mandala, Mahender",
-          "enrolled": 20,
+          "enrolled": 23,
           "capacity": 650,
-          "seatsAvailable": 630,
+          "seatsAvailable": 627,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 650,
-      "totalEnrolled": 20,
-      "totalAvailable": 630,
+      "totalEnrolled": 23,
+      "totalAvailable": 627,
       "totalWaitlisted": 0
     },
     "CS-6675": {
@@ -888,16 +888,16 @@
           "crn": "56279",
           "sectionNumber": "O01",
           "instructor": "Riedl, Mark",
-          "enrolled": 18,
+          "enrolled": 19,
           "capacity": 600,
-          "seatsAvailable": 582,
+          "seatsAvailable": 581,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 600,
-      "totalEnrolled": 18,
-      "totalAvailable": 582,
+      "totalEnrolled": 19,
+      "totalAvailable": 581,
       "totalWaitlisted": 0
     },
     "CS-8803-O08": {
