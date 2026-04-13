@@ -1199,16 +1199,16 @@
   },
   "ISYE-6414": {
     "courseId": "ISYE-6414",
-    "name": "Statistical Modeling and Regression Analysis",
+    "name": "Regression Analysis",
     "departmentId": "ISYE",
     "courseNumber": "6414",
-    "url": null,
+    "url": "https://omscs.gatech.edu/isye-6414-regression-analysis",
+    "isFoundational": false,
     "aliases": [
       "RA",
       "SMRA"
     ],
-    "isDeprecated": false,
-    "isFoundational": false
+    "isDeprecated": false
   },
   "ISYE-6416": {
     "courseId": "ISYE-6416",
@@ -1500,5 +1500,15 @@
     ],
     "isDeprecated": true,
     "isFoundational": true
+  },
+  "ECE-8803": {
+    "courseId": "ECE-8803",
+    "name": "Cybersecurity of Drones",
+    "departmentId": "ECE",
+    "courseNumber": "8803",
+    "url": "https://omscs.gatech.edu/ece-8803-cybersecurity-drones",
+    "isFoundational": false,
+    "aliases": [],
+    "isDeprecated": false
   }
 }
