@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-14T22:11:15.180Z",
+  "lastUpdated": "2026-04-14T23:10:58.541Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -267,16 +267,16 @@
           "crn": "53204",
           "sectionNumber": "O01",
           "instructor": null,
-          "enrolled": 98,
+          "enrolled": 100,
           "capacity": 800,
-          "seatsAvailable": 702,
+          "seatsAvailable": 700,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
-      "totalEnrolled": 98,
-      "totalAvailable": 702,
+      "totalEnrolled": 100,
+      "totalAvailable": 700,
       "totalWaitlisted": 0
     },
     "CS-6310": {
@@ -382,16 +382,16 @@
           "crn": "55308",
           "sectionNumber": "O01",
           "instructor": "Wilson, Jeff",
-          "enrolled": 6,
+          "enrolled": 7,
           "capacity": 300,
-          "seatsAvailable": 294,
+          "seatsAvailable": 293,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 6,
-      "totalAvailable": 294,
+      "totalEnrolled": 7,
+      "totalAvailable": 293,
       "totalWaitlisted": 0
     },
     "CS-6460": {
@@ -454,14 +454,14 @@
           "enrolled": 250,
           "capacity": 250,
           "seatsAvailable": 0,
-          "waitCount": 4,
+          "waitCount": 9,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
       "totalEnrolled": 250,
       "totalAvailable": 0,
-      "totalWaitlisted": 4
+      "totalWaitlisted": 9
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -474,16 +474,16 @@
           "crn": "56709",
           "sectionNumber": "O01",
           "instructor": "Borela Valente, Rodrigo",
-          "enrolled": 26,
+          "enrolled": 28,
           "capacity": 600,
-          "seatsAvailable": 574,
+          "seatsAvailable": 572,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 600,
-      "totalEnrolled": 26,
-      "totalAvailable": 574,
+      "totalEnrolled": 28,
+      "totalAvailable": 572,
       "totalWaitlisted": 0
     },
     "CS-6603": {
@@ -497,16 +497,16 @@
           "crn": "55309",
           "sectionNumber": "O01",
           "instructor": "Mandala, Mahender",
-          "enrolled": 49,
+          "enrolled": 50,
           "capacity": 650,
-          "seatsAvailable": 601,
+          "seatsAvailable": 600,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 650,
-      "totalEnrolled": 49,
-      "totalAvailable": 601,
+      "totalEnrolled": 50,
+      "totalAvailable": 600,
       "totalWaitlisted": 0
     },
     "CS-6675": {
@@ -566,16 +566,16 @@
           "crn": "53833",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 15,
+          "enrolled": 16,
           "capacity": 650,
-          "seatsAvailable": 635,
+          "seatsAvailable": 634,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 650,
-      "totalEnrolled": 15,
-      "totalAvailable": 635,
+      "totalEnrolled": 16,
+      "totalAvailable": 634,
       "totalWaitlisted": 0
     },
     "CS-6795": {
