@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-15T10:41:44.552Z",
+  "lastUpdated": "2026-04-15T11:53:44.574Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -106,16 +106,16 @@
           "crn": "53830",
           "sectionNumber": "O01",
           "instructor": "Konte, Maria",
-          "enrolled": 13,
+          "enrolled": 14,
           "capacity": 700,
-          "seatsAvailable": 687,
+          "seatsAvailable": 686,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 13,
-      "totalAvailable": 687,
+      "totalEnrolled": 14,
+      "totalAvailable": 686,
       "totalWaitlisted": 0
     },
     "CS-6262": {
@@ -681,16 +681,16 @@
           "crn": "55739",
           "sectionNumber": "O01",
           "instructor": "Zeagler, Clint",
-          "enrolled": 26,
+          "enrolled": 27,
           "capacity": 150,
-          "seatsAvailable": 124,
+          "seatsAvailable": 123,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 26,
-      "totalAvailable": 124,
+      "totalEnrolled": 27,
+      "totalAvailable": 123,
       "totalWaitlisted": 0
     },
     "CS-7496": {
