@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-15T11:53:44.574Z",
+  "lastUpdated": "2026-04-15T13:14:19.038Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -267,16 +267,16 @@
           "crn": "53204",
           "sectionNumber": "O01",
           "instructor": null,
-          "enrolled": 114,
+          "enrolled": 115,
           "capacity": 800,
-          "seatsAvailable": 686,
+          "seatsAvailable": 685,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
-      "totalEnrolled": 114,
-      "totalAvailable": 686,
+      "totalEnrolled": 115,
+      "totalAvailable": 685,
       "totalWaitlisted": 0
     },
     "CS-6310": {
@@ -454,14 +454,14 @@
           "enrolled": 250,
           "capacity": 250,
           "seatsAvailable": 0,
-          "waitCount": 20,
+          "waitCount": 21,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
       "totalEnrolled": 250,
       "totalAvailable": 0,
-      "totalWaitlisted": 20
+      "totalWaitlisted": 21
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -635,16 +635,16 @@
           "crn": "58120",
           "sectionNumber": "O01",
           "instructor": "Kim, Hyesoon",
-          "enrolled": 8,
+          "enrolled": 9,
           "capacity": 300,
-          "seatsAvailable": 292,
+          "seatsAvailable": 291,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 8,
-      "totalAvailable": 292,
+      "totalEnrolled": 9,
+      "totalAvailable": 291,
       "totalWaitlisted": 0
     },
     "CS-7400": {
