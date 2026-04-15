@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-15T07:30:53.201Z",
+  "lastUpdated": "2026-04-15T09:06:24.122Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -454,14 +454,14 @@
           "enrolled": 250,
           "capacity": 250,
           "seatsAvailable": 0,
-          "waitCount": 19,
+          "waitCount": 20,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
       "totalEnrolled": 250,
       "totalAvailable": 0,
-      "totalWaitlisted": 19
+      "totalWaitlisted": 20
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -819,16 +819,16 @@
           "crn": "55307",
           "sectionNumber": "O01",
           "instructor": "Borela Valente, Rodrigo",
-          "enrolled": 8,
+          "enrolled": 9,
           "capacity": 500,
-          "seatsAvailable": 492,
+          "seatsAvailable": 491,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 500,
-      "totalEnrolled": 8,
-      "totalAvailable": 492,
+      "totalEnrolled": 9,
+      "totalAvailable": 491,
       "totalWaitlisted": 0
     },
     "CS-7643": {
