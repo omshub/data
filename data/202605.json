@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-16T10:46:13.689Z",
+  "lastUpdated": "2026-04-16T11:56:52.332Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -313,16 +313,16 @@
           "crn": "53544",
           "sectionNumber": "O01",
           "instructor": "Naik, Mayur",
-          "enrolled": 12,
+          "enrolled": 13,
           "capacity": 350,
-          "seatsAvailable": 338,
+          "seatsAvailable": 337,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 350,
-      "totalEnrolled": 12,
-      "totalAvailable": 338,
+      "totalEnrolled": 13,
+      "totalAvailable": 337,
       "totalWaitlisted": 0
     },
     "CS-6400": {
@@ -454,14 +454,14 @@
           "enrolled": 249,
           "capacity": 250,
           "seatsAvailable": 1,
-          "waitCount": 154,
+          "waitCount": 155,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
       "totalEnrolled": 249,
       "totalAvailable": 1,
-      "totalWaitlisted": 154
+      "totalWaitlisted": 155
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -566,16 +566,16 @@
           "crn": "53833",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 23,
+          "enrolled": 24,
           "capacity": 650,
-          "seatsAvailable": 627,
+          "seatsAvailable": 626,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 650,
-      "totalEnrolled": 23,
-      "totalAvailable": 627,
+      "totalEnrolled": 24,
+      "totalAvailable": 626,
       "totalWaitlisted": 0
     },
     "CS-6795": {
