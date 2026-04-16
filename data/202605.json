@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-16T07:49:48.887Z",
+  "lastUpdated": "2026-04-16T09:14:01.493Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -267,16 +267,16 @@
           "crn": "53204",
           "sectionNumber": "O01",
           "instructor": null,
-          "enrolled": 177,
+          "enrolled": 178,
           "capacity": 800,
-          "seatsAvailable": 623,
+          "seatsAvailable": 622,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
-      "totalEnrolled": 177,
-      "totalAvailable": 623,
+      "totalEnrolled": 178,
+      "totalAvailable": 622,
       "totalWaitlisted": 0
     },
     "CS-6310": {
@@ -428,16 +428,16 @@
           "crn": "57320",
           "sectionNumber": "O01",
           "instructor": "Wilson, Jeff",
-          "enrolled": 20,
+          "enrolled": 21,
           "capacity": 150,
-          "seatsAvailable": 130,
+          "seatsAvailable": 129,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 20,
-      "totalAvailable": 130,
+      "totalEnrolled": 21,
+      "totalAvailable": 129,
       "totalWaitlisted": 0
     },
     "CS-6515": {
@@ -454,14 +454,14 @@
           "enrolled": 249,
           "capacity": 250,
           "seatsAvailable": 1,
-          "waitCount": 153,
+          "waitCount": 154,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
       "totalEnrolled": 249,
       "totalAvailable": 1,
-      "totalWaitlisted": 153
+      "totalWaitlisted": 154
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -796,16 +796,16 @@
           "crn": "56710",
           "sectionNumber": "O01",
           "instructor": "LaGrow, TJ",
-          "enrolled": 44,
+          "enrolled": 45,
           "capacity": 700,
-          "seatsAvailable": 656,
+          "seatsAvailable": 655,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 44,
-      "totalAvailable": 656,
+      "totalEnrolled": 45,
+      "totalAvailable": 655,
       "totalWaitlisted": 0
     },
     "CS-7642": {
@@ -1026,16 +1026,16 @@
           "crn": "57322",
           "sectionNumber": "O24",
           "instructor": "Lytle, Nicholas",
-          "enrolled": 1,
+          "enrolled": 2,
           "capacity": 50,
-          "seatsAvailable": 49,
+          "seatsAvailable": 48,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 50,
-      "totalEnrolled": 1,
-      "totalAvailable": 49,
+      "totalEnrolled": 2,
+      "totalAvailable": 48,
       "totalWaitlisted": 0
     },
     "CS-8803-O27": {
