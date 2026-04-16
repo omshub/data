@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-16T05:59:30.644Z",
+  "lastUpdated": "2026-04-16T07:49:48.887Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -267,16 +267,16 @@
           "crn": "53204",
           "sectionNumber": "O01",
           "instructor": null,
-          "enrolled": 178,
+          "enrolled": 177,
           "capacity": 800,
-          "seatsAvailable": 622,
+          "seatsAvailable": 623,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
-      "totalEnrolled": 178,
-      "totalAvailable": 622,
+      "totalEnrolled": 177,
+      "totalAvailable": 623,
       "totalWaitlisted": 0
     },
     "CS-6310": {
@@ -454,14 +454,14 @@
           "enrolled": 249,
           "capacity": 250,
           "seatsAvailable": 1,
-          "waitCount": 152,
+          "waitCount": 153,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
       "totalEnrolled": 249,
       "totalAvailable": 1,
-      "totalWaitlisted": 152
+      "totalWaitlisted": 153
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -773,16 +773,16 @@
           "crn": "54429",
           "sectionNumber": "O01",
           "instructor": "Summet, Jay",
-          "enrolled": 16,
+          "enrolled": 17,
           "capacity": 900,
-          "seatsAvailable": 884,
+          "seatsAvailable": 883,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 900,
-      "totalEnrolled": 16,
-      "totalAvailable": 884,
+      "totalEnrolled": 17,
+      "totalAvailable": 883,
       "totalWaitlisted": 0
     },
     "CS-7641": {
@@ -842,16 +842,16 @@
           "crn": "55306",
           "sectionNumber": "O01",
           "instructor": "Kira, Zsolt",
-          "enrolled": 29,
+          "enrolled": 30,
           "capacity": 350,
-          "seatsAvailable": 321,
+          "seatsAvailable": 320,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 350,
-      "totalEnrolled": 29,
-      "totalAvailable": 321,
+      "totalEnrolled": 30,
+      "totalAvailable": 320,
       "totalWaitlisted": 0
     },
     "CS-7646": {
@@ -934,16 +934,16 @@
           "crn": "56277",
           "sectionNumber": "O15",
           "instructor": "Omojokun, Olufisayo",
-          "enrolled": 72,
+          "enrolled": 73,
           "capacity": 100,
-          "seatsAvailable": 28,
+          "seatsAvailable": 27,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 72,
-      "totalAvailable": 28,
+      "totalEnrolled": 73,
+      "totalAvailable": 27,
       "totalWaitlisted": 0
     },
     "CS-8803-O17": {
@@ -1490,16 +1490,16 @@
           "crn": "55093",
           "sectionNumber": "O01",
           "instructor": "Kuehn, Andreas",
-          "enrolled": 1,
+          "enrolled": 2,
           "capacity": 180,
-          "seatsAvailable": 179,
+          "seatsAvailable": 178,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 180,
-      "totalEnrolled": 1,
-      "totalAvailable": 179,
+      "totalEnrolled": 2,
+      "totalAvailable": 178,
       "totalWaitlisted": 0
     }
   }
