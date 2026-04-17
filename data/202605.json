@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-17T07:10:05.656Z",
+  "lastUpdated": "2026-04-17T09:01:01.198Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -14,16 +14,16 @@
           "crn": "55312",
           "sectionNumber": "O01",
           "instructor": "Vuduc, Richard",
-          "enrolled": 6,
+          "enrolled": 7,
           "capacity": 300,
-          "seatsAvailable": 294,
+          "seatsAvailable": 293,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 6,
-      "totalAvailable": 294,
+      "totalEnrolled": 7,
+      "totalAvailable": 293,
       "totalWaitlisted": 0
     },
     "CS-6035": {
@@ -267,16 +267,16 @@
           "crn": "53204",
           "sectionNumber": "O01",
           "instructor": null,
-          "enrolled": 256,
+          "enrolled": 258,
           "capacity": 800,
-          "seatsAvailable": 544,
+          "seatsAvailable": 542,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
-      "totalEnrolled": 256,
-      "totalAvailable": 544,
+      "totalEnrolled": 258,
+      "totalAvailable": 542,
       "totalWaitlisted": 0
     },
     "CS-6310": {
@@ -566,16 +566,16 @@
           "crn": "53833",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 28,
+          "enrolled": 29,
           "capacity": 650,
-          "seatsAvailable": 622,
+          "seatsAvailable": 621,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 650,
-      "totalEnrolled": 28,
-      "totalAvailable": 622,
+      "totalEnrolled": 29,
+      "totalAvailable": 621,
       "totalWaitlisted": 0
     },
     "CS-6795": {
@@ -796,16 +796,16 @@
           "crn": "56710",
           "sectionNumber": "O01",
           "instructor": "LaGrow, TJ",
-          "enrolled": 79,
+          "enrolled": 80,
           "capacity": 700,
-          "seatsAvailable": 621,
+          "seatsAvailable": 620,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 79,
-      "totalAvailable": 621,
+      "totalEnrolled": 80,
+      "totalAvailable": 620,
       "totalWaitlisted": 0
     },
     "CS-7642": {
@@ -1194,16 +1194,16 @@
           "crn": "56441",
           "sectionNumber": "O05",
           "instructor": "Oh, Hyunjoo",
-          "enrolled": 1,
+          "enrolled": 2,
           "capacity": 15,
-          "seatsAvailable": 14,
+          "seatsAvailable": 13,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 30,
-      "totalEnrolled": 1,
-      "totalAvailable": 29,
+      "totalEnrolled": 2,
+      "totalAvailable": 28,
       "totalWaitlisted": 0
     },
     "ECE-7000": {
