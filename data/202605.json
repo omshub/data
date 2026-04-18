@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-18T14:43:00.323Z",
+  "lastUpdated": "2026-04-18T15:34:20.747Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -267,16 +267,16 @@
           "crn": "53204",
           "sectionNumber": "O01",
           "instructor": null,
-          "enrolled": 342,
+          "enrolled": 344,
           "capacity": 800,
-          "seatsAvailable": 458,
+          "seatsAvailable": 456,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
-      "totalEnrolled": 342,
-      "totalAvailable": 458,
+      "totalEnrolled": 344,
+      "totalAvailable": 456,
       "totalWaitlisted": 0
     },
     "CS-6310": {
@@ -497,16 +497,16 @@
           "crn": "55309",
           "sectionNumber": "O01",
           "instructor": "Mandala, Mahender",
-          "enrolled": 214,
+          "enrolled": 216,
           "capacity": 650,
-          "seatsAvailable": 436,
+          "seatsAvailable": 434,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 650,
-      "totalEnrolled": 214,
-      "totalAvailable": 436,
+      "totalEnrolled": 216,
+      "totalAvailable": 434,
       "totalWaitlisted": 0
     },
     "CS-6675": {
@@ -658,16 +658,16 @@
           "crn": "57052",
           "sectionNumber": "O01",
           "instructor": "Qureshi, Moinuddin",
-          "enrolled": 18,
+          "enrolled": 19,
           "capacity": 200,
-          "seatsAvailable": 182,
+          "seatsAvailable": 181,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 18,
-      "totalAvailable": 182,
+      "totalEnrolled": 19,
+      "totalAvailable": 181,
       "totalWaitlisted": 0
     },
     "CS-7470": {
@@ -842,16 +842,16 @@
           "crn": "55306",
           "sectionNumber": "O01",
           "instructor": "Kira, Zsolt",
-          "enrolled": 62,
+          "enrolled": 61,
           "capacity": 350,
-          "seatsAvailable": 288,
+          "seatsAvailable": 289,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 350,
-      "totalEnrolled": 62,
-      "totalAvailable": 288,
+      "totalEnrolled": 61,
+      "totalAvailable": 289,
       "totalWaitlisted": 0
     },
     "CS-7646": {
@@ -937,14 +937,14 @@
           "enrolled": 100,
           "capacity": 100,
           "seatsAvailable": 0,
-          "waitCount": 86,
+          "waitCount": 87,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
       "totalEnrolled": 100,
       "totalAvailable": 0,
-      "totalWaitlisted": 86
+      "totalWaitlisted": 87
     },
     "CS-8803-O17": {
       "courseId": "CS-8803-O17",
