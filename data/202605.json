@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-19T13:58:15.169Z",
+  "lastUpdated": "2026-04-19T14:40:28.674Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -888,16 +888,16 @@
           "crn": "56279",
           "sectionNumber": "O01",
           "instructor": "Riedl, Mark",
-          "enrolled": 345,
+          "enrolled": 346,
           "capacity": 600,
-          "seatsAvailable": 255,
+          "seatsAvailable": 254,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 600,
-      "totalEnrolled": 345,
-      "totalAvailable": 255,
+      "totalEnrolled": 346,
+      "totalAvailable": 254,
       "totalWaitlisted": 0
     },
     "CS-8803-O08": {
@@ -1240,16 +1240,16 @@
           "crn": "55092",
           "sectionNumber": "O01",
           "instructor": "Sokol, Joel",
-          "enrolled": 5,
+          "enrolled": 6,
           "capacity": 100,
-          "seatsAvailable": 95,
+          "seatsAvailable": 94,
           "waitCount": 0,
           "waitCapacity": 200
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 5,
-      "totalAvailable": 95,
+      "totalEnrolled": 6,
+      "totalAvailable": 94,
       "totalWaitlisted": 0
     },
     "ISYE-6525": {
