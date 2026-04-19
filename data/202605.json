@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-19T08:32:10.791Z",
+  "lastUpdated": "2026-04-19T09:43:51.101Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -60,16 +60,16 @@
           "crn": "54104",
           "sectionNumber": "O01",
           "instructor": "Gavrilovska, Ada",
-          "enrolled": 24,
+          "enrolled": 25,
           "capacity": 750,
-          "seatsAvailable": 726,
+          "seatsAvailable": 725,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
-      "totalEnrolled": 24,
-      "totalAvailable": 726,
+      "totalEnrolled": 25,
+      "totalAvailable": 725,
       "totalWaitlisted": 0
     },
     "CS-6238": {
@@ -359,16 +359,16 @@
           "crn": "57291",
           "sectionNumber": "O01",
           "instructor": "Arulraj, Joy James Prabhu",
-          "enrolled": 54,
+          "enrolled": 55,
           "capacity": 150,
-          "seatsAvailable": 96,
+          "seatsAvailable": 95,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 54,
-      "totalAvailable": 96,
+      "totalEnrolled": 55,
+      "totalAvailable": 95,
       "totalWaitlisted": 0
     },
     "CS-6457": {
@@ -454,14 +454,14 @@
           "enrolled": 250,
           "capacity": 250,
           "seatsAvailable": 0,
-          "waitCount": 364,
+          "waitCount": 366,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
       "totalEnrolled": 250,
       "totalAvailable": 0,
-      "totalWaitlisted": 364
+      "totalWaitlisted": 366
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -888,16 +888,16 @@
           "crn": "56279",
           "sectionNumber": "O01",
           "instructor": "Riedl, Mark",
-          "enrolled": 341,
+          "enrolled": 343,
           "capacity": 600,
-          "seatsAvailable": 259,
+          "seatsAvailable": 257,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 600,
-      "totalEnrolled": 341,
-      "totalAvailable": 259,
+      "totalEnrolled": 343,
+      "totalAvailable": 257,
       "totalWaitlisted": 0
     },
     "CS-8803-O08": {
