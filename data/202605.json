@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-19T10:36:31.744Z",
+  "lastUpdated": "2026-04-19T11:31:55.788Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -267,16 +267,16 @@
           "crn": "53204",
           "sectionNumber": "O01",
           "instructor": null,
-          "enrolled": 352,
+          "enrolled": 353,
           "capacity": 800,
-          "seatsAvailable": 448,
+          "seatsAvailable": 447,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
-      "totalEnrolled": 352,
-      "totalAvailable": 448,
+      "totalEnrolled": 353,
+      "totalAvailable": 447,
       "totalWaitlisted": 0
     },
     "CS-6310": {
@@ -888,16 +888,16 @@
           "crn": "56279",
           "sectionNumber": "O01",
           "instructor": "Riedl, Mark",
-          "enrolled": 343,
+          "enrolled": 344,
           "capacity": 600,
-          "seatsAvailable": 257,
+          "seatsAvailable": 256,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 600,
-      "totalEnrolled": 343,
-      "totalAvailable": 257,
+      "totalEnrolled": 344,
+      "totalAvailable": 256,
       "totalWaitlisted": 0
     },
     "CS-8803-O08": {
@@ -1003,16 +1003,16 @@
           "crn": "57321",
           "sectionNumber": "O23",
           "instructor": "Konte, Maria",
-          "enrolled": 6,
+          "enrolled": 7,
           "capacity": 50,
-          "seatsAvailable": 44,
+          "seatsAvailable": 43,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 50,
-      "totalEnrolled": 6,
-      "totalAvailable": 44,
+      "totalEnrolled": 7,
+      "totalAvailable": 43,
       "totalWaitlisted": 0
     },
     "CS-8803-O24": {
@@ -1217,16 +1217,16 @@
           "crn": "58096",
           "sectionNumber": "O01",
           "instructor": "Serban, Nicoleta",
-          "enrolled": 2,
+          "enrolled": 1,
           "capacity": 200,
-          "seatsAvailable": 198,
+          "seatsAvailable": 199,
           "waitCount": 0,
           "waitCapacity": 100
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 2,
-      "totalAvailable": 198,
+      "totalEnrolled": 1,
+      "totalAvailable": 199,
       "totalWaitlisted": 0
     },
     "ISYE-6501": {
