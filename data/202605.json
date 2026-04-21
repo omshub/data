@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-04-21T07:11:27.307Z",
+  "lastUpdated": "2026-04-21T09:11:05.229Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -454,14 +454,14 @@
           "enrolled": 250,
           "capacity": 250,
           "seatsAvailable": 0,
-          "waitCount": 447,
+          "waitCount": 448,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
       "totalEnrolled": 250,
       "totalAvailable": 0,
-      "totalWaitlisted": 447
+      "totalWaitlisted": 448
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -589,16 +589,16 @@
           "crn": "55738",
           "sectionNumber": "O01",
           "instructor": "McGreggor, Brian",
-          "enrolled": 190,
+          "enrolled": 191,
           "capacity": 400,
-          "seatsAvailable": 210,
+          "seatsAvailable": 209,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 400,
-      "totalEnrolled": 190,
-      "totalAvailable": 210,
+      "totalEnrolled": 191,
+      "totalAvailable": 209,
       "totalWaitlisted": 0
     },
     "CS-7280": {
@@ -773,16 +773,16 @@
           "crn": "54429",
           "sectionNumber": "O01",
           "instructor": "Summet, Jay",
-          "enrolled": 72,
+          "enrolled": 73,
           "capacity": 900,
-          "seatsAvailable": 828,
+          "seatsAvailable": 827,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 900,
-      "totalEnrolled": 72,
-      "totalAvailable": 828,
+      "totalEnrolled": 73,
+      "totalAvailable": 827,
       "totalWaitlisted": 0
     },
     "CS-7641": {
