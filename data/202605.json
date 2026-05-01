@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-05-01T06:10:51.934Z",
+  "lastUpdated": "2026-05-01T08:27:48.300Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -14,16 +14,16 @@
           "crn": "55312",
           "sectionNumber": "O01",
           "instructor": "Vuduc, Richard",
-          "enrolled": 61,
+          "enrolled": 60,
           "capacity": 300,
-          "seatsAvailable": 239,
+          "seatsAvailable": 240,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 61,
-      "totalAvailable": 239,
+      "totalEnrolled": 60,
+      "totalAvailable": 240,
       "totalWaitlisted": 0
     },
     "CS-6035": {
@@ -408,14 +408,14 @@
           "enrolled": 148,
           "capacity": 150,
           "seatsAvailable": 2,
-          "waitCount": 9,
+          "waitCount": 10,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
       "totalEnrolled": 148,
       "totalAvailable": 2,
-      "totalWaitlisted": 9
+      "totalWaitlisted": 10
     },
     "CS-6491": {
       "courseId": "CS-6491",
@@ -474,16 +474,16 @@
           "crn": "56709",
           "sectionNumber": "O01",
           "instructor": "Borela Valente, Rodrigo",
-          "enrolled": 589,
+          "enrolled": 590,
           "capacity": 600,
-          "seatsAvailable": 11,
+          "seatsAvailable": 10,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 600,
-      "totalEnrolled": 589,
-      "totalAvailable": 11,
+      "totalEnrolled": 590,
+      "totalAvailable": 10,
       "totalWaitlisted": 0
     },
     "CS-6603": {
@@ -819,16 +819,16 @@
           "crn": "55307",
           "sectionNumber": "O01",
           "instructor": "Borela Valente, Rodrigo",
-          "enrolled": 115,
+          "enrolled": 116,
           "capacity": 500,
-          "seatsAvailable": 385,
+          "seatsAvailable": 384,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 500,
-      "totalEnrolled": 115,
-      "totalAvailable": 385,
+      "totalEnrolled": 116,
+      "totalAvailable": 384,
       "totalWaitlisted": 0
     },
     "CS-7643": {
@@ -891,14 +891,14 @@
           "enrolled": 600,
           "capacity": 600,
           "seatsAvailable": 0,
-          "waitCount": 664,
+          "waitCount": 665,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 600,
       "totalEnrolled": 600,
       "totalAvailable": 0,
-      "totalWaitlisted": 664
+      "totalWaitlisted": 665
     },
     "CS-8803-O08": {
       "courseId": "CS-8803-O08",
@@ -1049,16 +1049,16 @@
           "crn": "58154",
           "sectionNumber": "O27",
           "instructor": "Zhu, Bo",
-          "enrolled": 99,
+          "enrolled": 98,
           "capacity": 100,
-          "seatsAvailable": 1,
+          "seatsAvailable": 2,
           "waitCount": 8,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 99,
-      "totalAvailable": 1,
+      "totalEnrolled": 98,
+      "totalAvailable": 2,
       "totalWaitlisted": 8
     },
     "CS-8803-O29": {
@@ -1095,16 +1095,16 @@
           "crn": "58401",
           "sectionNumber": "O31",
           "instructor": "Zonouz, Saman",
-          "enrolled": 19,
+          "enrolled": 20,
           "capacity": 50,
-          "seatsAvailable": 31,
+          "seatsAvailable": 30,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 50,
-      "totalEnrolled": 19,
-      "totalAvailable": 31,
+      "totalEnrolled": 20,
+      "totalAvailable": 30,
       "totalWaitlisted": 0
     },
     "CS-8902": {
