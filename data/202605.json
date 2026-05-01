@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-05-01T11:36:50.174Z",
+  "lastUpdated": "2026-05-01T13:06:46.692Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -37,16 +37,16 @@
           "crn": "53542",
           "sectionNumber": "O01",
           "instructor": "Lee, Wenke",
-          "enrolled": 311,
+          "enrolled": 312,
           "capacity": 700,
-          "seatsAvailable": 389,
+          "seatsAvailable": 388,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 311,
-      "totalAvailable": 389,
+      "totalEnrolled": 312,
+      "totalAvailable": 388,
       "totalWaitlisted": 0
     },
     "CS-6200": {
@@ -313,16 +313,16 @@
           "crn": "53544",
           "sectionNumber": "O01",
           "instructor": "Naik, Mayur",
-          "enrolled": 153,
+          "enrolled": 155,
           "capacity": 350,
-          "seatsAvailable": 197,
+          "seatsAvailable": 195,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 350,
-      "totalEnrolled": 153,
-      "totalAvailable": 197,
+      "totalEnrolled": 155,
+      "totalAvailable": 195,
       "totalWaitlisted": 0
     },
     "CS-6400": {
@@ -520,16 +520,16 @@
           "crn": "55711",
           "sectionNumber": "O01",
           "instructor": "Liu, Ling",
-          "enrolled": 31,
+          "enrolled": 32,
           "capacity": 100,
-          "seatsAvailable": 69,
+          "seatsAvailable": 68,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 31,
-      "totalAvailable": 69,
+      "totalEnrolled": 32,
+      "totalAvailable": 68,
       "totalWaitlisted": 0
     },
     "CS-6747": {
@@ -796,16 +796,16 @@
           "crn": "56710",
           "sectionNumber": "O01",
           "instructor": "LaGrow, TJ",
-          "enrolled": 641,
+          "enrolled": 642,
           "capacity": 700,
-          "seatsAvailable": 59,
+          "seatsAvailable": 58,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 641,
-      "totalAvailable": 59,
+      "totalEnrolled": 642,
+      "totalAvailable": 58,
       "totalWaitlisted": 0
     },
     "CS-7642": {
@@ -1049,17 +1049,17 @@
           "crn": "58154",
           "sectionNumber": "O27",
           "instructor": "Zhu, Bo",
-          "enrolled": 99,
+          "enrolled": 100,
           "capacity": 100,
-          "seatsAvailable": 1,
-          "waitCount": 7,
+          "seatsAvailable": 0,
+          "waitCount": 6,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 99,
-      "totalAvailable": 1,
-      "totalWaitlisted": 7
+      "totalEnrolled": 100,
+      "totalAvailable": 0,
+      "totalWaitlisted": 6
     },
     "CS-8803-O29": {
       "courseId": "CS-8803-O29",
@@ -1401,16 +1401,16 @@
           "crn": "55093",
           "sectionNumber": "O01",
           "instructor": "Kuehn, Andreas",
-          "enrolled": 40,
+          "enrolled": 39,
           "capacity": 180,
-          "seatsAvailable": 140,
+          "seatsAvailable": 141,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 180,
-      "totalEnrolled": 40,
-      "totalAvailable": 140,
+      "totalEnrolled": 39,
+      "totalAvailable": 141,
       "totalWaitlisted": 0
     }
   }
