@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-05-03T10:30:11.966Z",
+  "lastUpdated": "2026-05-03T11:21:33.368Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -477,14 +477,14 @@
           "enrolled": 599,
           "capacity": 600,
           "seatsAvailable": 1,
-          "waitCount": 32,
+          "waitCount": 33,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 600,
       "totalEnrolled": 599,
       "totalAvailable": 1,
-      "totalWaitlisted": 32
+      "totalWaitlisted": 33
     },
     "CS-6603": {
       "courseId": "CS-6603",
@@ -500,14 +500,14 @@
           "enrolled": 650,
           "capacity": 650,
           "seatsAvailable": 0,
-          "waitCount": 696,
+          "waitCount": 695,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 650,
       "totalEnrolled": 650,
       "totalAvailable": 0,
-      "totalWaitlisted": 696
+      "totalWaitlisted": 695
     },
     "CS-6675": {
       "courseId": "CS-6675",
@@ -704,16 +704,16 @@
           "crn": "57292",
           "sectionNumber": "O01",
           "instructor": "Ha, Sehoon",
-          "enrolled": 57,
+          "enrolled": 59,
           "capacity": 200,
-          "seatsAvailable": 143,
+          "seatsAvailable": 141,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 57,
-      "totalAvailable": 143,
+      "totalEnrolled": 59,
+      "totalAvailable": 141,
       "totalWaitlisted": 0
     },
     "CS-7632": {
@@ -753,14 +753,14 @@
           "enrolled": 698,
           "capacity": 700,
           "seatsAvailable": 2,
-          "waitCount": 159,
+          "waitCount": 160,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
       "totalEnrolled": 698,
       "totalAvailable": 2,
-      "totalWaitlisted": 159
+      "totalWaitlisted": 160
     },
     "CS-7638": {
       "courseId": "CS-7638",
@@ -865,16 +865,16 @@
           "crn": "53834",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 524,
+          "enrolled": 525,
           "capacity": 900,
-          "seatsAvailable": 376,
+          "seatsAvailable": 375,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 900,
-      "totalEnrolled": 524,
-      "totalAvailable": 376,
+      "totalEnrolled": 525,
+      "totalAvailable": 375,
       "totalWaitlisted": 0
     },
     "CS-7650": {
