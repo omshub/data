@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-05-05T12:45:25.471Z",
+  "lastUpdated": "2026-05-05T17:02:56.450Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -826,16 +826,6 @@
           "waitCapacity": 0
         },
         {
-          "crn": "82888",
-          "sectionNumber": "O02",
-          "instructor": "Orso, Alessandro",
-          "enrolled": 0,
-          "capacity": 5,
-          "seatsAvailable": 5,
-          "waitCount": 0,
-          "waitCapacity": 0
-        },
-        {
           "crn": "90977",
           "sectionNumber": "O04",
           "instructor": "Omojokun, Olufisayo",
@@ -846,9 +836,9 @@
           "waitCapacity": 0
         }
       ],
-      "totalSeats": 25,
+      "totalSeats": 20,
       "totalEnrolled": 0,
-      "totalAvailable": 25,
+      "totalAvailable": 20,
       "totalWaitlisted": 0
     },
     "CS-7210": {
@@ -1342,16 +1332,6 @@
       "creditHours": null,
       "sections": [
         {
-          "crn": "81409",
-          "sectionNumber": "O02",
-          "instructor": "Orso, Alessandro",
-          "enrolled": 0,
-          "capacity": 15,
-          "seatsAvailable": 15,
-          "waitCount": 0,
-          "waitCapacity": 0
-        },
-        {
           "crn": "86469",
           "sectionNumber": "O05",
           "instructor": "Oh, Hyunjoo",
@@ -1362,9 +1342,9 @@
           "waitCapacity": 0
         }
       ],
-      "totalSeats": 25,
+      "totalSeats": 10,
       "totalEnrolled": 0,
-      "totalAvailable": 25,
+      "totalAvailable": 10,
       "totalWaitlisted": 0
     },
     "CS-8999": {
@@ -1374,16 +1354,6 @@
       "name": "Doctoral Thesis Prep",
       "creditHours": null,
       "sections": [
-        {
-          "crn": "82418",
-          "sectionNumber": "O02",
-          "instructor": "Orso, Alessandro",
-          "enrolled": 0,
-          "capacity": 15,
-          "seatsAvailable": 15,
-          "waitCount": 0,
-          "waitCapacity": 0
-        },
         {
           "crn": "87681",
           "sectionNumber": "O05",
@@ -1395,9 +1365,9 @@
           "waitCapacity": 0
         }
       ],
-      "totalSeats": 25,
+      "totalSeats": 10,
       "totalEnrolled": 0,
-      "totalAvailable": 25,
+      "totalAvailable": 10,
       "totalWaitlisted": 0
     },
     "CS-9000": {
@@ -1407,16 +1377,6 @@
       "name": "Doctoral Thesis",
       "creditHours": null,
       "sections": [
-        {
-          "crn": "81426",
-          "sectionNumber": "O02",
-          "instructor": "Orso, Alessandro",
-          "enrolled": 0,
-          "capacity": 15,
-          "seatsAvailable": 15,
-          "waitCount": 0,
-          "waitCapacity": 0
-        },
         {
           "crn": "90192",
           "sectionNumber": "O05",
@@ -1428,9 +1388,9 @@
           "waitCapacity": 0
         }
       ],
-      "totalSeats": 30,
+      "totalSeats": 15,
       "totalEnrolled": 1,
-      "totalAvailable": 29,
+      "totalAvailable": 14,
       "totalWaitlisted": 0
     },
     "ECE-7000": {
