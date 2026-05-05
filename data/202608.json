@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-05-04T23:48:59.746Z",
+  "lastUpdated": "2026-05-05T02:12:47.102Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -704,16 +704,16 @@
           "crn": "87912",
           "sectionNumber": "O01",
           "instructor": "Mandala, Mahender",
-          "enrolled": 0,
+          "enrolled": 1,
           "capacity": 800,
-          "seatsAvailable": 800,
+          "seatsAvailable": 799,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
-      "totalEnrolled": 0,
-      "totalAvailable": 800,
+      "totalEnrolled": 1,
+      "totalAvailable": 799,
       "totalWaitlisted": 0
     },
     "CS-6675": {
@@ -1161,16 +1161,16 @@
           "crn": "84716",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 0,
+          "enrolled": 1,
           "capacity": 1650,
-          "seatsAvailable": 1650,
+          "seatsAvailable": 1649,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1650,
-      "totalEnrolled": 0,
-      "totalAvailable": 1650,
+      "totalEnrolled": 1,
+      "totalAvailable": 1649,
       "totalWaitlisted": 0
     },
     "CS-7650": {
