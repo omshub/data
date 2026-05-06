@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-05-05T23:43:27.580Z",
+  "lastUpdated": "2026-05-06T02:14:41.345Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -198,16 +198,16 @@
           "crn": "83928",
           "sectionNumber": "O01",
           "instructor": "Konte, Maria",
-          "enrolled": 0,
+          "enrolled": 1,
           "capacity": 1100,
-          "seatsAvailable": 1100,
+          "seatsAvailable": 1099,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1100,
-      "totalEnrolled": 0,
-      "totalAvailable": 1100,
+      "totalEnrolled": 1,
+      "totalAvailable": 1099,
       "totalWaitlisted": 0
     },
     "CS-6261": {
@@ -658,16 +658,16 @@
           "crn": "86005",
           "sectionNumber": "O01",
           "instructor": "Brito, Gerandy",
-          "enrolled": 0,
+          "enrolled": 1,
           "capacity": 200,
-          "seatsAvailable": 200,
+          "seatsAvailable": 199,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 0,
-      "totalAvailable": 200,
+      "totalEnrolled": 1,
+      "totalAvailable": 199,
       "totalWaitlisted": 0
     },
     "CS-6601": {
