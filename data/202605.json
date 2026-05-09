@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-05-09T10:31:18.800Z",
+  "lastUpdated": "2026-05-09T11:44:09.029Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -589,16 +589,16 @@
           "crn": "55738",
           "sectionNumber": "O01",
           "instructor": "McGreggor, Brian",
-          "enrolled": 576,
+          "enrolled": 575,
           "capacity": 700,
-          "seatsAvailable": 124,
+          "seatsAvailable": 125,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 576,
-      "totalAvailable": 124,
+      "totalEnrolled": 575,
+      "totalAvailable": 125,
       "totalWaitlisted": 0
     },
     "CS-7280": {
@@ -681,17 +681,17 @@
           "crn": "55739",
           "sectionNumber": "O01",
           "instructor": "Zeagler, Clint",
-          "enrolled": 186,
+          "enrolled": 187,
           "capacity": 200,
-          "seatsAvailable": 14,
-          "waitCount": 20,
+          "seatsAvailable": 13,
+          "waitCount": 19,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 186,
-      "totalAvailable": 14,
-      "totalWaitlisted": 20
+      "totalEnrolled": 187,
+      "totalAvailable": 13,
+      "totalWaitlisted": 19
     },
     "CS-7496": {
       "courseId": "CS-7496",
@@ -750,16 +750,16 @@
           "crn": "54417",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 777,
+          "enrolled": 781,
           "capacity": 900,
-          "seatsAvailable": 123,
+          "seatsAvailable": 119,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 900,
-      "totalEnrolled": 777,
-      "totalAvailable": 123,
+      "totalEnrolled": 781,
+      "totalAvailable": 119,
       "totalWaitlisted": 0
     },
     "CS-7638": {
@@ -796,16 +796,16 @@
           "crn": "56710",
           "sectionNumber": "O01",
           "instructor": "LaGrow, TJ",
-          "enrolled": 729,
+          "enrolled": 728,
           "capacity": 750,
-          "seatsAvailable": 21,
+          "seatsAvailable": 22,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
-      "totalEnrolled": 729,
-      "totalAvailable": 21,
+      "totalEnrolled": 728,
+      "totalAvailable": 22,
       "totalWaitlisted": 0
     },
     "CS-7642": {
@@ -842,16 +842,16 @@
           "crn": "55306",
           "sectionNumber": "O01",
           "instructor": "Kira, Zsolt",
-          "enrolled": 338,
+          "enrolled": 337,
           "capacity": 350,
-          "seatsAvailable": 12,
+          "seatsAvailable": 13,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 350,
-      "totalEnrolled": 338,
-      "totalAvailable": 12,
+      "totalEnrolled": 337,
+      "totalAvailable": 13,
       "totalWaitlisted": 0
     },
     "CS-7646": {
@@ -891,14 +891,14 @@
           "enrolled": 680,
           "capacity": 700,
           "seatsAvailable": 20,
-          "waitCount": 512,
+          "waitCount": 513,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
       "totalEnrolled": 680,
       "totalAvailable": 20,
-      "totalWaitlisted": 512
+      "totalWaitlisted": 513
     },
     "CS-8803-O08": {
       "courseId": "CS-8803-O08",
@@ -934,17 +934,17 @@
           "crn": "56277",
           "sectionNumber": "O15",
           "instructor": "Omojokun, Olufisayo",
-          "enrolled": 140,
+          "enrolled": 141,
           "capacity": 150,
-          "seatsAvailable": 10,
-          "waitCount": 207,
+          "seatsAvailable": 9,
+          "waitCount": 206,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 140,
-      "totalAvailable": 10,
-      "totalWaitlisted": 207
+      "totalEnrolled": 141,
+      "totalAvailable": 9,
+      "totalWaitlisted": 206
     },
     "CS-8803-O17": {
       "courseId": "CS-8803-O17",
