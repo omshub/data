@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-05-12T20:01:52.251Z",
+  "lastUpdated": "2026-05-12T21:26:05.030Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -1381,16 +1381,16 @@
           "crn": "90192",
           "sectionNumber": "O05",
           "instructor": "Oh, Hyunjoo",
-          "enrolled": 1,
+          "enrolled": 2,
           "capacity": 15,
-          "seatsAvailable": 14,
+          "seatsAvailable": 13,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 15,
-      "totalEnrolled": 1,
-      "totalAvailable": 14,
+      "totalEnrolled": 2,
+      "totalAvailable": 13,
       "totalWaitlisted": 0
     },
     "ECE-7000": {
