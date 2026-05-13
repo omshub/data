@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-05-13T09:23:30.080Z",
+  "lastUpdated": "2026-05-13T11:39:05.887Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -224,14 +224,14 @@
           "enrolled": 198,
           "capacity": 200,
           "seatsAvailable": 2,
-          "waitCount": 53,
+          "waitCount": 52,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
       "totalEnrolled": 198,
       "totalAvailable": 2,
-      "totalWaitlisted": 53
+      "totalWaitlisted": 52
     },
     "CS-6291": {
       "courseId": "CS-6291",
@@ -270,14 +270,14 @@
           "enrolled": 797,
           "capacity": 800,
           "seatsAvailable": 3,
-          "waitCount": 799,
+          "waitCount": 797,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
       "totalEnrolled": 797,
       "totalAvailable": 3,
-      "totalWaitlisted": 799
+      "totalWaitlisted": 797
     },
     "CS-6310": {
       "courseId": "CS-6310",
@@ -500,14 +500,14 @@
           "enrolled": 847,
           "capacity": 850,
           "seatsAvailable": 3,
-          "waitCount": 314,
+          "waitCount": 315,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 850,
       "totalEnrolled": 847,
       "totalAvailable": 3,
-      "totalWaitlisted": 314
+      "totalWaitlisted": 315
     },
     "CS-6675": {
       "courseId": "CS-6675",
@@ -638,14 +638,14 @@
           "enrolled": 299,
           "capacity": 300,
           "seatsAvailable": 1,
-          "waitCount": 21,
+          "waitCount": 22,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
       "totalEnrolled": 299,
       "totalAvailable": 1,
-      "totalWaitlisted": 21
+      "totalWaitlisted": 22
     },
     "CS-7400": {
       "courseId": "CS-7400",
@@ -796,16 +796,16 @@
           "crn": "56710",
           "sectionNumber": "O01",
           "instructor": "LaGrow, TJ",
-          "enrolled": 739,
+          "enrolled": 740,
           "capacity": 750,
-          "seatsAvailable": 11,
+          "seatsAvailable": 10,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
-      "totalEnrolled": 739,
-      "totalAvailable": 11,
+      "totalEnrolled": 740,
+      "totalAvailable": 10,
       "totalWaitlisted": 0
     },
     "CS-7642": {
