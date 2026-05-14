@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-05-14T17:19:00.013Z",
+  "lastUpdated": "2026-05-14T19:16:40.079Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -990,16 +990,16 @@
           "crn": "87915",
           "sectionNumber": "O01",
           "instructor": "Wilson, Jeff",
-          "enrolled": 1,
+          "enrolled": 2,
           "capacity": 700,
-          "seatsAvailable": 699,
+          "seatsAvailable": 698,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 1,
-      "totalAvailable": 699,
+      "totalEnrolled": 2,
+      "totalAvailable": 698,
       "totalWaitlisted": 0
     },
     "CS-7637": {
