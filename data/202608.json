@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-05-15T10:44:21.945Z",
+  "lastUpdated": "2026-05-15T12:28:55.296Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -198,16 +198,16 @@
           "crn": "83928",
           "sectionNumber": "O01",
           "instructor": "Konte, Maria",
-          "enrolled": 1,
+          "enrolled": 0,
           "capacity": 1100,
-          "seatsAvailable": 1099,
+          "seatsAvailable": 1100,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1100,
-      "totalEnrolled": 1,
-      "totalAvailable": 1099,
+      "totalEnrolled": 0,
+      "totalAvailable": 1100,
       "totalWaitlisted": 0
     },
     "CS-6261": {

@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-05-15T10:43:22.997Z",
+  "lastUpdated": "2026-05-15T12:28:05.305Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -221,16 +221,16 @@
           "crn": "54414",
           "sectionNumber": "O01",
           "instructor": "Prvulovic, Milos",
-          "enrolled": 199,
+          "enrolled": 198,
           "capacity": 200,
-          "seatsAvailable": 1,
+          "seatsAvailable": 2,
           "waitCount": 56,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 199,
-      "totalAvailable": 1,
+      "totalEnrolled": 198,
+      "totalAvailable": 2,
       "totalWaitlisted": 56
     },
     "CS-6291": {
@@ -454,14 +454,14 @@
           "enrolled": 250,
           "capacity": 250,
           "seatsAvailable": 0,
-          "waitCount": 672,
+          "waitCount": 670,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
       "totalEnrolled": 250,
       "totalAvailable": 0,
-      "totalWaitlisted": 672
+      "totalWaitlisted": 670
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -589,16 +589,16 @@
           "crn": "55738",
           "sectionNumber": "O01",
           "instructor": "McGreggor, Brian",
-          "enrolled": 643,
+          "enrolled": 644,
           "capacity": 700,
-          "seatsAvailable": 57,
+          "seatsAvailable": 56,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 643,
-      "totalAvailable": 57,
+      "totalEnrolled": 644,
+      "totalAvailable": 56,
       "totalWaitlisted": 0
     },
     "CS-7280": {
@@ -799,14 +799,14 @@
           "enrolled": 748,
           "capacity": 750,
           "seatsAvailable": 2,
-          "waitCount": 4,
+          "waitCount": 5,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
       "totalEnrolled": 748,
       "totalAvailable": 2,
-      "totalWaitlisted": 4
+      "totalWaitlisted": 5
     },
     "CS-7642": {
       "courseId": "CS-7642",
@@ -842,16 +842,16 @@
           "crn": "55306",
           "sectionNumber": "O01",
           "instructor": "Kira, Zsolt",
-          "enrolled": 340,
+          "enrolled": 339,
           "capacity": 350,
-          "seatsAvailable": 10,
+          "seatsAvailable": 11,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 350,
-      "totalEnrolled": 340,
-      "totalAvailable": 10,
+      "totalEnrolled": 339,
+      "totalAvailable": 11,
       "totalWaitlisted": 0
     },
     "CS-7646": {
@@ -891,14 +891,14 @@
           "enrolled": 697,
           "capacity": 700,
           "seatsAvailable": 3,
-          "waitCount": 462,
+          "waitCount": 461,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
       "totalEnrolled": 697,
       "totalAvailable": 3,
-      "totalWaitlisted": 462
+      "totalWaitlisted": 461
     },
     "CS-8803-O08": {
       "courseId": "CS-8803-O08",
@@ -1325,16 +1325,16 @@
           "crn": "56787",
           "sectionNumber": "O01",
           "instructor": "Garner, Jacqueline",
-          "enrolled": 256,
+          "enrolled": 255,
           "capacity": 320,
-          "seatsAvailable": 64,
+          "seatsAvailable": 65,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 320,
-      "totalEnrolled": 256,
-      "totalAvailable": 64,
+      "totalEnrolled": 255,
+      "totalAvailable": 65,
       "totalWaitlisted": 0
     },
     "PUBP-6725": {
