@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-05-15T22:28:49.128Z",
+  "lastUpdated": "2026-05-15T23:29:05.927Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -37,16 +37,16 @@
           "crn": "53542",
           "sectionNumber": "O01",
           "instructor": "Lee, Wenke",
-          "enrolled": 338,
+          "enrolled": 337,
           "capacity": 700,
-          "seatsAvailable": 362,
+          "seatsAvailable": 363,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 338,
-      "totalAvailable": 362,
+      "totalEnrolled": 337,
+      "totalAvailable": 363,
       "totalWaitlisted": 0
     },
     "CS-6200": {
@@ -454,14 +454,14 @@
           "enrolled": 249,
           "capacity": 250,
           "seatsAvailable": 1,
-          "waitCount": 668,
+          "waitCount": 667,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
       "totalEnrolled": 249,
       "totalAvailable": 1,
-      "totalWaitlisted": 668
+      "totalWaitlisted": 667
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -773,16 +773,16 @@
           "crn": "54429",
           "sectionNumber": "O01",
           "instructor": "Summet, Jay",
-          "enrolled": 435,
+          "enrolled": 433,
           "capacity": 900,
-          "seatsAvailable": 465,
+          "seatsAvailable": 467,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 900,
-      "totalEnrolled": 435,
-      "totalAvailable": 465,
+      "totalEnrolled": 433,
+      "totalAvailable": 467,
       "totalWaitlisted": 0
     },
     "CS-7641": {
@@ -888,17 +888,17 @@
           "crn": "56279",
           "sectionNumber": "O01",
           "instructor": "Riedl, Mark",
-          "enrolled": 694,
+          "enrolled": 695,
           "capacity": 700,
-          "seatsAvailable": 6,
-          "waitCount": 456,
+          "seatsAvailable": 5,
+          "waitCount": 455,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 694,
-      "totalAvailable": 6,
-      "totalWaitlisted": 456
+      "totalEnrolled": 695,
+      "totalAvailable": 5,
+      "totalWaitlisted": 455
     },
     "CS-8803-O08": {
       "courseId": "CS-8803-O08",
