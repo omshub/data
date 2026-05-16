@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-05-16T20:58:42.209Z",
+  "lastUpdated": "2026-05-16T21:53:21.461Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -221,16 +221,16 @@
           "crn": "54414",
           "sectionNumber": "O01",
           "instructor": "Prvulovic, Milos",
-          "enrolled": 200,
+          "enrolled": 199,
           "capacity": 200,
-          "seatsAvailable": 0,
+          "seatsAvailable": 1,
           "waitCount": 54,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 200,
-      "totalAvailable": 0,
+      "totalEnrolled": 199,
+      "totalAvailable": 1,
       "totalWaitlisted": 54
     },
     "CS-6291": {
@@ -270,14 +270,14 @@
           "enrolled": 796,
           "capacity": 800,
           "seatsAvailable": 4,
-          "waitCount": 780,
+          "waitCount": 779,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
       "totalEnrolled": 796,
       "totalAvailable": 4,
-      "totalWaitlisted": 780
+      "totalWaitlisted": 779
     },
     "CS-6310": {
       "courseId": "CS-6310",
@@ -865,16 +865,16 @@
           "crn": "53834",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 552,
+          "enrolled": 553,
           "capacity": 900,
-          "seatsAvailable": 348,
+          "seatsAvailable": 347,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 900,
-      "totalEnrolled": 552,
-      "totalAvailable": 348,
+      "totalEnrolled": 553,
+      "totalAvailable": 347,
       "totalWaitlisted": 0
     },
     "CS-7650": {
@@ -891,14 +891,14 @@
           "enrolled": 696,
           "capacity": 700,
           "seatsAvailable": 4,
-          "waitCount": 443,
+          "waitCount": 444,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
       "totalEnrolled": 696,
       "totalAvailable": 4,
-      "totalWaitlisted": 443
+      "totalWaitlisted": 444
     },
     "CS-8803-O08": {
       "courseId": "CS-8803-O08",
