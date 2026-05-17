@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-05-17T10:19:16.527Z",
+  "lastUpdated": "2026-05-17T11:37:31.305Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -60,16 +60,16 @@
           "crn": "54104",
           "sectionNumber": "O01",
           "instructor": "Gavrilovska, Ada",
-          "enrolled": 305,
+          "enrolled": 304,
           "capacity": 750,
-          "seatsAvailable": 445,
+          "seatsAvailable": 446,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
-      "totalEnrolled": 305,
-      "totalAvailable": 445,
+      "totalEnrolled": 304,
+      "totalAvailable": 446,
       "totalWaitlisted": 0
     },
     "CS-6238": {
@@ -730,14 +730,14 @@
           "enrolled": 499,
           "capacity": 500,
           "seatsAvailable": 1,
-          "waitCount": 2,
+          "waitCount": 3,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 500,
       "totalEnrolled": 499,
       "totalAvailable": 1,
-      "totalWaitlisted": 2
+      "totalWaitlisted": 3
     },
     "CS-7637": {
       "courseId": "CS-7637",
@@ -799,14 +799,14 @@
           "enrolled": 748,
           "capacity": 750,
           "seatsAvailable": 2,
-          "waitCount": 10,
+          "waitCount": 11,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
       "totalEnrolled": 748,
       "totalAvailable": 2,
-      "totalWaitlisted": 10
+      "totalWaitlisted": 11
     },
     "CS-7642": {
       "courseId": "CS-7642",
@@ -911,16 +911,16 @@
           "crn": "54920",
           "sectionNumber": "O08",
           "instructor": "Pande, Santosh",
-          "enrolled": 35,
+          "enrolled": 36,
           "capacity": 100,
-          "seatsAvailable": 65,
+          "seatsAvailable": 64,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 35,
-      "totalAvailable": 65,
+      "totalEnrolled": 36,
+      "totalAvailable": 64,
       "totalWaitlisted": 0
     },
     "CS-8803-O15": {
@@ -957,16 +957,16 @@
           "crn": "56278",
           "sectionNumber": "O17",
           "instructor": "McGreggor, Brian",
-          "enrolled": 150,
+          "enrolled": 149,
           "capacity": 150,
-          "seatsAvailable": 0,
+          "seatsAvailable": 1,
           "waitCount": 32,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 150,
-      "totalAvailable": 0,
+      "totalEnrolled": 149,
+      "totalAvailable": 1,
       "totalWaitlisted": 32
     },
     "CS-8803-O20": {
