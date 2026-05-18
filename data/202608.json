@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-05-18T13:41:10.596Z",
+  "lastUpdated": "2026-05-18T16:45:04.452Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -382,16 +382,16 @@
           "crn": "83929",
           "sectionNumber": "O01",
           "instructor": "Manning, Ben",
-          "enrolled": 2,
+          "enrolled": 3,
           "capacity": 950,
-          "seatsAvailable": 948,
+          "seatsAvailable": 947,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 950,
-      "totalEnrolled": 2,
-      "totalAvailable": 948,
+      "totalEnrolled": 3,
+      "totalAvailable": 947,
       "totalWaitlisted": 0
     },
     "CS-6310": {
