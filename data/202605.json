@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-05-17T23:28:15.864Z",
+  "lastUpdated": "2026-05-18T01:27:23.052Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -37,16 +37,16 @@
           "crn": "53542",
           "sectionNumber": "O01",
           "instructor": "Lee, Wenke",
-          "enrolled": 341,
+          "enrolled": 339,
           "capacity": 700,
-          "seatsAvailable": 359,
+          "seatsAvailable": 361,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 341,
-      "totalAvailable": 359,
+      "totalEnrolled": 339,
+      "totalAvailable": 361,
       "totalWaitlisted": 0
     },
     "CS-6200": {
@@ -60,16 +60,16 @@
           "crn": "54104",
           "sectionNumber": "O01",
           "instructor": "Gavrilovska, Ada",
-          "enrolled": 304,
+          "enrolled": 306,
           "capacity": 750,
-          "seatsAvailable": 446,
+          "seatsAvailable": 444,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
-      "totalEnrolled": 304,
-      "totalAvailable": 446,
+      "totalEnrolled": 306,
+      "totalAvailable": 444,
       "totalWaitlisted": 0
     },
     "CS-6238": {
@@ -109,14 +109,14 @@
           "enrolled": 999,
           "capacity": 1000,
           "seatsAvailable": 1,
-          "waitCount": 13,
+          "waitCount": 12,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1000,
       "totalEnrolled": 999,
       "totalAvailable": 1,
-      "totalWaitlisted": 13
+      "totalWaitlisted": 12
     },
     "CS-6262": {
       "courseId": "CS-6262",
@@ -129,16 +129,16 @@
           "crn": "53838",
           "sectionNumber": "O01",
           "instructor": "Lee, Wenke",
-          "enrolled": 153,
+          "enrolled": 154,
           "capacity": 300,
-          "seatsAvailable": 147,
+          "seatsAvailable": 146,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 153,
-      "totalAvailable": 147,
+      "totalEnrolled": 154,
+      "totalAvailable": 146,
       "totalWaitlisted": 0
     },
     "CS-6263": {
@@ -267,17 +267,17 @@
           "crn": "53204",
           "sectionNumber": "O01",
           "instructor": "Manning, Ben",
-          "enrolled": 798,
+          "enrolled": 796,
           "capacity": 800,
-          "seatsAvailable": 2,
-          "waitCount": 775,
+          "seatsAvailable": 4,
+          "waitCount": 774,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
-      "totalEnrolled": 798,
-      "totalAvailable": 2,
-      "totalWaitlisted": 775
+      "totalEnrolled": 796,
+      "totalAvailable": 4,
+      "totalWaitlisted": 774
     },
     "CS-6310": {
       "courseId": "CS-6310",
@@ -290,16 +290,16 @@
           "crn": "53543",
           "sectionNumber": "O01",
           "instructor": "Moss, Mark",
-          "enrolled": 190,
+          "enrolled": 192,
           "capacity": 650,
-          "seatsAvailable": 460,
+          "seatsAvailable": 458,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 650,
-      "totalEnrolled": 190,
-      "totalAvailable": 460,
+      "totalEnrolled": 192,
+      "totalAvailable": 458,
       "totalWaitlisted": 0
     },
     "CS-6340": {
@@ -313,16 +313,16 @@
           "crn": "53544",
           "sectionNumber": "O01",
           "instructor": "Naik, Mayur",
-          "enrolled": 146,
+          "enrolled": 147,
           "capacity": 350,
-          "seatsAvailable": 204,
+          "seatsAvailable": 203,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 350,
-      "totalEnrolled": 146,
-      "totalAvailable": 204,
+      "totalEnrolled": 147,
+      "totalAvailable": 203,
       "totalWaitlisted": 0
     },
     "CS-6400": {
@@ -336,16 +336,16 @@
           "crn": "53831",
           "sectionNumber": "O01",
           "instructor": "Mark, Leo",
-          "enrolled": 151,
+          "enrolled": 150,
           "capacity": 400,
-          "seatsAvailable": 249,
+          "seatsAvailable": 250,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 400,
-      "totalEnrolled": 151,
-      "totalAvailable": 249,
+      "totalEnrolled": 150,
+      "totalAvailable": 250,
       "totalWaitlisted": 0
     },
     "CS-6422": {
@@ -454,14 +454,14 @@
           "enrolled": 250,
           "capacity": 250,
           "seatsAvailable": 0,
-          "waitCount": 651,
+          "waitCount": 650,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
       "totalEnrolled": 250,
       "totalAvailable": 0,
-      "totalWaitlisted": 651
+      "totalWaitlisted": 650
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -500,14 +500,14 @@
           "enrolled": 847,
           "capacity": 850,
           "seatsAvailable": 3,
-          "waitCount": 325,
+          "waitCount": 322,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 850,
       "totalEnrolled": 847,
       "totalAvailable": 3,
-      "totalWaitlisted": 325
+      "totalWaitlisted": 322
     },
     "CS-6675": {
       "courseId": "CS-6675",
@@ -589,16 +589,16 @@
           "crn": "55738",
           "sectionNumber": "O01",
           "instructor": "McGreggor, Brian",
-          "enrolled": 661,
+          "enrolled": 663,
           "capacity": 700,
-          "seatsAvailable": 39,
+          "seatsAvailable": 37,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 661,
-      "totalAvailable": 39,
+      "totalEnrolled": 663,
+      "totalAvailable": 37,
       "totalWaitlisted": 0
     },
     "CS-7280": {
@@ -615,14 +615,14 @@
           "enrolled": 249,
           "capacity": 250,
           "seatsAvailable": 1,
-          "waitCount": 26,
+          "waitCount": 27,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
       "totalEnrolled": 249,
       "totalAvailable": 1,
-      "totalWaitlisted": 26
+      "totalWaitlisted": 27
     },
     "CS-7295": {
       "courseId": "CS-7295",
@@ -658,16 +658,16 @@
           "crn": "57052",
           "sectionNumber": "O01",
           "instructor": "Qureshi, Moinuddin",
-          "enrolled": 106,
+          "enrolled": 105,
           "capacity": 200,
-          "seatsAvailable": 94,
+          "seatsAvailable": 95,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 106,
-      "totalAvailable": 94,
+      "totalEnrolled": 105,
+      "totalAvailable": 95,
       "totalWaitlisted": 0
     },
     "CS-7470": {
@@ -704,16 +704,16 @@
           "crn": "57292",
           "sectionNumber": "O01",
           "instructor": "Ha, Sehoon",
-          "enrolled": 59,
+          "enrolled": 58,
           "capacity": 200,
-          "seatsAvailable": 141,
+          "seatsAvailable": 142,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 59,
-      "totalAvailable": 141,
+      "totalEnrolled": 58,
+      "totalAvailable": 142,
       "totalWaitlisted": 0
     },
     "CS-7632": {
@@ -727,17 +727,17 @@
           "crn": "55311",
           "sectionNumber": "O01",
           "instructor": "Wilson, Jeff",
-          "enrolled": 496,
+          "enrolled": 498,
           "capacity": 500,
-          "seatsAvailable": 4,
-          "waitCount": 2,
+          "seatsAvailable": 2,
+          "waitCount": 1,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 500,
-      "totalEnrolled": 496,
-      "totalAvailable": 4,
-      "totalWaitlisted": 2
+      "totalEnrolled": 498,
+      "totalAvailable": 2,
+      "totalWaitlisted": 1
     },
     "CS-7637": {
       "courseId": "CS-7637",
@@ -750,16 +750,16 @@
           "crn": "54417",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 803,
+          "enrolled": 804,
           "capacity": 900,
-          "seatsAvailable": 97,
+          "seatsAvailable": 96,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 900,
-      "totalEnrolled": 803,
-      "totalAvailable": 97,
+      "totalEnrolled": 804,
+      "totalAvailable": 96,
       "totalWaitlisted": 0
     },
     "CS-7638": {
@@ -799,14 +799,14 @@
           "enrolled": 746,
           "capacity": 750,
           "seatsAvailable": 4,
-          "waitCount": 10,
+          "waitCount": 12,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
       "totalEnrolled": 746,
       "totalAvailable": 4,
-      "totalWaitlisted": 10
+      "totalWaitlisted": 12
     },
     "CS-7642": {
       "courseId": "CS-7642",
@@ -842,16 +842,16 @@
           "crn": "55306",
           "sectionNumber": "O01",
           "instructor": "Kira, Zsolt",
-          "enrolled": 340,
+          "enrolled": 339,
           "capacity": 350,
-          "seatsAvailable": 10,
+          "seatsAvailable": 11,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 350,
-      "totalEnrolled": 340,
-      "totalAvailable": 10,
+      "totalEnrolled": 339,
+      "totalAvailable": 11,
       "totalWaitlisted": 0
     },
     "CS-7646": {
@@ -888,16 +888,16 @@
           "crn": "56279",
           "sectionNumber": "O01",
           "instructor": "Riedl, Mark",
-          "enrolled": 696,
+          "enrolled": 695,
           "capacity": 700,
-          "seatsAvailable": 4,
+          "seatsAvailable": 5,
           "waitCount": 429,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 696,
-      "totalAvailable": 4,
+      "totalEnrolled": 695,
+      "totalAvailable": 5,
       "totalWaitlisted": 429
     },
     "CS-8803-O08": {
@@ -911,16 +911,16 @@
           "crn": "54920",
           "sectionNumber": "O08",
           "instructor": "Pande, Santosh",
-          "enrolled": 36,
+          "enrolled": 35,
           "capacity": 100,
-          "seatsAvailable": 64,
+          "seatsAvailable": 65,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 36,
-      "totalAvailable": 64,
+      "totalEnrolled": 35,
+      "totalAvailable": 65,
       "totalWaitlisted": 0
     },
     "CS-8803-O15": {
@@ -937,14 +937,14 @@
           "enrolled": 150,
           "capacity": 150,
           "seatsAvailable": 0,
-          "waitCount": 185,
+          "waitCount": 184,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
       "totalEnrolled": 150,
       "totalAvailable": 0,
-      "totalWaitlisted": 185
+      "totalWaitlisted": 184
     },
     "CS-8803-O17": {
       "courseId": "CS-8803-O17",
@@ -1049,16 +1049,16 @@
           "crn": "58154",
           "sectionNumber": "O27",
           "instructor": "Zhu, Bo",
-          "enrolled": 100,
+          "enrolled": 99,
           "capacity": 100,
-          "seatsAvailable": 0,
+          "seatsAvailable": 1,
           "waitCount": 3,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 100,
-      "totalAvailable": 0,
+      "totalEnrolled": 99,
+      "totalAvailable": 1,
       "totalWaitlisted": 3
     },
     "CS-8803-O29": {
@@ -1233,16 +1233,16 @@
           "crn": "57271",
           "sectionNumber": "O01",
           "instructor": "Paynabar, Kamran",
-          "enrolled": 36,
+          "enrolled": 37,
           "capacity": 100,
-          "seatsAvailable": 64,
+          "seatsAvailable": 63,
           "waitCount": 0,
           "waitCapacity": 25
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 36,
-      "totalAvailable": 64,
+      "totalEnrolled": 37,
+      "totalAvailable": 63,
       "totalWaitlisted": 0
     },
     "ISYE-6644": {
@@ -1279,16 +1279,16 @@
           "crn": "55326",
           "sectionNumber": "O01",
           "instructor": "Borowitz, Jeffrey",
-          "enrolled": 129,
+          "enrolled": 128,
           "capacity": 135,
-          "seatsAvailable": 6,
+          "seatsAvailable": 7,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 135,
-      "totalEnrolled": 129,
-      "totalAvailable": 6,
+      "totalEnrolled": 128,
+      "totalAvailable": 7,
       "totalWaitlisted": 0
     },
     "MGT-6311": {
