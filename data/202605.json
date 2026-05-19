@@ -1,75 +1,75 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-05-18T18:27:57.957Z",
+  "lastUpdated": "2026-05-19T16:17:31.839Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
       "subject": "CSE",
       "courseNumber": "6220",
-      "name": "High Perform Computing",
+      "name": "Intro to High-Performance Computing",
       "creditHours": null,
       "sections": [
         {
           "crn": "55312",
           "sectionNumber": "O01",
           "instructor": "Vuduc, Richard",
-          "enrolled": 79,
+          "enrolled": 76,
           "capacity": 300,
-          "seatsAvailable": 221,
+          "seatsAvailable": 224,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 79,
-      "totalAvailable": 221,
+      "totalEnrolled": 76,
+      "totalAvailable": 224,
       "totalWaitlisted": 0
     },
     "CS-6035": {
       "courseId": "CS-6035",
       "subject": "CS",
       "courseNumber": "6035",
-      "name": "Intro To Info Security",
+      "name": "Introduction to Information Security",
       "creditHours": 3,
       "sections": [
         {
           "crn": "53542",
           "sectionNumber": "O01",
           "instructor": "Lee, Wenke",
-          "enrolled": 350,
+          "enrolled": 360,
           "capacity": 700,
-          "seatsAvailable": 350,
+          "seatsAvailable": 340,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 350,
-      "totalAvailable": 350,
+      "totalEnrolled": 360,
+      "totalAvailable": 340,
       "totalWaitlisted": 0
     },
     "CS-6200": {
       "courseId": "CS-6200",
       "subject": "CS",
       "courseNumber": "6200",
-      "name": "Graduate Intro to OS",
+      "name": "Introduction to Operating Systems",
       "creditHours": 3,
       "sections": [
         {
           "crn": "54104",
           "sectionNumber": "O01",
           "instructor": "Gavrilovska, Ada",
-          "enrolled": 309,
+          "enrolled": 307,
           "capacity": 750,
-          "seatsAvailable": 441,
+          "seatsAvailable": 443,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
-      "totalEnrolled": 309,
-      "totalAvailable": 441,
+      "totalEnrolled": 307,
+      "totalAvailable": 443,
       "totalWaitlisted": 0
     },
     "CS-6238": {
@@ -106,17 +106,17 @@
           "crn": "53830",
           "sectionNumber": "O01",
           "instructor": "Konte, Maria",
-          "enrolled": 995,
+          "enrolled": 994,
           "capacity": 1000,
-          "seatsAvailable": 5,
-          "waitCount": 38,
+          "seatsAvailable": 6,
+          "waitCount": 36,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1000,
-      "totalEnrolled": 995,
-      "totalAvailable": 5,
-      "totalWaitlisted": 38
+      "totalEnrolled": 994,
+      "totalAvailable": 6,
+      "totalWaitlisted": 36
     },
     "CS-6262": {
       "courseId": "CS-6262",
@@ -129,46 +129,46 @@
           "crn": "53838",
           "sectionNumber": "O01",
           "instructor": "Lee, Wenke",
-          "enrolled": 154,
+          "enrolled": 155,
           "capacity": 300,
-          "seatsAvailable": 146,
+          "seatsAvailable": 145,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 154,
-      "totalAvailable": 146,
+      "totalEnrolled": 155,
+      "totalAvailable": 145,
       "totalWaitlisted": 0
     },
     "CS-6263": {
       "courseId": "CS-6263",
       "subject": "CS",
       "courseNumber": "6263",
-      "name": "Intro Cyber Phys Sys Sec",
+      "name": "Intro to Cyber Physical Systems Security",
       "creditHours": null,
       "sections": [
         {
           "crn": "54106",
           "sectionNumber": "O01",
           "instructor": "Zonouz, Saman",
-          "enrolled": 12,
+          "enrolled": 13,
           "capacity": 150,
-          "seatsAvailable": 138,
+          "seatsAvailable": 137,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 12,
-      "totalAvailable": 138,
+      "totalEnrolled": 13,
+      "totalAvailable": 137,
       "totalWaitlisted": 0
     },
     "CS-6264": {
       "courseId": "CS-6264",
       "subject": "CS",
       "courseNumber": "6264",
-      "name": "Infosec Labs: Defenses",
+      "name": "Information Security Lab - System and Network Defenses",
       "creditHours": 3,
       "sections": [
         {
@@ -191,53 +191,53 @@
       "courseId": "CS-6265",
       "subject": "CS",
       "courseNumber": "6265",
-      "name": "Info Sec Lab Binexp",
+      "name": "Information Security Lab",
       "creditHours": null,
       "sections": [
         {
           "crn": "54977",
           "sectionNumber": "O01",
           "instructor": "Kim, Taesoo",
-          "enrolled": 29,
+          "enrolled": 27,
           "capacity": 50,
-          "seatsAvailable": 21,
+          "seatsAvailable": 23,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 50,
-      "totalEnrolled": 29,
-      "totalAvailable": 21,
+      "totalEnrolled": 27,
+      "totalAvailable": 23,
       "totalWaitlisted": 0
     },
     "CS-6290": {
       "courseId": "CS-6290",
       "subject": "CS",
       "courseNumber": "6290",
-      "name": "High Perform Comput Arch",
+      "name": "High Performance Computer Architecture",
       "creditHours": 3,
       "sections": [
         {
           "crn": "54414",
           "sectionNumber": "O01",
           "instructor": "Prvulovic, Milos",
-          "enrolled": 198,
+          "enrolled": 199,
           "capacity": 200,
-          "seatsAvailable": 2,
-          "waitCount": 54,
+          "seatsAvailable": 1,
+          "waitCount": 52,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 198,
-      "totalAvailable": 2,
-      "totalWaitlisted": 54
+      "totalEnrolled": 199,
+      "totalAvailable": 1,
+      "totalWaitlisted": 52
     },
     "CS-6291": {
       "courseId": "CS-6291",
       "subject": "CS",
       "courseNumber": "6291",
-      "name": "Embedded Software Opt.",
+      "name": "Embedded Systems Optimization",
       "creditHours": null,
       "sections": [
         {
@@ -260,116 +260,116 @@
       "courseId": "CS-6300",
       "subject": "CS",
       "courseNumber": "6300",
-      "name": "Software Dev Process",
+      "name": "Software Development Process",
       "creditHours": null,
       "sections": [
         {
           "crn": "53204",
           "sectionNumber": "O01",
           "instructor": "Manning, Ben",
-          "enrolled": 796,
+          "enrolled": 798,
           "capacity": 800,
-          "seatsAvailable": 4,
-          "waitCount": 743,
+          "seatsAvailable": 2,
+          "waitCount": 720,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
-      "totalEnrolled": 796,
-      "totalAvailable": 4,
-      "totalWaitlisted": 743
+      "totalEnrolled": 798,
+      "totalAvailable": 2,
+      "totalWaitlisted": 720
     },
     "CS-6310": {
       "courseId": "CS-6310",
       "subject": "CS",
       "courseNumber": "6310",
-      "name": "Software Arch &amp; Design",
+      "name": "Software Architecture and Design",
       "creditHours": null,
       "sections": [
         {
           "crn": "53543",
           "sectionNumber": "O01",
           "instructor": "Moss, Mark",
-          "enrolled": 195,
+          "enrolled": 201,
           "capacity": 650,
-          "seatsAvailable": 455,
+          "seatsAvailable": 449,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 650,
-      "totalEnrolled": 195,
-      "totalAvailable": 455,
+      "totalEnrolled": 201,
+      "totalAvailable": 449,
       "totalWaitlisted": 0
     },
     "CS-6340": {
       "courseId": "CS-6340",
       "subject": "CS",
       "courseNumber": "6340",
-      "name": "Software Analysis &amp; Test",
+      "name": "Software Analysis",
       "creditHours": null,
       "sections": [
         {
           "crn": "53544",
           "sectionNumber": "O01",
           "instructor": "Naik, Mayur",
-          "enrolled": 149,
+          "enrolled": 152,
           "capacity": 350,
-          "seatsAvailable": 201,
+          "seatsAvailable": 198,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 350,
-      "totalEnrolled": 149,
-      "totalAvailable": 201,
+      "totalEnrolled": 152,
+      "totalAvailable": 198,
       "totalWaitlisted": 0
     },
     "CS-6400": {
       "courseId": "CS-6400",
       "subject": "CS",
       "courseNumber": "6400",
-      "name": "DB Sys Concepts&amp; Design",
+      "name": "Database Systems Concepts and Design",
       "creditHours": null,
       "sections": [
         {
           "crn": "53831",
           "sectionNumber": "O01",
           "instructor": "Mark, Leo",
-          "enrolled": 150,
+          "enrolled": 143,
           "capacity": 400,
-          "seatsAvailable": 250,
+          "seatsAvailable": 257,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 400,
-      "totalEnrolled": 150,
-      "totalAvailable": 250,
+      "totalEnrolled": 143,
+      "totalAvailable": 257,
       "totalWaitlisted": 0
     },
     "CS-6422": {
       "courseId": "CS-6422",
       "subject": "CS",
       "courseNumber": "6422",
-      "name": "Database System Implemnt",
+      "name": "Database System Implementation",
       "creditHours": null,
       "sections": [
         {
           "crn": "57291",
           "sectionNumber": "O01",
           "instructor": "Arulraj, Joy James Prabhu",
-          "enrolled": 149,
+          "enrolled": 147,
           "capacity": 150,
-          "seatsAvailable": 1,
-          "waitCount": 71,
+          "seatsAvailable": 3,
+          "waitCount": 73,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 149,
-      "totalAvailable": 1,
-      "totalWaitlisted": 71
+      "totalEnrolled": 147,
+      "totalAvailable": 3,
+      "totalWaitlisted": 73
     },
     "CS-6457": {
       "courseId": "CS-6457",
@@ -382,23 +382,23 @@
           "crn": "55308",
           "sectionNumber": "O01",
           "instructor": "Wilson, Jeff",
-          "enrolled": 249,
+          "enrolled": 245,
           "capacity": 300,
-          "seatsAvailable": 51,
+          "seatsAvailable": 55,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 249,
-      "totalAvailable": 51,
+      "totalEnrolled": 245,
+      "totalAvailable": 55,
       "totalWaitlisted": 0
     },
     "CS-6460": {
       "courseId": "CS-6460",
       "subject": "CS",
       "courseNumber": "6460",
-      "name": "Educ Tech-Foundations",
+      "name": "Educational Technology",
       "creditHours": null,
       "sections": [
         {
@@ -421,47 +421,47 @@
       "courseId": "CS-6491",
       "subject": "CS",
       "courseNumber": "6491",
-      "name": "Computer Graphics",
+      "name": "Foundations of Computer Graphics",
       "creditHours": null,
       "sections": [
         {
           "crn": "57320",
           "sectionNumber": "O01",
           "instructor": "Wilson, Jeff",
-          "enrolled": 180,
+          "enrolled": 187,
           "capacity": 200,
-          "seatsAvailable": 20,
+          "seatsAvailable": 13,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 180,
-      "totalAvailable": 20,
+      "totalEnrolled": 187,
+      "totalAvailable": 13,
       "totalWaitlisted": 0
     },
     "CS-6515": {
       "courseId": "CS-6515",
       "subject": "CS",
       "courseNumber": "6515",
-      "name": "Intro to Grad Algorithms",
+      "name": "Intro to Graduate Algorithms",
       "creditHours": 3,
       "sections": [
         {
           "crn": "54415",
           "sectionNumber": "O01",
           "instructor": "Brito, Gerandy",
-          "enrolled": 298,
+          "enrolled": 356,
           "capacity": 400,
-          "seatsAvailable": 102,
-          "waitCount": 581,
+          "seatsAvailable": 44,
+          "waitCount": 369,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 400,
-      "totalEnrolled": 298,
-      "totalAvailable": 102,
-      "totalWaitlisted": 581
+      "totalEnrolled": 356,
+      "totalAvailable": 44,
+      "totalWaitlisted": 369
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -474,23 +474,23 @@
           "crn": "56709",
           "sectionNumber": "O01",
           "instructor": "Borela Valente, Rodrigo",
-          "enrolled": 634,
+          "enrolled": 627,
           "capacity": 650,
-          "seatsAvailable": 16,
+          "seatsAvailable": 23,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 650,
-      "totalEnrolled": 634,
-      "totalAvailable": 16,
+      "totalEnrolled": 627,
+      "totalAvailable": 23,
       "totalWaitlisted": 0
     },
     "CS-6603": {
       "courseId": "CS-6603",
       "subject": "CS",
       "courseNumber": "6603",
-      "name": "AI Ethics Society",
+      "name": "AI, Ethics, and Society",
       "creditHours": null,
       "sections": [
         {
@@ -500,105 +500,105 @@
           "enrolled": 845,
           "capacity": 850,
           "seatsAvailable": 5,
-          "waitCount": 316,
+          "waitCount": 312,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 850,
       "totalEnrolled": 845,
       "totalAvailable": 5,
-      "totalWaitlisted": 316
+      "totalWaitlisted": 312
     },
     "CS-6675": {
       "courseId": "CS-6675",
       "subject": "CS",
       "courseNumber": "6675",
-      "name": "Advance Internet Comput",
+      "name": "Advanced Internet Systems and Applications",
       "creditHours": null,
       "sections": [
         {
           "crn": "55711",
           "sectionNumber": "O01",
           "instructor": "Liu, Ling",
-          "enrolled": 39,
+          "enrolled": 41,
           "capacity": 100,
-          "seatsAvailable": 61,
+          "seatsAvailable": 59,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 39,
-      "totalAvailable": 61,
+      "totalEnrolled": 41,
+      "totalAvailable": 59,
       "totalWaitlisted": 0
     },
     "CS-6747": {
       "courseId": "CS-6747",
       "subject": "CS",
       "courseNumber": "6747",
-      "name": "ADV Malware Analysis",
+      "name": "Advanced Malware Analysis",
       "creditHours": 3,
       "sections": [
         {
           "crn": "55305",
           "sectionNumber": "O01",
           "instructor": "Saltaformaggio, Brendan",
-          "enrolled": 33,
+          "enrolled": 34,
           "capacity": 100,
-          "seatsAvailable": 67,
+          "seatsAvailable": 66,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 33,
-      "totalAvailable": 67,
+      "totalEnrolled": 34,
+      "totalAvailable": 66,
       "totalWaitlisted": 0
     },
     "CS-6750": {
       "courseId": "CS-6750",
       "subject": "CS",
       "courseNumber": "6750",
-      "name": "Human-Computer Interact",
+      "name": "Human-Computer Interaction",
       "creditHours": null,
       "sections": [
         {
           "crn": "53833",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 434,
+          "enrolled": 436,
           "capacity": 650,
-          "seatsAvailable": 216,
+          "seatsAvailable": 214,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 650,
-      "totalEnrolled": 434,
-      "totalAvailable": 216,
+      "totalEnrolled": 436,
+      "totalAvailable": 214,
       "totalWaitlisted": 0
     },
     "CS-6795": {
       "courseId": "CS-6795",
       "subject": "CS",
       "courseNumber": "6795",
-      "name": "Intro-Cognitive Science",
+      "name": "Introduction to Cognitive Science",
       "creditHours": null,
       "sections": [
         {
           "crn": "55738",
           "sectionNumber": "O01",
           "instructor": "McGreggor, Brian",
-          "enrolled": 687,
+          "enrolled": 696,
           "capacity": 700,
-          "seatsAvailable": 13,
+          "seatsAvailable": 4,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 687,
-      "totalAvailable": 13,
+      "totalEnrolled": 696,
+      "totalAvailable": 4,
       "totalWaitlisted": 0
     },
     "CS-7280": {
@@ -612,85 +612,85 @@
           "crn": "55310",
           "sectionNumber": "O01",
           "instructor": "Dovrolis, Konstantinos",
-          "enrolled": 247,
+          "enrolled": 249,
           "capacity": 250,
-          "seatsAvailable": 3,
-          "waitCount": 28,
+          "seatsAvailable": 1,
+          "waitCount": 26,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
-      "totalEnrolled": 247,
-      "totalAvailable": 3,
-      "totalWaitlisted": 28
+      "totalEnrolled": 249,
+      "totalAvailable": 1,
+      "totalWaitlisted": 26
     },
     "CS-7295": {
       "courseId": "CS-7295",
       "subject": "CS",
       "courseNumber": "7295",
-      "name": "GPU HW and SW",
+      "name": "GPU Hardware and Software",
       "creditHours": null,
       "sections": [
         {
           "crn": "58120",
           "sectionNumber": "O01",
           "instructor": "Kim, Hyesoon",
-          "enrolled": 298,
+          "enrolled": 300,
           "capacity": 300,
-          "seatsAvailable": 2,
-          "waitCount": 35,
+          "seatsAvailable": 0,
+          "waitCount": 31,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 298,
-      "totalAvailable": 2,
-      "totalWaitlisted": 35
+      "totalEnrolled": 300,
+      "totalAvailable": 0,
+      "totalWaitlisted": 31
     },
     "CS-7400": {
       "courseId": "CS-7400",
       "subject": "CS",
       "courseNumber": "7400",
-      "name": "Intro Quantum Computing",
+      "name": "Quantum Computing",
       "creditHours": 3,
       "sections": [
         {
           "crn": "57052",
           "sectionNumber": "O01",
           "instructor": "Qureshi, Moinuddin",
-          "enrolled": 112,
+          "enrolled": 114,
           "capacity": 200,
-          "seatsAvailable": 88,
+          "seatsAvailable": 86,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 112,
-      "totalAvailable": 88,
+      "totalEnrolled": 114,
+      "totalAvailable": 86,
       "totalWaitlisted": 0
     },
     "CS-7470": {
       "courseId": "CS-7470",
       "subject": "CS",
       "courseNumber": "7470",
-      "name": "Ubiquitous Computing",
+      "name": "Mobile & Ubiquitous Computing",
       "creditHours": null,
       "sections": [
         {
           "crn": "55739",
           "sectionNumber": "O01",
           "instructor": "Zeagler, Clint",
-          "enrolled": 197,
+          "enrolled": 199,
           "capacity": 200,
-          "seatsAvailable": 3,
+          "seatsAvailable": 1,
           "waitCount": 9,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 197,
-      "totalAvailable": 3,
+      "totalEnrolled": 199,
+      "totalAvailable": 1,
       "totalWaitlisted": 9
     },
     "CS-7496": {
@@ -704,16 +704,16 @@
           "crn": "57292",
           "sectionNumber": "O01",
           "instructor": "Ha, Sehoon",
-          "enrolled": 57,
+          "enrolled": 59,
           "capacity": 200,
-          "seatsAvailable": 143,
+          "seatsAvailable": 141,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 57,
-      "totalAvailable": 143,
+      "totalEnrolled": 59,
+      "totalAvailable": 141,
       "totalWaitlisted": 0
     },
     "CS-7632": {
@@ -727,39 +727,39 @@
           "crn": "55311",
           "sectionNumber": "O01",
           "instructor": "Wilson, Jeff",
-          "enrolled": 497,
+          "enrolled": 499,
           "capacity": 500,
-          "seatsAvailable": 3,
-          "waitCount": 12,
+          "seatsAvailable": 1,
+          "waitCount": 14,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 500,
-      "totalEnrolled": 497,
-      "totalAvailable": 3,
-      "totalWaitlisted": 12
+      "totalEnrolled": 499,
+      "totalAvailable": 1,
+      "totalWaitlisted": 14
     },
     "CS-7637": {
       "courseId": "CS-7637",
       "subject": "CS",
       "courseNumber": "7637",
-      "name": "Knowledge-Based AI",
+      "name": "Knowledge-Based Artificial Intelligence - Cognitive Systems",
       "creditHours": 3,
       "sections": [
         {
           "crn": "54417",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 808,
+          "enrolled": 819,
           "capacity": 900,
-          "seatsAvailable": 92,
+          "seatsAvailable": 81,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 900,
-      "totalEnrolled": 808,
-      "totalAvailable": 92,
+      "totalEnrolled": 819,
+      "totalAvailable": 81,
       "totalWaitlisted": 0
     },
     "CS-7638": {
@@ -773,16 +773,16 @@
           "crn": "54429",
           "sectionNumber": "O01",
           "instructor": "Summet, Jay",
-          "enrolled": 428,
+          "enrolled": 435,
           "capacity": 900,
-          "seatsAvailable": 472,
+          "seatsAvailable": 465,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 900,
-      "totalEnrolled": 428,
-      "totalAvailable": 472,
+      "totalEnrolled": 435,
+      "totalAvailable": 465,
       "totalWaitlisted": 0
     },
     "CS-7641": {
@@ -796,17 +796,17 @@
           "crn": "56710",
           "sectionNumber": "O01",
           "instructor": "LaGrow, TJ",
-          "enrolled": 745,
+          "enrolled": 746,
           "capacity": 750,
-          "seatsAvailable": 5,
-          "waitCount": 23,
+          "seatsAvailable": 4,
+          "waitCount": 16,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
-      "totalEnrolled": 745,
-      "totalAvailable": 5,
-      "totalWaitlisted": 23
+      "totalEnrolled": 746,
+      "totalAvailable": 4,
+      "totalWaitlisted": 16
     },
     "CS-7642": {
       "courseId": "CS-7642",
@@ -819,16 +819,16 @@
           "crn": "55307",
           "sectionNumber": "O01",
           "instructor": "Borela Valente, Rodrigo",
-          "enrolled": 137,
+          "enrolled": 139,
           "capacity": 500,
-          "seatsAvailable": 363,
+          "seatsAvailable": 361,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 500,
-      "totalEnrolled": 137,
-      "totalAvailable": 363,
+      "totalEnrolled": 139,
+      "totalAvailable": 361,
       "totalWaitlisted": 0
     },
     "CS-7643": {
@@ -842,46 +842,46 @@
           "crn": "55306",
           "sectionNumber": "O01",
           "instructor": "Kira, Zsolt",
-          "enrolled": 340,
+          "enrolled": 330,
           "capacity": 350,
-          "seatsAvailable": 10,
+          "seatsAvailable": 20,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 350,
-      "totalEnrolled": 340,
-      "totalAvailable": 10,
+      "totalEnrolled": 330,
+      "totalAvailable": 20,
       "totalWaitlisted": 0
     },
     "CS-7646": {
       "courseId": "CS-7646",
       "subject": "CS",
       "courseNumber": "7646",
-      "name": "Mach Learn For Trading",
+      "name": "Machine Learning for Trading",
       "creditHours": 3,
       "sections": [
         {
           "crn": "53834",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 559,
+          "enrolled": 566,
           "capacity": 900,
-          "seatsAvailable": 341,
+          "seatsAvailable": 334,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 900,
-      "totalEnrolled": 559,
-      "totalAvailable": 341,
+      "totalEnrolled": 566,
+      "totalAvailable": 334,
       "totalWaitlisted": 0
     },
     "CS-7650": {
       "courseId": "CS-7650",
       "subject": "CS",
       "courseNumber": "7650",
-      "name": "Natural Language",
+      "name": "Natural Language Processing",
       "creditHours": null,
       "sections": [
         {
@@ -891,36 +891,36 @@
           "enrolled": 688,
           "capacity": 700,
           "seatsAvailable": 12,
-          "waitCount": 416,
+          "waitCount": 387,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
       "totalEnrolled": 688,
       "totalAvailable": 12,
-      "totalWaitlisted": 416
+      "totalWaitlisted": 387
     },
     "CS-8803-O08": {
       "courseId": "CS-8803-O08",
       "subject": "CS",
       "courseNumber": "8803-O08",
-      "name": "The Compilers - Theory and Practice",
+      "name": "Compilers - Theory and Practice",
       "creditHours": 3,
       "sections": [
         {
           "crn": "54920",
           "sectionNumber": "O08",
           "instructor": "Pande, Santosh",
-          "enrolled": 35,
+          "enrolled": 32,
           "capacity": 100,
-          "seatsAvailable": 65,
+          "seatsAvailable": 68,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 35,
-      "totalAvailable": 65,
+      "totalEnrolled": 32,
+      "totalAvailable": 68,
       "totalWaitlisted": 0
     },
     "CS-8803-O15": {
@@ -934,17 +934,17 @@
           "crn": "56277",
           "sectionNumber": "O15",
           "instructor": "Omojokun, Olufisayo",
-          "enrolled": 150,
+          "enrolled": 149,
           "capacity": 150,
-          "seatsAvailable": 0,
-          "waitCount": 177,
+          "seatsAvailable": 1,
+          "waitCount": 175,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 150,
-      "totalAvailable": 0,
-      "totalWaitlisted": 177
+      "totalEnrolled": 149,
+      "totalAvailable": 1,
+      "totalWaitlisted": 175
     },
     "CS-8803-O17": {
       "courseId": "CS-8803-O17",
@@ -957,17 +957,17 @@
           "crn": "56278",
           "sectionNumber": "O17",
           "instructor": "McGreggor, Brian",
-          "enrolled": 149,
+          "enrolled": 147,
           "capacity": 150,
-          "seatsAvailable": 1,
-          "waitCount": 35,
+          "seatsAvailable": 3,
+          "waitCount": 36,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 149,
-      "totalAvailable": 1,
-      "totalWaitlisted": 35
+      "totalEnrolled": 147,
+      "totalAvailable": 3,
+      "totalWaitlisted": 36
     },
     "CS-8803-O20": {
       "courseId": "CS-8803-O20",
@@ -980,16 +980,16 @@
           "crn": "57447",
           "sectionNumber": "O20",
           "instructor": "Khan, Asif",
-          "enrolled": 40,
+          "enrolled": 42,
           "capacity": 50,
-          "seatsAvailable": 10,
+          "seatsAvailable": 8,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 50,
-      "totalEnrolled": 40,
-      "totalAvailable": 10,
+      "totalEnrolled": 42,
+      "totalAvailable": 8,
       "totalWaitlisted": 0
     },
     "CS-8803-O23": {
@@ -1003,40 +1003,40 @@
           "crn": "57321",
           "sectionNumber": "O23",
           "instructor": "Konte, Maria",
-          "enrolled": 18,
+          "enrolled": 20,
           "capacity": 50,
-          "seatsAvailable": 32,
+          "seatsAvailable": 30,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 50,
-      "totalEnrolled": 18,
-      "totalAvailable": 32,
+      "totalEnrolled": 20,
+      "totalAvailable": 30,
       "totalWaitlisted": 0
     },
     "CS-8803-O24": {
       "courseId": "CS-8803-O24",
       "subject": "CS",
       "courseNumber": "8803-O24",
-      "name": " Intro to Research",
+      "name": "Intro to Research",
       "creditHours": null,
       "sections": [
         {
           "crn": "57322",
           "sectionNumber": "O24",
           "instructor": "Lytle, Nicholas",
-          "enrolled": 50,
+          "enrolled": 48,
           "capacity": 50,
-          "seatsAvailable": 0,
-          "waitCount": 5,
+          "seatsAvailable": 2,
+          "waitCount": 1,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 50,
-      "totalEnrolled": 50,
-      "totalAvailable": 0,
-      "totalWaitlisted": 5
+      "totalEnrolled": 48,
+      "totalAvailable": 2,
+      "totalWaitlisted": 1
     },
     "CS-8803-O27": {
       "courseId": "CS-8803-O27",
@@ -1049,17 +1049,17 @@
           "crn": "58154",
           "sectionNumber": "O27",
           "instructor": "Zhu, Bo",
-          "enrolled": 95,
+          "enrolled": 99,
           "capacity": 100,
-          "seatsAvailable": 5,
-          "waitCount": 8,
+          "seatsAvailable": 1,
+          "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 95,
-      "totalAvailable": 5,
-      "totalWaitlisted": 8
+      "totalEnrolled": 99,
+      "totalAvailable": 1,
+      "totalWaitlisted": 0
     },
     "CS-8803-O29": {
       "courseId": "CS-8803-O29",
@@ -1072,16 +1072,16 @@
           "crn": "58155",
           "sectionNumber": "O29",
           "instructor": "Adams, Alexander",
-          "enrolled": 59,
+          "enrolled": 55,
           "capacity": 100,
-          "seatsAvailable": 41,
+          "seatsAvailable": 45,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 59,
-      "totalAvailable": 41,
+      "totalEnrolled": 55,
+      "totalAvailable": 45,
       "totalWaitlisted": 0
     },
     "CS-8803-O31": {
@@ -1095,16 +1095,16 @@
           "crn": "58401",
           "sectionNumber": "O31",
           "instructor": "Zonouz, Saman",
-          "enrolled": 41,
+          "enrolled": 36,
           "capacity": 50,
-          "seatsAvailable": 9,
+          "seatsAvailable": 14,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 50,
-      "totalEnrolled": 41,
-      "totalAvailable": 9,
+      "totalEnrolled": 36,
+      "totalAvailable": 14,
       "totalWaitlisted": 0
     },
     "CS-8903": {
@@ -1187,23 +1187,23 @@
           "crn": "58096",
           "sectionNumber": "O01",
           "instructor": "Serban, Nicoleta",
-          "enrolled": 33,
+          "enrolled": 31,
           "capacity": 200,
-          "seatsAvailable": 167,
+          "seatsAvailable": 169,
           "waitCount": 0,
           "waitCapacity": 100
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 33,
-      "totalAvailable": 167,
+      "totalEnrolled": 31,
+      "totalAvailable": 169,
       "totalWaitlisted": 0
     },
     "ISYE-6501": {
       "courseId": "ISYE-6501",
       "subject": "ISYE",
       "courseNumber": "6501",
-      "name": "Intro Analytics Modeling",
+      "name": "Intro to Analytics Modeling",
       "creditHours": 3,
       "sections": [
         {
@@ -1226,69 +1226,69 @@
       "courseId": "ISYE-6525",
       "subject": "ISYE",
       "courseNumber": "6525",
-      "name": "High Dimension Data Anlt",
+      "name": "Topics on High-Dimensional Data Analytics",
       "creditHours": 3,
       "sections": [
         {
           "crn": "57271",
           "sectionNumber": "O01",
           "instructor": "Paynabar, Kamran",
-          "enrolled": 39,
+          "enrolled": 38,
           "capacity": 100,
-          "seatsAvailable": 61,
+          "seatsAvailable": 62,
           "waitCount": 0,
           "waitCapacity": 25
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 39,
-      "totalAvailable": 61,
+      "totalEnrolled": 38,
+      "totalAvailable": 62,
       "totalWaitlisted": 0
     },
     "ISYE-6644": {
       "courseId": "ISYE-6644",
       "subject": "ISYE",
       "courseNumber": "6644",
-      "name": "Simulation",
+      "name": "Simulation and Modeling for Engineering and Science",
       "creditHours": null,
       "sections": [
         {
           "crn": "54958",
           "sectionNumber": "O01",
           "instructor": "Goldsman, David",
-          "enrolled": 32,
+          "enrolled": 31,
           "capacity": 200,
-          "seatsAvailable": 168,
+          "seatsAvailable": 169,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 32,
-      "totalAvailable": 168,
+      "totalEnrolled": 31,
+      "totalAvailable": 169,
       "totalWaitlisted": 0
     },
     "INTA-6450": {
       "courseId": "INTA-6450",
       "subject": "INTA",
       "courseNumber": "6450",
-      "name": "Data Analytics and Security",
+      "name": "Data Analytics & Security",
       "creditHours": null,
       "sections": [
         {
           "crn": "55326",
           "sectionNumber": "O01",
           "instructor": "Borowitz, Jeffrey",
-          "enrolled": 134,
+          "enrolled": 135,
           "capacity": 135,
-          "seatsAvailable": 1,
+          "seatsAvailable": 0,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 135,
-      "totalEnrolled": 134,
-      "totalAvailable": 1,
+      "totalEnrolled": 135,
+      "totalAvailable": 0,
       "totalWaitlisted": 0
     },
     "MGT-6311": {
@@ -1302,22 +1302,22 @@
           "crn": "55098",
           "sectionNumber": "O01",
           "instructor": "Citrin, Alka",
-          "enrolled": 319,
+          "enrolled": 320,
           "capacity": 320,
-          "seatsAvailable": 1,
+          "seatsAvailable": 0,
           "waitCount": 50,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 320,
-      "totalEnrolled": 319,
-      "totalAvailable": 1,
+      "totalEnrolled": 320,
+      "totalAvailable": 0,
       "totalWaitlisted": 50
     },
-    "MGT-8813-O01": {
-      "courseId": "MGT-8813-O01",
+    "MGT-8813": {
+      "courseId": "MGT-8813",
       "subject": "MGT",
-      "courseNumber": "8813-O01",
+      "courseNumber": "8813",
       "name": "Financial Modeling",
       "creditHours": 3,
       "sections": [
@@ -1325,39 +1325,39 @@
           "crn": "56787",
           "sectionNumber": "O01",
           "instructor": "Garner, Jacqueline",
-          "enrolled": 266,
+          "enrolled": 271,
           "capacity": 320,
-          "seatsAvailable": 54,
+          "seatsAvailable": 49,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 320,
-      "totalEnrolled": 266,
-      "totalAvailable": 54,
+      "totalEnrolled": 271,
+      "totalAvailable": 49,
       "totalWaitlisted": 0
     },
     "PUBP-6725": {
       "courseId": "PUBP-6725",
       "subject": "PUBP",
       "courseNumber": "6725",
-      "name": "Info Security Policies",
+      "name": "Information Security Policies",
       "creditHours": 3,
       "sections": [
         {
           "crn": "55093",
           "sectionNumber": "O01",
           "instructor": "Kuehn, Andreas",
-          "enrolled": 42,
+          "enrolled": 44,
           "capacity": 180,
-          "seatsAvailable": 138,
+          "seatsAvailable": 136,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 180,
-      "totalEnrolled": 42,
-      "totalAvailable": 138,
+      "totalEnrolled": 44,
+      "totalAvailable": 136,
       "totalWaitlisted": 0
     }
   }

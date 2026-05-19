@@ -8,6 +8,10 @@ on:
   # Allow manual trigger
   workflow_dispatch:
 
+concurrency:
+  group: crawl-omscs-catalog
+  cancel-in-progress: false
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
@@ -27,10 +31,47 @@ jobs:
       - name: Install tsx
         run: npm install -g tsx
 
+      - name: Prepare catalog update branch
+        id: prepare-branch
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name 'Christian Tran'
+          git config user.email 'ctran4347@gmail.com'
+          git fetch origin main:refs/remotes/origin/main
+
+          EXISTING_PR_NUMBER=$(gh pr list \
+            --state open \
+            --base main \
+            --json number,headRefName \
+            --jq 'map(select(.headRefName | startswith("catalog-update"))) | sort_by(.number) | last | .number // ""')
+
+          if [ -n "$EXISTING_PR_NUMBER" ]; then
+            BRANCH_NAME=$(gh pr view "$EXISTING_PR_NUMBER" --json headRefName --jq '.headRefName')
+            echo "Updating existing catalog PR #$EXISTING_PR_NUMBER on $BRANCH_NAME"
+            git fetch origin "$BRANCH_NAME:refs/remotes/origin/$BRANCH_NAME"
+            git checkout "$BRANCH_NAME"
+            git pull --ff-only origin "$BRANCH_NAME"
+          else
+            BRANCH_NAME="catalog-update"
+            echo "No existing catalog PR found; using $BRANCH_NAME"
+
+            if git ls-remote --exit-code --heads origin "$BRANCH_NAME" >/dev/null 2>&1; then
+              git fetch origin "$BRANCH_NAME:refs/remotes/origin/$BRANCH_NAME"
+              git checkout "$BRANCH_NAME"
+              git pull --ff-only origin "$BRANCH_NAME"
+            else
+              git checkout -b "$BRANCH_NAME"
+            fi
+          fi
+
+          echo "branch_name=$BRANCH_NAME" >> "$GITHUB_OUTPUT"
+          echo "existing_pr_number=$EXISTING_PR_NUMBER" >> "$GITHUB_OUTPUT"
+
       - name: Save current catalog state
         run: |
-          if [ -f static/courses.json ]; then
-            cp static/courses.json /tmp/courses-before.json
+          if git cat-file -e origin/main:static/courses.json 2>/dev/null; then
+            git show origin/main:static/courses.json > /tmp/courses-before.json
           else
             echo '{}' > /tmp/courses-before.json
           fi
@@ -77,24 +118,23 @@ jobs:
             echo "has_new_courses=false" >> $GITHUB_OUTPUT
           fi
 
-      - name: Create PR if changed
+      - name: Create or update catalog PR
+        id: publish-catalog-pr
         env:
           GH_TOKEN: ${{ github.token }}
+          BRANCH_NAME: ${{ steps.prepare-branch.outputs.branch_name }}
+          EXISTING_PR_NUMBER: ${{ steps.prepare-branch.outputs.existing_pr_number }}
         run: |
-          git config user.name 'Christian Tran'
-          git config user.email 'ctran4347@gmail.com'
-
+          ACTIVE_PR_NUMBER="$EXISTING_PR_NUMBER"
           git add static/
 
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            BRANCH_NAME="catalog-update-$(date -u +%Y%m%d-%H%M%S)"
             TIMESTAMP=$(date -u +%Y-%m-%dT%H:%M:%SZ)
 
-            git checkout -b "$BRANCH_NAME"
             git commit -m "Update OMSCS catalog $TIMESTAMP"
-            git push -u origin "$BRANCH_NAME"
+            git push -u origin HEAD:"$BRANCH_NAME"
 
             NEW_COURSES=$(cat /tmp/new-courses.txt)
 
@@ -124,9 +164,40 @@ jobs:
               } > /tmp/pr-body.md
             fi
 
-            gh pr create \
-              --title "Update OMSCS catalog $TIMESTAMP" \
-              --body-file /tmp/pr-body.md \
-              --base main \
-              --head "$BRANCH_NAME"
+            if [ -n "$EXISTING_PR_NUMBER" ]; then
+              gh pr edit "$EXISTING_PR_NUMBER" \
+                --title "Update OMSCS catalog" \
+                --body-file /tmp/pr-body.md
+            else
+              gh pr create \
+                --title "Update OMSCS catalog" \
+                --body-file /tmp/pr-body.md \
+                --base main \
+                --head "$BRANCH_NAME"
+              ACTIVE_PR_NUMBER=$(gh pr view "$BRANCH_NAME" --json number --jq '.number')
+            fi
           fi
+
+          echo "active_pr_number=$ACTIVE_PR_NUMBER" >> "$GITHUB_OUTPUT"
+
+      - name: Close duplicate catalog PRs
+        if: steps.publish-catalog-pr.outputs.active_pr_number != ''
+        env:
+          GH_TOKEN: ${{ github.token }}
+          ACTIVE_PR_NUMBER: ${{ steps.publish-catalog-pr.outputs.active_pr_number }}
+        run: |
+          DUPLICATE_PR_NUMBERS=$(gh pr list \
+            --state open \
+            --base main \
+            --json number,headRefName \
+            --jq ".[] | select(.number != ${ACTIVE_PR_NUMBER}) | select(.headRefName | startswith(\"catalog-update\")) | .number")
+
+          if [ -z "$DUPLICATE_PR_NUMBERS" ]; then
+            echo "No duplicate catalog PRs to close"
+            exit 0
+          fi
+
+          for PR_NUMBER in $DUPLICATE_PR_NUMBERS; do
+            gh pr close "$PR_NUMBER" \
+              --comment "Closing as a duplicate catalog crawler PR. Future catalog runs update #${ACTIVE_PR_NUMBER} instead of opening another timestamped PR."
+          done
