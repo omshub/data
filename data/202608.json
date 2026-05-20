@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-05-19T23:58:52.358Z",
+  "lastUpdated": "2026-05-20T03:37:49.797Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -497,16 +497,16 @@
           "crn": "91324",
           "sectionNumber": "O01",
           "instructor": "Parker, Andrea",
-          "enrolled": 0,
+          "enrolled": 1,
           "capacity": 100,
-          "seatsAvailable": 100,
+          "seatsAvailable": 99,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 0,
-      "totalAvailable": 100,
+      "totalEnrolled": 1,
+      "totalAvailable": 99,
       "totalWaitlisted": 0
     },
     "CS-6440": {
@@ -566,16 +566,16 @@
           "crn": "84342",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 0,
+          "enrolled": 1,
           "capacity": 200,
-          "seatsAvailable": 200,
+          "seatsAvailable": 199,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 0,
-      "totalAvailable": 200,
+      "totalEnrolled": 1,
+      "totalAvailable": 199,
       "totalWaitlisted": 0
     },
     "CS-6475": {
@@ -796,16 +796,16 @@
           "crn": "88593",
           "sectionNumber": "O01",
           "instructor": "McGreggor, Brian",
-          "enrolled": 1,
+          "enrolled": 2,
           "capacity": 600,
-          "seatsAvailable": 599,
+          "seatsAvailable": 598,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 600,
-      "totalEnrolled": 1,
-      "totalAvailable": 599,
+      "totalEnrolled": 2,
+      "totalAvailable": 598,
       "totalWaitlisted": 0
     },
     "CS-6999": {
