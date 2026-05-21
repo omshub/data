@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-05-21T17:28:55.730Z",
+  "lastUpdated": "2026-05-21T19:27:14.640Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -1414,6 +1414,29 @@
       "totalSeats": 5,
       "totalEnrolled": 0,
       "totalAvailable": 5,
+      "totalWaitlisted": 0
+    },
+    "ECE-8900": {
+      "courseId": "ECE-8900",
+      "subject": "ECE",
+      "courseNumber": "8900",
+      "name": "Special Problems",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "81827",
+          "sectionNumber": "O02",
+          "instructor": "Ougazzaden, Abdallah",
+          "enrolled": 0,
+          "capacity": 10,
+          "seatsAvailable": 10,
+          "waitCount": 0,
+          "waitCapacity": 0
+        }
+      ],
+      "totalSeats": 10,
+      "totalEnrolled": 0,
+      "totalAvailable": 10,
       "totalWaitlisted": 0
     },
     "ECE-9000": {
