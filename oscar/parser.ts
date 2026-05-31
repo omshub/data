@@ -11,6 +11,9 @@ import type {
   Catalog,
 } from './types.js';
 import { config } from './config.js';
+import * as fs from 'fs';
+import * as path from 'path';
+import { fileURLToPath } from 'url';
 
 /**
  * Get primary instructor from faculty list
@@ -30,6 +33,30 @@ function getPrimaryInstructor(section: BannerSection): string | null {
  * These need section-specific IDs (e.g., CS-8803-O08 for Compilers)
  */
 const SPECIAL_TOPICS_COURSES = ['8803', '8813', '8823'];
+interface StaticCourse {
+  name?: string;
+}
+
+let catalogCourses: Record<string, StaticCourse> | null = null;
+
+function getCatalogCourses(): Record<string, StaticCourse> {
+  if (catalogCourses) {
+    return catalogCourses;
+  }
+
+  const currentDir = path.dirname(fileURLToPath(import.meta.url));
+  const coursesPath = path.resolve(currentDir, '../static/courses.json');
+
+  try {
+    catalogCourses = JSON.parse(
+      fs.readFileSync(coursesPath, 'utf-8')
+    ) as Record<string, StaticCourse>;
+  } catch {
+    catalogCourses = {};
+  }
+
+  return catalogCourses;
+}
 
 /**
  * Generate course ID from subject, course number, and optionally section
@@ -43,10 +70,49 @@ function generateCourseId(
   courseNumber: string,
   sectionNumber?: string
 ): string {
-  if (SPECIAL_TOPICS_COURSES.includes(courseNumber) && sectionNumber) {
-    return `${subject}-${courseNumber}-${sectionNumber}`;
+  const baseCourseId = `${subject}-${courseNumber}`;
+  const sectionCourseId = sectionNumber
+    ? `${baseCourseId}-${sectionNumber}`
+    : baseCourseId;
+  const courses = getCatalogCourses();
+
+  if (courses[sectionCourseId]) {
+    return sectionCourseId;
   }
-  return `${subject}-${courseNumber}`;
+
+  if (courses[baseCourseId]) {
+    return baseCourseId;
+  }
+
+  if (SPECIAL_TOPICS_COURSES.includes(courseNumber) && sectionNumber) {
+    return sectionCourseId;
+  }
+  return baseCourseId;
+}
+
+function getCatalogCourseName(courseId: string): string | null {
+  return getCatalogCourses()[courseId]?.name || null;
+}
+
+function removeStaleSectionSpecificEntries(
+  courses: Record<string, Catalog['courses'][string]>,
+  course: Course
+): void {
+  const canonicalBaseId = `${course.subject}-${course.courseNumber}`;
+
+  if (
+    course.courseId !== canonicalBaseId ||
+    !getCatalogCourses()[canonicalBaseId]
+  ) {
+    return;
+  }
+
+  const sectionSpecificPattern = new RegExp(`^${canonicalBaseId}-O\\d{2}$`);
+  for (const existingCourseId of Object.keys(courses)) {
+    if (sectionSpecificPattern.test(existingCourseId)) {
+      delete courses[existingCourseId];
+    }
+  }
 }
 
 /**
@@ -112,8 +178,8 @@ export function parseSectionsToCourses(
       section.sequenceNumber
     );
 
-    // For special topics, include section in course number (e.g., 8803-O08)
-    const courseNumber = SPECIAL_TOPICS_COURSES.includes(section.courseNumber)
+    // For section-specific special topics, include section in course number (e.g., 8803-O08)
+    const courseNumber = courseId.endsWith(`-${section.sequenceNumber}`)
       ? `${section.courseNumber}-${section.sequenceNumber}`
       : section.courseNumber;
 
@@ -122,7 +188,7 @@ export function parseSectionsToCourses(
         courseId,
         subject: section.subject,
         courseNumber,
-        name: section.courseTitle,
+        name: getCatalogCourseName(courseId) || section.courseTitle,
         creditHours: section.creditHours,
         sections: [],
         totalSeats: 0,
@@ -176,6 +242,8 @@ export function mergeToCatalog(
   catalog.lastUpdated = new Date().toISOString();
 
   for (const [courseId, course] of Object.entries(termData.courses)) {
+    removeStaleSectionSpecificEntries(catalog.courses, course);
+
     catalog.courses[courseId] = {
       courseId: course.courseId,
       subject: course.subject,

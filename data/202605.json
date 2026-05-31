@@ -1,13 +1,13 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-05-31T03:38:48.594Z",
+  "lastUpdated": "2026-05-31T07:05:49.953Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
       "subject": "CSE",
       "courseNumber": "6220",
-      "name": "High Perform Computing",
+      "name": "Intro to High-Performance Computing",
       "creditHours": null,
       "sections": [
         {
@@ -30,7 +30,7 @@
       "courseId": "CS-6035",
       "subject": "CS",
       "courseNumber": "6035",
-      "name": "Intro To Info Security",
+      "name": "Introduction to Information Security",
       "creditHours": 3,
       "sections": [
         {
@@ -53,7 +53,7 @@
       "courseId": "CS-6200",
       "subject": "CS",
       "courseNumber": "6200",
-      "name": "Graduate Intro to OS",
+      "name": "Introduction to Operating Systems",
       "creditHours": 3,
       "sections": [
         {
@@ -145,7 +145,7 @@
       "courseId": "CS-6263",
       "subject": "CS",
       "courseNumber": "6263",
-      "name": "Intro Cyber Phys Sys Sec",
+      "name": "Intro to Cyber Physical Systems Security",
       "creditHours": null,
       "sections": [
         {
@@ -168,7 +168,7 @@
       "courseId": "CS-6264",
       "subject": "CS",
       "courseNumber": "6264",
-      "name": "Infosec Labs: Defenses",
+      "name": "Information Security Lab - System and Network Defenses",
       "creditHours": 3,
       "sections": [
         {
@@ -191,7 +191,7 @@
       "courseId": "CS-6265",
       "subject": "CS",
       "courseNumber": "6265",
-      "name": "Info Sec Lab Binexp",
+      "name": "Information Security Lab",
       "creditHours": null,
       "sections": [
         {
@@ -214,7 +214,7 @@
       "courseId": "CS-6290",
       "subject": "CS",
       "courseNumber": "6290",
-      "name": "High Perform Comput Arch",
+      "name": "High Performance Computer Architecture",
       "creditHours": 3,
       "sections": [
         {
@@ -237,7 +237,7 @@
       "courseId": "CS-6291",
       "subject": "CS",
       "courseNumber": "6291",
-      "name": "Embedded Software Opt.",
+      "name": "Embedded Systems Optimization",
       "creditHours": null,
       "sections": [
         {
@@ -260,7 +260,7 @@
       "courseId": "CS-6300",
       "subject": "CS",
       "courseNumber": "6300",
-      "name": "Software Dev Process",
+      "name": "Software Development Process",
       "creditHours": null,
       "sections": [
         {
@@ -283,7 +283,7 @@
       "courseId": "CS-6310",
       "subject": "CS",
       "courseNumber": "6310",
-      "name": "Software Arch &amp; Design",
+      "name": "Software Architecture and Design",
       "creditHours": null,
       "sections": [
         {
@@ -306,7 +306,7 @@
       "courseId": "CS-6340",
       "subject": "CS",
       "courseNumber": "6340",
-      "name": "Software Analysis &amp; Test",
+      "name": "Software Analysis",
       "creditHours": null,
       "sections": [
         {
@@ -329,7 +329,7 @@
       "courseId": "CS-6400",
       "subject": "CS",
       "courseNumber": "6400",
-      "name": "DB Sys Concepts&amp; Design",
+      "name": "Database Systems Concepts and Design",
       "creditHours": null,
       "sections": [
         {
@@ -352,7 +352,7 @@
       "courseId": "CS-6422",
       "subject": "CS",
       "courseNumber": "6422",
-      "name": "Database System Implemnt",
+      "name": "Database System Implementation",
       "creditHours": null,
       "sections": [
         {
@@ -398,7 +398,7 @@
       "courseId": "CS-6460",
       "subject": "CS",
       "courseNumber": "6460",
-      "name": "Educ Tech-Foundations",
+      "name": "Educational Technology",
       "creditHours": null,
       "sections": [
         {
@@ -421,7 +421,7 @@
       "courseId": "CS-6491",
       "subject": "CS",
       "courseNumber": "6491",
-      "name": "Computer Graphics",
+      "name": "Foundations of Computer Graphics",
       "creditHours": null,
       "sections": [
         {
@@ -444,7 +444,7 @@
       "courseId": "CS-6515",
       "subject": "CS",
       "courseNumber": "6515",
-      "name": "Intro to Grad Algorithms",
+      "name": "Intro to Graduate Algorithms",
       "creditHours": 3,
       "sections": [
         {
@@ -490,7 +490,7 @@
       "courseId": "CS-6603",
       "subject": "CS",
       "courseNumber": "6603",
-      "name": "AI Ethics Society",
+      "name": "AI, Ethics, and Society",
       "creditHours": null,
       "sections": [
         {
@@ -513,7 +513,7 @@
       "courseId": "CS-6675",
       "subject": "CS",
       "courseNumber": "6675",
-      "name": "Advance Internet Comput",
+      "name": "Advanced Internet Systems and Applications",
       "creditHours": null,
       "sections": [
         {
@@ -536,7 +536,7 @@
       "courseId": "CS-6747",
       "subject": "CS",
       "courseNumber": "6747",
-      "name": "ADV Malware Analysis",
+      "name": "Advanced Malware Analysis",
       "creditHours": 3,
       "sections": [
         {
@@ -559,7 +559,7 @@
       "courseId": "CS-6750",
       "subject": "CS",
       "courseNumber": "6750",
-      "name": "Human-Computer Interact",
+      "name": "Human-Computer Interaction",
       "creditHours": null,
       "sections": [
         {
@@ -582,7 +582,7 @@
       "courseId": "CS-6795",
       "subject": "CS",
       "courseNumber": "6795",
-      "name": "Intro-Cognitive Science",
+      "name": "Introduction to Cognitive Science",
       "creditHours": null,
       "sections": [
         {
@@ -628,7 +628,7 @@
       "courseId": "CS-7295",
       "subject": "CS",
       "courseNumber": "7295",
-      "name": "GPU HW and SW",
+      "name": "GPU Hardware and Software",
       "creditHours": null,
       "sections": [
         {
@@ -651,7 +651,7 @@
       "courseId": "CS-7400",
       "subject": "CS",
       "courseNumber": "7400",
-      "name": "Intro Quantum Computing",
+      "name": "Quantum Computing",
       "creditHours": 3,
       "sections": [
         {
@@ -674,7 +674,7 @@
       "courseId": "CS-7470",
       "subject": "CS",
       "courseNumber": "7470",
-      "name": "Ubiquitous Computing",
+      "name": "Mobile & Ubiquitous Computing",
       "creditHours": null,
       "sections": [
         {
@@ -743,7 +743,7 @@
       "courseId": "CS-7637",
       "subject": "CS",
       "courseNumber": "7637",
-      "name": "Knowledge-Based AI",
+      "name": "Knowledge-Based Artificial Intelligence - Cognitive Systems",
       "creditHours": 3,
       "sections": [
         {
@@ -858,7 +858,7 @@
       "courseId": "CS-7646",
       "subject": "CS",
       "courseNumber": "7646",
-      "name": "Mach Learn For Trading",
+      "name": "Machine Learning for Trading",
       "creditHours": 3,
       "sections": [
         {
@@ -881,7 +881,7 @@
       "courseId": "CS-7650",
       "subject": "CS",
       "courseNumber": "7650",
-      "name": "Natural Language",
+      "name": "Natural Language Processing",
       "creditHours": null,
       "sections": [
         {
@@ -904,7 +904,7 @@
       "courseId": "CS-8803-O08",
       "subject": "CS",
       "courseNumber": "8803-O08",
-      "name": "The Compilers - Theory and Practice",
+      "name": "Compilers - Theory and Practice",
       "creditHours": 3,
       "sections": [
         {
@@ -1019,7 +1019,7 @@
       "courseId": "CS-8803-O24",
       "subject": "CS",
       "courseNumber": "8803-O24",
-      "name": " Intro to Research",
+      "name": "Intro to Research",
       "creditHours": null,
       "sections": [
         {
@@ -1203,7 +1203,7 @@
       "courseId": "ISYE-6501",
       "subject": "ISYE",
       "courseNumber": "6501",
-      "name": "Intro Analytics Modeling",
+      "name": "Intro to Analytics Modeling",
       "creditHours": 3,
       "sections": [
         {
@@ -1226,7 +1226,7 @@
       "courseId": "ISYE-6525",
       "subject": "ISYE",
       "courseNumber": "6525",
-      "name": "High Dimension Data Anlt",
+      "name": "Topics on High-Dimensional Data Analytics",
       "creditHours": 3,
       "sections": [
         {
@@ -1249,7 +1249,7 @@
       "courseId": "ISYE-6644",
       "subject": "ISYE",
       "courseNumber": "6644",
-      "name": "Simulation",
+      "name": "Simulation and Modeling for Engineering and Science",
       "creditHours": null,
       "sections": [
         {
@@ -1272,7 +1272,7 @@
       "courseId": "INTA-6450",
       "subject": "INTA",
       "courseNumber": "6450",
-      "name": "Data Analytics and Security",
+      "name": "Data Analytics & Security",
       "creditHours": null,
       "sections": [
         {
@@ -1314,10 +1314,10 @@
       "totalAvailable": 2,
       "totalWaitlisted": 0
     },
-    "MGT-8813-O01": {
-      "courseId": "MGT-8813-O01",
+    "MGT-8813": {
+      "courseId": "MGT-8813",
       "subject": "MGT",
-      "courseNumber": "8813-O01",
+      "courseNumber": "8813",
       "name": "Financial Modeling",
       "creditHours": 3,
       "sections": [
@@ -1341,7 +1341,7 @@
       "courseId": "PUBP-6725",
       "subject": "PUBP",
       "courseNumber": "6725",
-      "name": "Info Security Policies",
+      "name": "Information Security Policies",
       "creditHours": 3,
       "sections": [
         {
