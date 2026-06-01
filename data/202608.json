@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-06-01T10:37:47.685Z",
+  "lastUpdated": "2026-06-01T16:34:08.802Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -1635,15 +1635,15 @@
           "sectionNumber": "O01",
           "instructor": "Citrin, Alka",
           "enrolled": 0,
-          "capacity": 300,
-          "seatsAvailable": 300,
+          "capacity": 100,
+          "seatsAvailable": 100,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
-      "totalSeats": 300,
+      "totalSeats": 100,
       "totalEnrolled": 0,
-      "totalAvailable": 300,
+      "totalAvailable": 100,
       "totalWaitlisted": 0
     },
     "MGT-8813": {
