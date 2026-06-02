@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-06-02T09:46:47.574Z",
+  "lastUpdated": "2026-06-02T13:55:51.429Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -1325,16 +1325,16 @@
           "crn": "56787",
           "sectionNumber": "O01",
           "instructor": "Garner, Jacqueline",
-          "enrolled": 271,
+          "enrolled": 272,
           "capacity": 320,
-          "seatsAvailable": 49,
+          "seatsAvailable": 48,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 320,
-      "totalEnrolled": 271,
-      "totalAvailable": 49,
+      "totalEnrolled": 272,
+      "totalAvailable": 48,
       "totalWaitlisted": 0
     },
     "PUBP-6725": {
@@ -1348,16 +1348,16 @@
           "crn": "55093",
           "sectionNumber": "O01",
           "instructor": "Kuehn, Andreas",
-          "enrolled": 49,
+          "enrolled": 50,
           "capacity": 180,
-          "seatsAvailable": 131,
+          "seatsAvailable": 130,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 180,
-      "totalEnrolled": 49,
-      "totalAvailable": 131,
+      "totalEnrolled": 50,
+      "totalAvailable": 130,
       "totalWaitlisted": 0
     }
   }
