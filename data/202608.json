@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-06-03T12:20:02.290Z",
+  "lastUpdated": "2026-06-03T17:26:58.843Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -49,6 +49,29 @@
       "totalAvailable": 499,
       "totalWaitlisted": 0
     },
+    "CSE-6250": {
+      "courseId": "CSE-6250",
+      "subject": "CSE",
+      "courseNumber": "6250",
+      "name": "Big Data for Health Informatics",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "95196",
+          "sectionNumber": "O01",
+          "instructor": "Sun, Jimeng",
+          "enrolled": 0,
+          "capacity": 200,
+          "seatsAvailable": 200,
+          "waitCount": 0,
+          "waitCapacity": 999
+        }
+      ],
+      "totalSeats": 200,
+      "totalEnrolled": 0,
+      "totalAvailable": 200,
+      "totalWaitlisted": 0
+    },
     "CSE-6742": {
       "courseId": "CSE-6742",
       "subject": "CSE",
@@ -93,6 +116,29 @@
       "totalSeats": 750,
       "totalEnrolled": 0,
       "totalAvailable": 750,
+      "totalWaitlisted": 0
+    },
+    "CS-6150": {
+      "courseId": "CS-6150",
+      "subject": "CS",
+      "courseNumber": "6150",
+      "name": "Computing for Good",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "95195",
+          "sectionNumber": "O01",
+          "instructor": "Vempala, Santosh",
+          "enrolled": 0,
+          "capacity": 50,
+          "seatsAvailable": 50,
+          "waitCount": 0,
+          "waitCapacity": 999
+        }
+      ],
+      "totalSeats": 50,
+      "totalEnrolled": 0,
+      "totalAvailable": 50,
       "totalWaitlisted": 0
     },
     "CS-6200": {
