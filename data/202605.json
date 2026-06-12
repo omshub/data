@@ -1,7 +1,7 @@
 {
   "term": "202605",
   "termName": "Summer 2026",
-  "lastUpdated": "2026-06-12T13:59:43.429Z",
+  "lastUpdated": "2026-06-12T16:46:25.010Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -129,16 +129,16 @@
           "crn": "53838",
           "sectionNumber": "O01",
           "instructor": "Lee, Wenke",
-          "enrolled": 151,
+          "enrolled": 152,
           "capacity": 300,
-          "seatsAvailable": 149,
+          "seatsAvailable": 148,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 151,
-      "totalAvailable": 149,
+      "totalEnrolled": 152,
+      "totalAvailable": 148,
       "totalWaitlisted": 0
     },
     "CS-6263": {
@@ -451,16 +451,16 @@
           "crn": "54415",
           "sectionNumber": "O01",
           "instructor": "Brito, Gerandy",
-          "enrolled": 388,
+          "enrolled": 389,
           "capacity": 400,
-          "seatsAvailable": 12,
+          "seatsAvailable": 11,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 400,
-      "totalEnrolled": 388,
-      "totalAvailable": 12,
+      "totalEnrolled": 389,
+      "totalAvailable": 11,
       "totalWaitlisted": 0
     },
     "CS-6601": {
