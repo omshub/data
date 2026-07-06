@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-07-06T12:45:11.226Z",
+  "lastUpdated": "2026-07-06T16:15:57.281Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -566,16 +566,16 @@
           "crn": "91324",
           "sectionNumber": "O01",
           "instructor": "Parker, Andrea",
-          "enrolled": 148,
+          "enrolled": 147,
           "capacity": 150,
-          "seatsAvailable": 2,
+          "seatsAvailable": 3,
           "waitCount": 22,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 148,
-      "totalAvailable": 2,
+      "totalEnrolled": 147,
+      "totalAvailable": 3,
       "totalWaitlisted": 22
     },
     "CS-6440": {
@@ -944,16 +944,16 @@
           "crn": "87914",
           "sectionNumber": "O01",
           "instructor": null,
-          "enrolled": 176,
+          "enrolled": 175,
           "capacity": 250,
-          "seatsAvailable": 74,
+          "seatsAvailable": 75,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 250,
-      "totalEnrolled": 176,
-      "totalAvailable": 74,
+      "totalEnrolled": 175,
+      "totalAvailable": 75,
       "totalWaitlisted": 0
     },
     "CS-7295": {
