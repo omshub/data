@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-07-08T01:00:22.851Z",
+  "lastUpdated": "2026-07-08T04:17:30.876Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -1151,16 +1151,16 @@
           "crn": "83930",
           "sectionNumber": "O01",
           "instructor": "LaGrow, TJ",
-          "enrolled": 924,
+          "enrolled": 923,
           "capacity": 1450,
-          "seatsAvailable": 526,
+          "seatsAvailable": 527,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1450,
-      "totalEnrolled": 924,
-      "totalAvailable": 526,
+      "totalEnrolled": 923,
+      "totalAvailable": 527,
       "totalWaitlisted": 0
     },
     "CS-7642": {
@@ -1246,14 +1246,14 @@
           "enrolled": 814,
           "capacity": 850,
           "seatsAvailable": 36,
-          "waitCount": 526,
+          "waitCount": 525,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 850,
       "totalEnrolled": 814,
       "totalAvailable": 36,
-      "totalWaitlisted": 526
+      "totalWaitlisted": 525
     },
     "CS-8803-O08": {
       "courseId": "CS-8803-O08",
