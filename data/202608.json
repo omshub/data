@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-07-21T12:21:55.370Z",
+  "lastUpdated": "2026-07-21T14:32:49.343Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -451,16 +451,16 @@
           "crn": "83929",
           "sectionNumber": "O01",
           "instructor": "Manning, Ben",
-          "enrolled": 1017,
+          "enrolled": 1016,
           "capacity": 1050,
-          "seatsAvailable": 33,
+          "seatsAvailable": 34,
           "waitCount": 742,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1050,
-      "totalEnrolled": 1017,
-      "totalAvailable": 33,
+      "totalEnrolled": 1016,
+      "totalAvailable": 34,
       "totalWaitlisted": 742
     },
     "CS-6310": {
@@ -773,16 +773,16 @@
           "crn": "87912",
           "sectionNumber": "O01",
           "instructor": "Mandala, Mahender",
-          "enrolled": 782,
+          "enrolled": 781,
           "capacity": 800,
-          "seatsAvailable": 18,
+          "seatsAvailable": 19,
           "waitCount": 462,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
-      "totalEnrolled": 782,
-      "totalAvailable": 18,
+      "totalEnrolled": 781,
+      "totalAvailable": 19,
       "totalWaitlisted": 462
     },
     "CS-6675": {
