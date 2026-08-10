@@ -1550,5 +1550,25 @@
     "isFoundational": true,
     "aliases": [],
     "isDeprecated": false
+  },
+  "CS-8803-O25": {
+    "courseId": "CS-8803-O25",
+    "name": "Advanced Wireless Networks",
+    "departmentId": "CS",
+    "courseNumber": "8803-O25",
+    "url": "https://omscs.gatech.edu/cs-8803-o25-advanced-wireless-networks",
+    "isFoundational": false,
+    "aliases": [],
+    "isDeprecated": false
+  },
+  "CS-8803": {
+    "courseId": "CS-8803",
+    "name": "ORO: Management & Leadership in Computing",
+    "departmentId": "CS",
+    "courseNumber": "8803",
+    "url": "https://omscs.gatech.edu/cs-8803-oro-management-leadership-computing",
+    "isFoundational": false,
+    "aliases": [],
+    "isDeprecated": false
   }
 }
