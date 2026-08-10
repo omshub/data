@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-08-10T13:53:09.497Z",
+  "lastUpdated": "2026-08-10T14:52:38.387Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -1634,16 +1634,16 @@
           "crn": "95313",
           "sectionNumber": "O01",
           "instructor": "Serban, Nicoleta",
-          "enrolled": 0,
+          "enrolled": 1,
           "capacity": 200,
-          "seatsAvailable": 200,
+          "seatsAvailable": 199,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 0,
-      "totalAvailable": 200,
+      "totalEnrolled": 1,
+      "totalAvailable": 199,
       "totalWaitlisted": 0
     },
     "ISYE-6420": {
