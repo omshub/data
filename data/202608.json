@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-08-13T14:19:46.843Z",
+  "lastUpdated": "2026-08-13T15:30:26.810Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -175,16 +175,16 @@
           "crn": "89665",
           "sectionNumber": "O01",
           "instructor": "Ramachandran, Umakishore",
-          "enrolled": 1,
+          "enrolled": 0,
           "capacity": 75,
-          "seatsAvailable": 74,
+          "seatsAvailable": 75,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 75,
-      "totalEnrolled": 1,
-      "totalAvailable": 74,
+      "totalEnrolled": 0,
+      "totalAvailable": 75,
       "totalWaitlisted": 0
     },
     "CS-6238": {
@@ -1404,16 +1404,16 @@
           "crn": "95194",
           "sectionNumber": "O27",
           "instructor": "Zhu, Bo",
-          "enrolled": 113,
+          "enrolled": 112,
           "capacity": 150,
-          "seatsAvailable": 37,
+          "seatsAvailable": 38,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 113,
-      "totalAvailable": 37,
+      "totalEnrolled": 112,
+      "totalAvailable": 38,
       "totalWaitlisted": 0
     },
     "CS-8803-O29": {
