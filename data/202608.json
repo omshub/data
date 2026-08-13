@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-08-13T12:56:34.792Z",
+  "lastUpdated": "2026-08-13T14:19:46.843Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -428,16 +428,16 @@
           "crn": "83929",
           "sectionNumber": "O01",
           "instructor": "Manning, Ben",
-          "enrolled": 1013,
+          "enrolled": 1012,
           "capacity": 1000,
-          "seatsAvailable": -13,
+          "seatsAvailable": -12,
           "waitCount": 741,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1000,
-      "totalEnrolled": 1013,
-      "totalAvailable": -13,
+      "totalEnrolled": 1012,
+      "totalAvailable": -12,
       "totalWaitlisted": 741
     },
     "CS-6310": {
@@ -842,16 +842,16 @@
           "crn": "88593",
           "sectionNumber": "O01",
           "instructor": "McGreggor, Brian",
-          "enrolled": 699,
+          "enrolled": 698,
           "capacity": 750,
-          "seatsAvailable": 51,
+          "seatsAvailable": 52,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
-      "totalEnrolled": 699,
-      "totalAvailable": 51,
+      "totalEnrolled": 698,
+      "totalAvailable": 52,
       "totalWaitlisted": 0
     },
     "CS-6999": {
@@ -1036,16 +1036,16 @@
           "crn": "87915",
           "sectionNumber": "O01",
           "instructor": "Wilson, Jeff",
-          "enrolled": 696,
+          "enrolled": 695,
           "capacity": 700,
-          "seatsAvailable": 4,
+          "seatsAvailable": 5,
           "waitCount": 32,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 696,
-      "totalAvailable": 4,
+      "totalEnrolled": 695,
+      "totalAvailable": 5,
       "totalWaitlisted": 32
     },
     "CS-7637": {
@@ -1059,16 +1059,16 @@
           "crn": "83934",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 790,
+          "enrolled": 789,
           "capacity": 1250,
-          "seatsAvailable": 460,
+          "seatsAvailable": 461,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1250,
-      "totalEnrolled": 790,
-      "totalAvailable": 460,
+      "totalEnrolled": 789,
+      "totalAvailable": 461,
       "totalWaitlisted": 0
     },
     "CS-7638": {
@@ -1128,16 +1128,16 @@
           "crn": "83930",
           "sectionNumber": "O01",
           "instructor": "LaGrow, TJ",
-          "enrolled": 920,
+          "enrolled": 919,
           "capacity": 1450,
-          "seatsAvailable": 530,
+          "seatsAvailable": 531,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1450,
-      "totalEnrolled": 920,
-      "totalAvailable": 530,
+      "totalEnrolled": 919,
+      "totalAvailable": 531,
       "totalWaitlisted": 0
     },
     "CS-7642": {
