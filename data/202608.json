@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-08-13T19:34:04.425Z",
+  "lastUpdated": "2026-08-13T20:35:57.259Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -1036,16 +1036,16 @@
           "crn": "87915",
           "sectionNumber": "O01",
           "instructor": "Wilson, Jeff",
-          "enrolled": 695,
+          "enrolled": 694,
           "capacity": 700,
-          "seatsAvailable": 5,
+          "seatsAvailable": 6,
           "waitCount": 32,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
-      "totalEnrolled": 695,
-      "totalAvailable": 5,
+      "totalEnrolled": 694,
+      "totalAvailable": 6,
       "totalWaitlisted": 32
     },
     "CS-7637": {
@@ -1059,16 +1059,16 @@
           "crn": "83934",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 789,
+          "enrolled": 788,
           "capacity": 1250,
-          "seatsAvailable": 461,
+          "seatsAvailable": 462,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1250,
-      "totalEnrolled": 789,
-      "totalAvailable": 461,
+      "totalEnrolled": 788,
+      "totalAvailable": 462,
       "totalWaitlisted": 0
     },
     "CS-7638": {
@@ -1223,14 +1223,14 @@
           "enrolled": 813,
           "capacity": 850,
           "seatsAvailable": 37,
-          "waitCount": 523,
+          "waitCount": 522,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 850,
       "totalEnrolled": 813,
       "totalAvailable": 37,
-      "totalWaitlisted": 523
+      "totalWaitlisted": 522
     },
     "CS-8803-O08": {
       "courseId": "CS-8803-O08",
