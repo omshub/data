@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "test": "tsx --test registration-calendar.test.ts oscar/parser.test.ts",
+    "refresh:registration-windows": "tsx registration-calendar.ts"
+  },
   "dependencies": {
     "@supabase/supabase-js": "^2.90.1"
   },

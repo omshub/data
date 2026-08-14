@@ -8,6 +8,10 @@ on:
   # Allow manual trigger
   workflow_dispatch:
 
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
 jobs:
   compute-stats:
     runs-on: ubuntu-latest
