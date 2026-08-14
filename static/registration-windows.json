@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "source": "https://registrar.gatech.edu/calevents/proxy?year=<academic-year>&status=current",
+  "generatedAt": "2026-08-14T12:11:28.278Z",
+  "terms": [
+    {
+      "term": "202608",
+      "availability": "2026-04-06",
+      "phase1": {
+        "tickets": "2026-04-09",
+        "start": "2026-04-13",
+        "end": "2026-05-22"
+      },
+      "continuingOmscs": {
+        "tickets": "2026-06-02",
+        "start": "2026-06-09",
+        "end": "2026-07-02"
+      },
+      "phase2": {
+        "tickets": "2026-08-13",
+        "start": "2026-08-17",
+        "end": "2026-08-28"
+      }
+    },
+    {
+      "term": "202702",
+      "availability": "2026-10-14",
+      "phase1": {
+        "tickets": "2026-10-29",
+        "start": "2026-11-02",
+        "end": "2026-12-11"
+      },
+      "phase2": {
+        "tickets": "2026-12-24",
+        "start": "2027-01-04",
+        "end": "2027-01-15"
+      }
+    }
+  ]
+}
