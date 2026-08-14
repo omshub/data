@@ -110,6 +110,15 @@ describe('normalizeRegistrationWindows', () => {
       },
     ]), [{ term: '202408', phase1: { start: '2024-02-29', end: '2024-03-01' } }]);
   });
+
+  it('accepts a cross-year range ending on February 29 in the rollover leap year', () => {
+    assert.deepEqual(normalizeRegistrationWindows([
+      {
+        year: '2023', semester: '8', category: 'Registration',
+        date: 'December 30 (Sat) - February 29 (Thu)', event: 'Fall 2023 Phase I registration',
+      },
+    ]), [{ term: '202308', phase1: { start: '2023-12-30', end: '2024-02-29' } }]);
+  });
 });
 
 describe('registration calendar importer', () => {

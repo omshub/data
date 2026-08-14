@@ -75,11 +75,12 @@ function eventDates(date: string, calendarYear: string): { start?: string; end?:
   const start = parsedDate(startPart, Number(calendarYear));
   if (!start) return {};
   if (!endPart) return { start: start.value };
-  const endWithMonth = parsedDate(endPart, Number(calendarYear));
-  const end = endWithMonth ?? parsedDate(`${startPart.match(/[A-Za-z]+/)?.[0] ?? ''} ${endPart}`, Number(calendarYear));
+  const endMonthMatch = endPart.match(/(January|February|March|April|May|June|July|August|September|October|November|December)/i);
+  const endMonth = endMonthMatch ? MONTHS[endMonthMatch[1].toLowerCase()] : start.month;
+  const endYear = endMonth < start.month ? Number(calendarYear) + 1 : Number(calendarYear);
+  const end = parsedDate(endPart, endYear) ?? parsedDate(`${startPart.match(/[A-Za-z]+/)?.[0] ?? ''} ${endPart}`, endYear);
   if (!end) return { start: start.value };
-  const endYear = end.month < start.month ? Number(calendarYear) + 1 : Number(calendarYear);
-  return { start: start.value, end: end.value.replace(/^\d{4}/, String(endYear)) };
+  return { start: start.value, end: end.value };
 }
 
 function phase(window: RegistrationWindow, key: 'phase1' | 'phase2' | 'continuingOmscs'): RegistrationPhase {
