@@ -208,6 +208,24 @@ describe('registration calendar importer', () => {
     }
   });
 
+  it('does not overwrite sentinel output when no academic years are requested', async () => {
+    const directory = await mkdtemp(join(tmpdir(), 'registration-calendar-'));
+    const outputPath = join(directory, 'registration-windows.json');
+    const existingOutput = '{"sentinel":"preserve-empty-input"}\n';
+    try {
+      await writeFile(outputPath, existingOutput);
+      const result = await refreshRegistrationWindows({
+        academicYears: [], outputPath,
+        fetch: async () => { throw new Error('fetch should not be called'); },
+      });
+      assert.equal(result.written, false);
+      assert.deepEqual(result.terms, []);
+      assert.equal(await readFile(outputPath, 'utf8'), existingOutput);
+    } finally {
+      await rm(directory, { recursive: true, force: true });
+    }
+  });
+
   it('derives current and next academic years from the calendar date', () => {
     assert.deepEqual(academicYearsFor(new Date('2026-08-14T00:00:00Z')), ['2026-2027', '2027-2028']);
     assert.deepEqual(academicYearsFor(new Date('2027-01-15T00:00:00Z')), ['2026-2027', '2027-2028']);

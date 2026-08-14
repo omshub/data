@@ -155,7 +155,7 @@ export async function refreshRegistrationWindows(options: RefreshOptions = {}): 
   }));
   const windowsByFeed = responses.map(normalizeRegistrationWindows);
   const terms = normalizeRegistrationWindows(responses.flat());
-  if (windowsByFeed.some((windows) => windows.length === 0)) return { written: false, terms };
+  if (terms.length === 0 || windowsByFeed.some((windows) => windows.length === 0)) return { written: false, terms };
 
   const outputPath = options.outputPath ?? resolve(dirname(fileURLToPath(import.meta.url)), 'static/registration-windows.json');
   const document = {
