@@ -153,8 +153,9 @@ export async function refreshRegistrationWindows(options: RefreshOptions = {}): 
     if (!Array.isArray(body.data)) throw new Error(`Registrar calendar response for ${academicYear} has no data array`);
     return body.data;
   }));
+  const windowsByFeed = responses.map(normalizeRegistrationWindows);
   const terms = normalizeRegistrationWindows(responses.flat());
-  if (terms.length === 0) return { written: false, terms };
+  if (windowsByFeed.some((windows) => windows.length === 0)) return { written: false, terms };
 
   const outputPath = options.outputPath ?? resolve(dirname(fileURLToPath(import.meta.url)), 'static/registration-windows.json');
   const document = {

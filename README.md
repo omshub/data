@@ -92,7 +92,7 @@ The crawler generates JSON files in `static/`:
 
 ## Registration Windows
 
-`registration-calendar.ts` imports the public [Registrar academic calendar](https://registrar.gatech.edu/current-academic-calendar) and writes `static/registration-windows.json`. It fetches the current and next academic-year feeds, normalizes date-only values as `YYYY-MM-DD`, and will not replace the existing file unless at least one Phase I, Phase II, or OMSCS-continuing registration window is parsed.
+`registration-calendar.ts` imports the public [Registrar academic calendar](https://registrar.gatech.edu/current-academic-calendar) and writes `static/registration-windows.json`. It fetches the current and next academic-year feeds, normalizes date-only values as `YYYY-MM-DD`, and will not replace the existing file unless every requested feed has at least one Phase I, Phase II, or OMSCS-continuing registration window.
 
 ```bash
 npm run refresh:registration-windows

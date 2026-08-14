@@ -189,6 +189,25 @@ describe('registration calendar importer', () => {
     }
   });
 
+  it('does not overwrite existing output when any requested feed has no valid phase window', async () => {
+    const directory = await mkdtemp(join(tmpdir(), 'registration-calendar-'));
+    const outputPath = join(directory, 'registration-windows.json');
+    const existingOutput = '{"preserve":"this"}\n';
+    try {
+      await writeFile(outputPath, existingOutput);
+      const result = await refreshRegistrationWindows({
+        academicYears: ['2026-2027', '2027-2028'], outputPath,
+        fetch: async (input) => new Response(JSON.stringify({
+          data: String(input).includes('year=2026-2027') ? fallAndSpringEvents : [],
+        }), { status: 200 }),
+      });
+      assert.equal(result.written, false);
+      assert.equal(await readFile(outputPath, 'utf8'), existingOutput);
+    } finally {
+      await rm(directory, { recursive: true, force: true });
+    }
+  });
+
   it('derives current and next academic years from the calendar date', () => {
     assert.deepEqual(academicYearsFor(new Date('2026-08-14T00:00:00Z')), ['2026-2027', '2027-2028']);
     assert.deepEqual(academicYearsFor(new Date('2027-01-15T00:00:00Z')), ['2026-2027', '2027-2028']);

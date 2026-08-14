@@ -22,6 +22,10 @@ on:
         required: false
         default: ''
 
+concurrency:
+  group: data-writes
+  cancel-in-progress: false
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
