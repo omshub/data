@@ -4,3 +4,6 @@ scripts/.env
 
 # Dependencies
 node_modules/
+
+# Local isolated checkouts
+.worktrees/
