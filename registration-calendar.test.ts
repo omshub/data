@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
-import { mkdtemp, readFile, rm } from 'node:fs/promises';
+import { mkdtemp, readFile, rm, writeFile } from 'node:fs/promises';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import {
@@ -83,6 +83,33 @@ describe('normalizeRegistrationWindows', () => {
       { year: '2026', semester: '8', category: 'Registration', date: 'April 6', event: 'Fall 2026 Schedule of Classes available online' },
     ]), []);
   });
+
+  it('rejects phase windows with impossible Gregorian dates', () => {
+    assert.deepEqual(normalizeRegistrationWindows([
+      {
+        year: '2026', semester: '8', category: 'Registration',
+        date: 'April 99 (Thu) - May 22 (Fri)', event: 'Fall 2026 Phase I registration',
+      },
+    ]), []);
+  });
+
+  it('rejects February 29 outside leap years', () => {
+    assert.deepEqual(normalizeRegistrationWindows([
+      {
+        year: '2026', semester: '8', category: 'Registration',
+        date: 'February 29 (Sun) - March 1 (Mon)', event: 'Fall 2026 Phase I registration',
+      },
+    ]), []);
+  });
+
+  it('accepts February 29 in leap years', () => {
+    assert.deepEqual(normalizeRegistrationWindows([
+      {
+        year: '2024', semester: '8', category: 'Registration',
+        date: 'February 29 (Thu) - March 1 (Fri)', event: 'Fall 2024 Phase I registration',
+      },
+    ]), [{ term: '202408', phase1: { start: '2024-02-29', end: '2024-03-01' } }]);
+  });
 });
 
 describe('registration calendar importer', () => {
@@ -128,6 +155,26 @@ describe('registration calendar importer', () => {
       });
       assert.equal(result.written, false);
       await assert.rejects(readFile(outputPath, 'utf8'));
+    } finally {
+      await rm(directory, { recursive: true, force: true });
+    }
+  });
+
+  it('does not overwrite existing output for malformed phase records', async () => {
+    const directory = await mkdtemp(join(tmpdir(), 'registration-calendar-'));
+    const outputPath = join(directory, 'registration-windows.json');
+    const existingOutput = '{"preserve":"this"}\n';
+    try {
+      await writeFile(outputPath, existingOutput);
+      const result = await refreshRegistrationWindows({
+        academicYears: ['2026-2027'], outputPath,
+        fetch: async () => new Response(JSON.stringify({ data: [{
+          year: '2026', semester: '8', category: 'Registration',
+          date: 'April 99 (Thu) - May 22 (Fri)', event: 'Fall 2026 Phase I registration',
+        }] }), { status: 200 }),
+      });
+      assert.equal(result.written, false);
+      assert.equal(await readFile(outputPath, 'utf8'), existingOutput);
     } finally {
       await rm(directory, { recursive: true, force: true });
     }

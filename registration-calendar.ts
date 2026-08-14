@@ -65,6 +65,8 @@ function parsedDate(part: string, calendarYear: number): { value: string; month:
   const match = part.trim().match(/(January|February|March|April|May|June|July|August|September|October|November|December)\s+(\d{1,2})/i);
   if (!match) return undefined;
   const month = MONTHS[match[1].toLowerCase()];
+  const day = Number(match[2]);
+  if (day < 1 || day > new Date(Date.UTC(calendarYear, month, 0)).getUTCDate()) return undefined;
   return { value: `${calendarYear}-${String(month).padStart(2, '0')}-${match[2].padStart(2, '0')}`, month };
 }
 
