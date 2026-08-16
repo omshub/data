@@ -98,7 +98,7 @@ The crawler generates JSON files in `static/`:
 npm run refresh:registration-windows
 ```
 
-The compact schema is `{ schemaVersion, source, generatedAt, terms }`. Each term has its Banner-style code (`YYYY02`, `YYYY05`, or `YYYY08`), optional `availability`, and public `phase1`/`phase2` and optional `continuingOmscs` objects. Each phase has optional `tickets` and range `start`/`end` fields. The daily GitHub Actions workflow commits only this generated JSON file after a validated refresh.
+The compact schema is `{ schemaVersion, source, generatedAt, terms }`. Each term has its Banner-style code (`YYYY02`, `YYYY05`, or `YYYY08`), optional `availability`, and public `phase1`/`phase2` and optional `continuingOmscs` objects. Each phase has optional date-only `tickets` and range `start`/`end` fields. It can additionally include optional `ticketsAt` and `endAt` ISO-8601 timestamps (with the authoritative `America/New_York` daylight-saving offset) only when the public Registrar event text explicitly states an `h:mm AM/PM Eastern Time` time for ticket posting or registration closing. No timestamp is inferred from a date-only event, including a registration-opening date. The daily GitHub Actions workflow commits only this generated JSON file after a validated refresh.
 
 ---
 

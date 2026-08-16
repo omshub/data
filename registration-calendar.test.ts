@@ -77,6 +77,26 @@ describe('normalizeRegistrationWindows', () => {
     ]);
   });
 
+  it('normalizes explicit ticket and closing times with the Eastern daylight-saving offset', () => {
+    assert.deepEqual(normalizeRegistrationWindows([
+      { year: '2026', semester: '8', category: 'Registration', date: 'August 13 (Thu)', event: 'Time tickets for Fall 2026 Phase II registration post at 6:00 PM Eastern Time' },
+      { year: '2026', semester: '8', category: 'Registration', date: 'August 17 (Mon) - 28 (Fri)', event: 'Fall 2026 Phase II registration' },
+      { year: '2026', semester: '8', category: 'Registration', date: 'August 28 (Fri)', event: 'Fall 2026 Phase II registration closes at 11:59 PM Eastern Time' },
+    ]), [{
+      term: '202608',
+      phase2: {
+        tickets: '2026-08-13', ticketsAt: '2026-08-13T18:00:00-04:00',
+        start: '2026-08-17', end: '2026-08-28', endAt: '2026-08-28T23:59:00-04:00',
+      },
+    }]);
+  });
+
+  it('keeps date-only Phase II registration date-only when no explicit Eastern time is published', () => {
+    assert.deepEqual(normalizeRegistrationWindows([
+      { year: '2026', semester: '8', category: 'Registration', date: 'August 17 (Mon) - 28 (Fri)', event: 'Fall 2026 Phase II registration' },
+    ]), [{ term: '202608', phase2: { start: '2026-08-17', end: '2026-08-28' } }]);
+  });
+
   it('ignores non-registration records and returns no term without a phase window', () => {
     assert.deepEqual(normalizeRegistrationWindows([
       { year: '2026', semester: '8', category: 'Grades', date: 'April 13', event: 'Fall 2026 Phase I registration' },

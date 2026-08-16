@@ -13,8 +13,10 @@ export interface CalendarEvent {
 
 export interface RegistrationPhase {
   tickets?: string;
+  ticketsAt?: string;
   start?: string;
   end?: string;
+  endAt?: string;
 }
 
 export interface RegistrationWindow {
@@ -83,6 +85,36 @@ function eventDates(date: string, calendarYear: string): { start?: string; end?:
   return { start: start.value, end: end.value };
 }
 
+function explicitEasternTimestamp(date: string | undefined, event: string): string | undefined {
+  if (!date) return undefined;
+  const match = event.match(/\b(\d{1,2}):(\d{2})\s+(AM|PM)\s+Eastern\s+Time\b/i);
+  if (!match) return undefined;
+
+  const hour12 = Number(match[1]);
+  const minute = Number(match[2]);
+  if (hour12 < 1 || hour12 > 12 || minute > 59) return undefined;
+  const hour = (hour12 % 12) + (match[3].toLowerCase() === 'pm' ? 12 : 0);
+  const [year, month, day] = date.split('-').map(Number);
+  const utcGuess = Date.UTC(year, month - 1, day, hour, minute);
+  const formatter = new Intl.DateTimeFormat('en-US', {
+    timeZone: 'America/New_York',
+    year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit',
+    hourCycle: 'h23',
+  });
+  const offsetFor = (instant: number): number => {
+    const parts = Object.fromEntries(formatter.formatToParts(new Date(instant))
+      .filter((part) => part.type !== 'literal')
+      .map((part) => [part.type, part.value]));
+    return Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day), Number(parts.hour), Number(parts.minute)) - instant;
+  };
+  const instant = utcGuess - offsetFor(utcGuess);
+  const offset = offsetFor(instant);
+  const sign = offset < 0 ? '-' : '+';
+  const offsetHours = String(Math.floor(Math.abs(offset) / 3_600_000)).padStart(2, '0');
+  const offsetMinutes = String((Math.abs(offset) / 60_000) % 60).padStart(2, '0');
+  return `${date}T${String(hour).padStart(2, '0')}:${String(minute).padStart(2, '0')}:00${sign}${offsetHours}:${offsetMinutes}`;
+}
+
 function phase(window: RegistrationWindow, key: 'phase1' | 'phase2' | 'continuingOmscs'): RegistrationPhase {
   return window[key] ?? (window[key] = {});
 }
@@ -102,17 +134,25 @@ export function normalizeRegistrationWindows(events: CalendarEvent[]): Registrat
     windows.set(term, window);
     const continuing = /continuing\s+oms\s+computer\s+science/i.test(event);
     const ticket = /time\s*tickets?/i.test(event);
+    const closing = /registration\s+closes?\b/i.test(event);
+    const timestamp = explicitEasternTimestamp(dates.start, event);
     const phaseMatch = event.match(/phase\s+(i|ii)\b/i);
 
     if (availability) window.availability = dates.start;
     if (continuing) {
       const target = phase(window, 'continuingOmscs');
-      if (ticket) target.tickets = dates.start;
-      else if (/registration/i.test(event) && dates.end) Object.assign(target, dates);
+      if (ticket) {
+        target.tickets = dates.start;
+        if (timestamp) target.ticketsAt = timestamp;
+      } else if (/registration/i.test(event) && dates.end) Object.assign(target, dates);
+      if (closing && timestamp) target.endAt = timestamp;
     } else if (phaseMatch) {
       const target = phase(window, phaseMatch[1].toLowerCase() === 'i' ? 'phase1' : 'phase2');
-      if (ticket) target.tickets = dates.start;
-      else if (/registration/i.test(event) && dates.end) Object.assign(target, dates);
+      if (ticket) {
+        target.tickets = dates.start;
+        if (timestamp) target.ticketsAt = timestamp;
+      } else if (/registration/i.test(event) && dates.end) Object.assign(target, dates);
+      if (closing && timestamp) target.endAt = timestamp;
     }
   }
   return [...windows.values()]
