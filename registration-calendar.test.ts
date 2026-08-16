@@ -91,6 +91,17 @@ describe('normalizeRegistrationWindows', () => {
     }]);
   });
 
+  it('uses the range end date for an explicit Phase II registration closing time', () => {
+    assert.deepEqual(normalizeRegistrationWindows([
+      { year: '2026', semester: '8', category: 'Registration', date: 'August 17 (Mon) - 28 (Fri)', event: 'Fall 2026 Phase II registration closes at 11:59 PM Eastern Time' },
+    ]), [{
+      term: '202608',
+      phase2: {
+        start: '2026-08-17', end: '2026-08-28', endAt: '2026-08-28T23:59:00-04:00',
+      },
+    }]);
+  });
+
   it('keeps date-only Phase II registration date-only when no explicit Eastern time is published', () => {
     assert.deepEqual(normalizeRegistrationWindows([
       { year: '2026', semester: '8', category: 'Registration', date: 'August 17 (Mon) - 28 (Fri)', event: 'Fall 2026 Phase II registration' },

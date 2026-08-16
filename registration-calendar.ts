@@ -135,7 +135,7 @@ export function normalizeRegistrationWindows(events: CalendarEvent[]): Registrat
     const continuing = /continuing\s+oms\s+computer\s+science/i.test(event);
     const ticket = /time\s*tickets?/i.test(event);
     const closing = /registration\s+closes?\b/i.test(event);
-    const timestamp = explicitEasternTimestamp(dates.start, event);
+    const timestamp = explicitEasternTimestamp(closing ? dates.end ?? dates.start : dates.start, event);
     const phaseMatch = event.match(/phase\s+(i|ii)\b/i);
 
     if (availability) window.availability = dates.start;
