@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-08-18T10:55:34.610Z",
+  "lastUpdated": "2026-08-18T11:20:13.292Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -753,14 +753,14 @@
           "enrolled": 745,
           "capacity": 800,
           "seatsAvailable": 55,
-          "waitCount": 751,
+          "waitCount": 752,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 800,
       "totalEnrolled": 745,
       "totalAvailable": 55,
-      "totalWaitlisted": 751
+      "totalWaitlisted": 752
     },
     "CS-6675": {
       "courseId": "CS-6675",
@@ -845,14 +845,14 @@
           "enrolled": 715,
           "capacity": 750,
           "seatsAvailable": 35,
-          "waitCount": 230,
+          "waitCount": 231,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
       "totalEnrolled": 715,
       "totalAvailable": 35,
-      "totalWaitlisted": 230
+      "totalWaitlisted": 231
     },
     "CS-6999": {
       "courseId": "CS-6999",
@@ -1039,14 +1039,14 @@
           "enrolled": 667,
           "capacity": 700,
           "seatsAvailable": 33,
-          "waitCount": 239,
+          "waitCount": 240,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 700,
       "totalEnrolled": 667,
       "totalAvailable": 33,
-      "totalWaitlisted": 239
+      "totalWaitlisted": 240
     },
     "CS-7637": {
       "courseId": "CS-7637",
@@ -1197,16 +1197,16 @@
           "crn": "84716",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 548,
+          "enrolled": 546,
           "capacity": 1700,
-          "seatsAvailable": 1152,
+          "seatsAvailable": 1154,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1700,
-      "totalEnrolled": 548,
-      "totalAvailable": 1152,
+      "totalEnrolled": 546,
+      "totalAvailable": 1154,
       "totalWaitlisted": 0
     },
     "CS-7650": {
