@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-08-21T10:56:27.958Z",
+  "lastUpdated": "2026-08-21T11:19:58.522Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -707,14 +707,14 @@
           "enrolled": 178,
           "capacity": 200,
           "seatsAvailable": 22,
-          "waitCount": 997,
+          "waitCount": 999,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
       "totalEnrolled": 178,
       "totalAvailable": 22,
-      "totalWaitlisted": 997
+      "totalWaitlisted": 999
     },
     "CS-6601": {
       "courseId": "CS-6601",
@@ -845,14 +845,14 @@
           "enrolled": 694,
           "capacity": 750,
           "seatsAvailable": 56,
-          "waitCount": 519,
+          "waitCount": 520,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
       "totalEnrolled": 694,
       "totalAvailable": 56,
-      "totalWaitlisted": 519
+      "totalWaitlisted": 520
     },
     "CS-6999": {
       "courseId": "CS-6999",
@@ -947,14 +947,14 @@
           "enrolled": 263,
           "capacity": 300,
           "seatsAvailable": 37,
-          "waitCount": 230,
+          "waitCount": 231,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
       "totalEnrolled": 263,
       "totalAvailable": 37,
-      "totalWaitlisted": 230
+      "totalWaitlisted": 231
     },
     "CS-7400": {
       "courseId": "CS-7400",
@@ -1062,14 +1062,14 @@
           "enrolled": 1201,
           "capacity": 1250,
           "seatsAvailable": 49,
-          "waitCount": 320,
+          "waitCount": 319,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1250,
       "totalEnrolled": 1201,
       "totalAvailable": 49,
-      "totalWaitlisted": 320
+      "totalWaitlisted": 319
     },
     "CS-7638": {
       "courseId": "CS-7638",
@@ -1151,16 +1151,16 @@
           "crn": "87916",
           "sectionNumber": "O01",
           "instructor": "Borela Valente, Rodrigo",
-          "enrolled": 415,
+          "enrolled": 414,
           "capacity": 550,
-          "seatsAvailable": 135,
+          "seatsAvailable": 136,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 550,
-      "totalEnrolled": 415,
-      "totalAvailable": 135,
+      "totalEnrolled": 414,
+      "totalAvailable": 136,
       "totalWaitlisted": 0
     },
     "CS-7643": {
