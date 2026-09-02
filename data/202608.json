@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-09-02T12:13:28.319Z",
+  "lastUpdated": "2026-09-02T16:46:06.984Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -727,16 +727,16 @@
           "crn": "84602",
           "sectionNumber": "O01",
           "instructor": "Ploetz, Thomas",
-          "enrolled": 1372,
+          "enrolled": 1371,
           "capacity": 1450,
-          "seatsAvailable": 78,
+          "seatsAvailable": 79,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1450,
-      "totalEnrolled": 1372,
-      "totalAvailable": 78,
+      "totalEnrolled": 1371,
+      "totalAvailable": 79,
       "totalWaitlisted": 0
     },
     "CS-6603": {
