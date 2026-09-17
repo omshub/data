@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-09-17T20:28:19.713Z",
+  "lastUpdated": "2026-09-17T22:59:07.357Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -129,16 +129,16 @@
           "crn": "85340",
           "sectionNumber": "O01",
           "instructor": "Gavrilovska, Ada",
-          "enrolled": 1109,
+          "enrolled": 1110,
           "capacity": 1200,
-          "seatsAvailable": 91,
+          "seatsAvailable": 90,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1200,
-      "totalEnrolled": 1109,
-      "totalAvailable": 91,
+      "totalEnrolled": 1110,
+      "totalAvailable": 90,
       "totalWaitlisted": 0
     },
     "CS-6210": {
@@ -474,16 +474,16 @@
           "crn": "84600",
           "sectionNumber": "O01",
           "instructor": "Naik, Mayur",
-          "enrolled": 230,
+          "enrolled": 231,
           "capacity": 400,
-          "seatsAvailable": 170,
+          "seatsAvailable": 169,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 400,
-      "totalEnrolled": 230,
-      "totalAvailable": 170,
+      "totalEnrolled": 231,
+      "totalAvailable": 169,
       "totalWaitlisted": 0
     },
     "CS-6400": {
