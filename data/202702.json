@@ -1,7 +1,7 @@
 {
   "term": "202702",
   "termName": "Spring 2027",
-  "lastUpdated": "2026-09-21T00:23:24.521Z",
+  "lastUpdated": "2026-09-21T05:15:23.318Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -705,15 +705,15 @@
           "sectionNumber": "O01",
           "instructor": "Brito, Gerandy",
           "enrolled": 0,
-          "capacity": 600,
-          "seatsAvailable": 600,
+          "capacity": 200,
+          "seatsAvailable": 200,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
-      "totalSeats": 600,
+      "totalSeats": 200,
       "totalEnrolled": 0,
-      "totalAvailable": 600,
+      "totalAvailable": 200,
       "totalWaitlisted": 0
     },
     "CS-6601": {
@@ -908,6 +908,29 @@
       "totalSeats": 150,
       "totalEnrolled": 0,
       "totalAvailable": 150,
+      "totalWaitlisted": 0
+    },
+    "CS-7240": {
+      "courseId": "CS-7240",
+      "subject": "CS",
+      "courseNumber": "7240",
+      "name": "Modern Internet Research",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "35386",
+          "sectionNumber": "O01",
+          "instructor": "Konte, Maria",
+          "enrolled": 0,
+          "capacity": 50,
+          "seatsAvailable": 50,
+          "waitCount": 0,
+          "waitCapacity": 999
+        }
+      ],
+      "totalSeats": 50,
+      "totalEnrolled": 0,
+      "totalAvailable": 50,
       "totalWaitlisted": 0
     },
     "CS-7280": {
@@ -1232,6 +1255,29 @@
       "totalAvailable": 850,
       "totalWaitlisted": 0
     },
+    "CS-7711": {
+      "courseId": "CS-7711",
+      "subject": "CS",
+      "courseNumber": "7711",
+      "name": "Health Sensing",
+      "creditHours": null,
+      "sections": [
+        {
+          "crn": "35390",
+          "sectionNumber": "O01",
+          "instructor": "Adams, Alexander",
+          "enrolled": 0,
+          "capacity": 100,
+          "seatsAvailable": 100,
+          "waitCount": 0,
+          "waitCapacity": 999
+        }
+      ],
+      "totalSeats": 100,
+      "totalEnrolled": 0,
+      "totalAvailable": 100,
+      "totalWaitlisted": 0
+    },
     "CS-8803-O08": {
       "courseId": "CS-8803-O08",
       "subject": "CS",
@@ -1324,29 +1370,6 @@
       "totalAvailable": 50,
       "totalWaitlisted": 0
     },
-    "CS-8803-O23": {
-      "courseId": "CS-8803-O23",
-      "subject": "CS",
-      "courseNumber": "8803-O23",
-      "name": "Modern Internet Research Methods",
-      "creditHours": null,
-      "sections": [
-        {
-          "crn": "32205",
-          "sectionNumber": "O23",
-          "instructor": "Konte, Maria",
-          "enrolled": 0,
-          "capacity": 50,
-          "seatsAvailable": 50,
-          "waitCount": 0,
-          "waitCapacity": 999
-        }
-      ],
-      "totalSeats": 50,
-      "totalEnrolled": 0,
-      "totalAvailable": 50,
-      "totalWaitlisted": 0
-    },
     "CS-8803-O24": {
       "courseId": "CS-8803-O24",
       "subject": "CS",
@@ -1386,29 +1409,6 @@
           "seatsAvailable": 100,
           "waitCount": 0,
           "waitCapacity": 0
-        }
-      ],
-      "totalSeats": 100,
-      "totalEnrolled": 0,
-      "totalAvailable": 100,
-      "totalWaitlisted": 0
-    },
-    "CS-8803-O29": {
-      "courseId": "CS-8803-O29",
-      "subject": "CS",
-      "courseNumber": "8803-O29",
-      "name": "Health Sensing and Interventions",
-      "creditHours": null,
-      "sections": [
-        {
-          "crn": "34359",
-          "sectionNumber": "O29",
-          "instructor": "Adams, Alexander",
-          "enrolled": 0,
-          "capacity": 100,
-          "seatsAvailable": 100,
-          "waitCount": 0,
-          "waitCapacity": 999
         }
       ],
       "totalSeats": 100,

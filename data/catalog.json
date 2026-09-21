@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T00:23:24.522Z",
+  "lastUpdated": "2026-09-21T05:15:23.318Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -350,8 +350,8 @@
       "subject": "CS",
       "courseNumber": "8803-O23",
       "name": "Modern Internet Research Methods",
-      "creditHours": null,
-      "lastSeen": "202702"
+      "creditHours": 3,
+      "lastSeen": "202608"
     },
     "CS-8803-O24": {
       "courseId": "CS-8803-O24",
@@ -375,7 +375,7 @@
       "courseNumber": "8803-O29",
       "name": "Health Sensing and Interventions",
       "creditHours": null,
-      "lastSeen": "202702"
+      "lastSeen": "202608"
     },
     "CS-8803-O31": {
       "courseId": "CS-8803-O31",
@@ -808,6 +808,22 @@
       "name": "Advanced Wireless Networks",
       "creditHours": null,
       "lastSeen": "202608"
+    },
+    "CS-7240": {
+      "courseId": "CS-7240",
+      "subject": "CS",
+      "courseNumber": "7240",
+      "name": "Modern Internet Research",
+      "creditHours": null,
+      "lastSeen": "202702"
+    },
+    "CS-7711": {
+      "courseId": "CS-7711",
+      "subject": "CS",
+      "courseNumber": "7711",
+      "name": "Health Sensing",
+      "creditHours": null,
+      "lastSeen": "202702"
     }
   }
 }
