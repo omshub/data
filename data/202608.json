@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-09-22T17:52:31.542Z",
+  "lastUpdated": "2026-09-22T20:45:21.191Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -967,16 +967,16 @@
           "crn": "91329",
           "sectionNumber": "O01",
           "instructor": "Qureshi, Moinuddin",
-          "enrolled": 179,
+          "enrolled": 180,
           "capacity": 200,
-          "seatsAvailable": 21,
+          "seatsAvailable": 20,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 200,
-      "totalEnrolled": 179,
-      "totalAvailable": 21,
+      "totalEnrolled": 180,
+      "totalAvailable": 20,
       "totalWaitlisted": 0
     },
     "CS-7470": {
@@ -990,16 +990,16 @@
           "crn": "88595",
           "sectionNumber": "O01",
           "instructor": "Adams, Alexander",
-          "enrolled": 337,
+          "enrolled": 338,
           "capacity": 350,
-          "seatsAvailable": 13,
+          "seatsAvailable": 12,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 350,
-      "totalEnrolled": 337,
-      "totalAvailable": 13,
+      "totalEnrolled": 338,
+      "totalAvailable": 12,
       "totalWaitlisted": 0
     },
     "CS-7496": {
