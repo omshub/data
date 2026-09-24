@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-09-24T12:49:34.630Z",
+  "lastUpdated": "2026-09-24T17:42:24.626Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -428,16 +428,16 @@
           "crn": "83929",
           "sectionNumber": "O01",
           "instructor": "Manning, Ben",
-          "enrolled": 991,
+          "enrolled": 992,
           "capacity": 1000,
-          "seatsAvailable": 9,
+          "seatsAvailable": 8,
           "waitCount": 0,
           "waitCapacity": 0
         }
       ],
       "totalSeats": 1000,
-      "totalEnrolled": 991,
-      "totalAvailable": 9,
+      "totalEnrolled": 992,
+      "totalAvailable": 8,
       "totalWaitlisted": 0
     },
     "CS-6310": {
@@ -990,16 +990,16 @@
           "crn": "88595",
           "sectionNumber": "O01",
           "instructor": "Adams, Alexander",
-          "enrolled": 338,
+          "enrolled": 339,
           "capacity": 350,
-          "seatsAvailable": 12,
+          "seatsAvailable": 11,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 350,
-      "totalEnrolled": 338,
-      "totalAvailable": 12,
+      "totalEnrolled": 339,
+      "totalAvailable": 11,
       "totalWaitlisted": 0
     },
     "CS-7496": {
@@ -1828,16 +1828,16 @@
           "crn": "89894",
           "sectionNumber": "O01",
           "instructor": "Garner, Jacqueline",
-          "enrolled": 260,
+          "enrolled": 261,
           "capacity": 300,
-          "seatsAvailable": 40,
+          "seatsAvailable": 39,
           "waitCount": 0,
           "waitCapacity": 50
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 260,
-      "totalAvailable": 40,
+      "totalEnrolled": 261,
+      "totalAvailable": 39,
       "totalWaitlisted": 0
     },
     "PUBP-6725": {
