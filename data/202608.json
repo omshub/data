@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-09-30T14:02:29.344Z",
+  "lastUpdated": "2026-09-30T19:33:04.486Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -1013,16 +1013,16 @@
           "crn": "93015",
           "sectionNumber": "O01",
           "instructor": "Ha, Sehoon",
-          "enrolled": 144,
+          "enrolled": 143,
           "capacity": 150,
-          "seatsAvailable": 6,
+          "seatsAvailable": 7,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 150,
-      "totalEnrolled": 144,
-      "totalAvailable": 6,
+      "totalEnrolled": 143,
+      "totalAvailable": 7,
       "totalWaitlisted": 0
     },
     "CS-7632": {
@@ -1358,16 +1358,16 @@
           "crn": "91496",
           "sectionNumber": "O24",
           "instructor": "Lytle, Nicholas",
-          "enrolled": 95,
+          "enrolled": 94,
           "capacity": 100,
-          "seatsAvailable": 5,
+          "seatsAvailable": 6,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 95,
-      "totalAvailable": 5,
+      "totalEnrolled": 94,
+      "totalAvailable": 6,
       "totalWaitlisted": 0
     },
     "CS-8803-O25": {
