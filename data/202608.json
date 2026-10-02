@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-10-02T14:00:22.373Z",
+  "lastUpdated": "2026-10-02T19:05:16.610Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -1105,16 +1105,16 @@
           "crn": "85990",
           "sectionNumber": "O01",
           "instructor": "Feron, Eric",
-          "enrolled": 64,
+          "enrolled": 63,
           "capacity": 100,
-          "seatsAvailable": 36,
+          "seatsAvailable": 37,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 100,
-      "totalEnrolled": 64,
-      "totalAvailable": 36,
+      "totalEnrolled": 63,
+      "totalAvailable": 37,
       "totalWaitlisted": 0
     },
     "CS-7641": {
