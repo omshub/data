@@ -102,10 +102,10 @@
   },
   "CS-6261": {
     "courseId": "CS-6261",
-    "name": "Security Incident Response",
+    "name": "Security Operations and Incident Response",
     "departmentId": "CS",
     "courseNumber": "6261",
-    "url": "https://omscs.gatech.edu/cs-6261-security-incident-response",
+    "url": "https://omscs.gatech.edu/cs-6261-security-operations-and-incident-response",
     "isFoundational": false,
     "aliases": [
       "SIR"
@@ -505,10 +505,10 @@
   },
   "CS-7400": {
     "courseId": "CS-7400",
-    "name": "Quantum Computing",
+    "name": "Intro to Quantum Computing",
     "departmentId": "CS",
     "courseNumber": "7400",
-    "url": "https://omscs.gatech.edu/cs-7400-quantum-computing",
+    "url": "https://omscs.gatech.edu/cs-7400-intro-quantum-computing",
     "isFoundational": true,
     "aliases": [
       "QC"
@@ -563,10 +563,10 @@
   },
   "CS-7637": {
     "courseId": "CS-7637",
-    "name": "Knowledge-Based Artificial Intelligence - Cognitive Systems",
+    "name": "Knowledge-Based AI",
     "departmentId": "CS",
     "courseNumber": "7637",
-    "url": "https://omscs.gatech.edu/cs-7637-knowledge-based-artificial-intelligence-cognitive-systems",
+    "url": "https://omscs.gatech.edu/cs-7637-knowledge-based-ai",
     "isFoundational": true,
     "aliases": [
       "KBAI"
@@ -649,10 +649,10 @@
   },
   "CS-7650": {
     "courseId": "CS-7650",
-    "name": "Natural Language Processing",
+    "name": "Natural Language",
     "departmentId": "CS",
     "courseNumber": "7650",
-    "url": "https://omscs.gatech.edu/cs-7650-natural-language-processing",
+    "url": "https://omscs.gatech.edu/cs-7650-natural-language",
     "isFoundational": true,
     "aliases": [
       "NLP"
@@ -1517,6 +1517,56 @@
     "departmentId": "CS",
     "courseNumber": "8803-O31",
     "url": "https://omscs.gatech.edu/cs-8803-o31-cybersecurity-drones",
+    "isFoundational": false,
+    "aliases": [],
+    "isDeprecated": false
+  },
+  "CS-6271": {
+    "courseId": "CS-6271",
+    "name": "Cybersecurity of Drones",
+    "departmentId": "CS",
+    "courseNumber": "6271",
+    "url": "https://omscs.gatech.edu/cs-6271-cybersecurity-drones",
+    "isFoundational": false,
+    "aliases": [],
+    "isDeprecated": false
+  },
+  "CS-7240": {
+    "courseId": "CS-7240",
+    "name": "Modern Internet Research Methods",
+    "departmentId": "CS",
+    "courseNumber": "7240",
+    "url": "https://omscs.gatech.edu/cs-7240-modern-internet-research-methods",
+    "isFoundational": false,
+    "aliases": [],
+    "isDeprecated": false
+  },
+  "CS-7711": {
+    "courseId": "CS-7711",
+    "name": "Health Sensing and Interventions",
+    "departmentId": "CS",
+    "courseNumber": "7711",
+    "url": "https://omscs.gatech.edu/cs-7711-health-sensing-and-interventions",
+    "isFoundational": true,
+    "aliases": [],
+    "isDeprecated": false
+  },
+  "CS-8803-O25": {
+    "courseId": "CS-8803-O25",
+    "name": "Advanced Wireless Networks",
+    "departmentId": "CS",
+    "courseNumber": "8803-O25",
+    "url": "https://omscs.gatech.edu/cs-8803-o25-advanced-wireless-networks",
+    "isFoundational": false,
+    "aliases": [],
+    "isDeprecated": false
+  },
+  "CS-8803": {
+    "courseId": "CS-8803",
+    "name": "ORO: Management & Leadership in Computing",
+    "departmentId": "CS",
+    "courseNumber": "8803",
+    "url": "https://omscs.gatech.edu/cs-8803-oro-management-leadership-computing",
     "isFoundational": false,
     "aliases": [],
     "isDeprecated": false
