@@ -1,7 +1,7 @@
 {
   "term": "202608",
   "termName": "Fall 2026",
-  "lastUpdated": "2026-10-12T10:06:04.590Z",
+  "lastUpdated": "2026-10-12T19:55:49.483Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -106,16 +106,16 @@
           "crn": "84244",
           "sectionNumber": "O01",
           "instructor": "Lee, Wenke",
-          "enrolled": 702,
+          "enrolled": 701,
           "capacity": 750,
-          "seatsAvailable": 48,
+          "seatsAvailable": 49,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 750,
-      "totalEnrolled": 702,
-      "totalAvailable": 48,
+      "totalEnrolled": 701,
+      "totalAvailable": 49,
       "totalWaitlisted": 0
     },
     "CS-6200": {
