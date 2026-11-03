@@ -1,7 +1,7 @@
 {
   "term": "202702",
   "termName": "Spring 2027",
-  "lastUpdated": "2026-11-03T05:34:11.172Z",
+  "lastUpdated": "2026-11-03T13:28:44.624Z",
   "courses": {
     "CSE-6220": {
       "courseId": "CSE-6220",
@@ -451,16 +451,16 @@
           "crn": "24097",
           "sectionNumber": "O01",
           "instructor": "Manning, Ben",
-          "enrolled": 51,
+          "enrolled": 53,
           "capacity": 1100,
-          "seatsAvailable": 1049,
+          "seatsAvailable": 1047,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1100,
-      "totalEnrolled": 51,
-      "totalAvailable": 1049,
+      "totalEnrolled": 53,
+      "totalAvailable": 1047,
       "totalWaitlisted": 0
     },
     "CS-6310": {
@@ -727,16 +727,16 @@
           "crn": "26110",
           "sectionNumber": "O01",
           "instructor": "Brito, Gerandy",
-          "enrolled": 144,
+          "enrolled": 147,
           "capacity": 300,
-          "seatsAvailable": 156,
+          "seatsAvailable": 153,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 300,
-      "totalEnrolled": 144,
-      "totalAvailable": 156,
+      "totalEnrolled": 147,
+      "totalAvailable": 153,
       "totalWaitlisted": 0
     },
     "CS-6601": {
@@ -865,16 +865,16 @@
           "crn": "28964",
           "sectionNumber": "O01",
           "instructor": "McGreggor, Brian",
-          "enrolled": 10,
+          "enrolled": 12,
           "capacity": 850,
-          "seatsAvailable": 840,
+          "seatsAvailable": 838,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 850,
-      "totalEnrolled": 10,
-      "totalAvailable": 840,
+      "totalEnrolled": 12,
+      "totalAvailable": 838,
       "totalWaitlisted": 0
     },
     "CS-6999": {
@@ -1105,16 +1105,16 @@
           "crn": "24102",
           "sectionNumber": "O01",
           "instructor": "Joyner, David",
-          "enrolled": 13,
+          "enrolled": 16,
           "capacity": 1300,
-          "seatsAvailable": 1287,
+          "seatsAvailable": 1284,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 1300,
-      "totalEnrolled": 13,
-      "totalAvailable": 1287,
+      "totalEnrolled": 16,
+      "totalAvailable": 1284,
       "totalWaitlisted": 0
     },
     "CS-7638": {
@@ -1128,16 +1128,16 @@
           "crn": "26139",
           "sectionNumber": "O01",
           "instructor": "Summet, Jay",
-          "enrolled": 4,
+          "enrolled": 5,
           "capacity": 900,
-          "seatsAvailable": 896,
+          "seatsAvailable": 895,
           "waitCount": 0,
           "waitCapacity": 999
         }
       ],
       "totalSeats": 900,
-      "totalEnrolled": 4,
-      "totalAvailable": 896,
+      "totalEnrolled": 5,
+      "totalAvailable": 895,
       "totalWaitlisted": 0
     },
     "CS-7639": {
